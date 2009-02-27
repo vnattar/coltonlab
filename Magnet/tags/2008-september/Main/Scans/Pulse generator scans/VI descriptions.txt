@@ -1,0 +1,85 @@
+PG Freq-Per.VI
+Used to set either the frequency or period.  Takes a numeric input as well as a boolean to specify frequency (T) or period (F).  Another boolean specifies read-only operation (T) or not (F).
+
+CurrInstr Save Multi.vi
+Saves settings of the named instruments to the instrstatus global variable (Instr Status.vi).  The following are names that are used by this VI when saving to the global variable, with units (also used) in parentheses:
+GEtrigfreq (kHz)
+PGoutputs ()
+PGperiod (ns)
+PGarm (Ext or Imm)*
+PGpatton? (Pattern or Pulse)**
+PG1duty (%)
+PG2duty (%)
+PG1volthigh (V)
+PG2volthigh (V)
+PG1voltlow (V)
+PG2voltlow (V)
+PG1chlabel ()
+PG2chlabel ()
+PGuse? () [stores which channels will be modified next time settings are actually written; 0=neither, 1=channel 1, 2=channel 2, 3=both]
+
+* determined using PG Read Arm.vi; if Ext, value written will always be 1, if Imm, 0. (Ext stands for externally triggered, while Imm stands for immediately triggered [continuous].)
+** determined using PG Dig Status.vi with read only set to true; if Pattern, value written will always be 1, if Pulse, 0.
+
+Instr Status.vi
+Global variable used to hold the current values for varius instrument settings.
+
+Instr Array.vi
+Global variable that holds the name and current status (on/off) of each instrument.
+
+Search Instr Array.vi
+Searches the global variable Instr Array.vi by instrument abbreviation and returns the full name, status (on/off), and index in the global variable.
+
+Pattern - Build to String.vi
+Converts an array of numbers into a string that can be used to define a pattern of pulses.  See usage in Pulse Gen Control.vi (search for it inside) to see usage.
+
+PG Duty-Width.vi
+Accepts a channel, data, duty cycle (T is duty cycle, pulsewidth is F), and read-only (T or F).
+
+PG Voltage.vi
+Allows you to read/set the high and low voltages of each channel.
+
+PG Output.vi
+Allows you to turn on (T) or off (F) the ouput and inverting output for each channel. (Also reads the current states of each.)
+
+PC Dig Status.vi
+Typically used with the pattern on, return to zero, and read-only controls wired.  Allows you to turn pattern mode on (T) or off (F) (DIG:PATT).  If pattern mode is on, return to zero is typically set to off (DIG:SIGN:FORM NRZ).  (See for example http://en.wikipedia.org/wiki/Return-to-zero and http://en.wikipedia.org/wiki/Non-return-to-zero for an explanation of return-to-zero and non-return-to-zero signals.)
+
+PG Pattern Send.vi
+Takes a pattern (output by Pattern - Build to String.vi) and a channel and writes it to the pulse generator (DIG:PATT:DATA[1|2|3]).  Note: this does not necessarily mean the new pattern is now in force.  You may need to use FG Pattern Update.vi after this to tell the pulse generator to start using the new pattern.
+
+PG Pattern Update.vi
+Forces the pattern on the pulse generator to update (DIG:PATT:UPD), after sending the new pattern using FG Pattern Send.vi.
+
+PG Set Arm.vi
+Allows you to set the trigger as either ext (external, T) or imm (immediate [continuous], F).
+
+PG Pattern Read.vi
+Reads the patterns currently in memory for each channel of the pulse generator.
+
+Get PG Volt.vi
+Reads the high and low voltages currently set for each channel on the pulse generator; can also be done using PG Voltage and with read-only set to true.
+
+PG Read Status - Loop.vi
+Reads arm status (ext or imm), output states (which ones are on/off), the period, if the pattern is on, the display status, high/low voltages (each channel), and the duty cycle (each channel) and reads them all into the global variable Instr Status.vi.  It actually outputs the period, arm mode (extdisp, ext[T] or imm[F]), pattern mode (on [T] or off [F]), the display mode (on [T] or off [F]), and the state of each of the outputs (an array of T/F for the on/off state of each one, in this order: ouput 1, inverting 1, output 2, inverting 2.
+
+PG Display.vi
+Returns the status of the pulse generator display: on (T) or off (F).
+
+PG Write Display (Tutorial).vi
+Reads from the global variable Instr Status.vi and outputs a text string that includes the current duty cycle, high and low voltages, arm mode, and period.
+CurrInstr Find Multi.vi
+Accepts an array of strings (which should be names of values stored in the global variable Instr Status.vi) and outputs arrays of their respective values, units, indices, display names, and if they were found or not.
+
+Pattern - Create Preview.vi
+Takes the pattern, period, and high and low voltages to create a preview of the pattern that the pulse generator will produce using those settings.
+
+Search by X Value.vi
+Takes an array of clusters and a single cluster input.  Comparing only the first element of each cluster, it searches through each cluster in the array and looks for an element that matches the singlue-cluster input.  Once it does, the loop ends and the VI returns the index of the array and the corresponding length up until that index.  If no match is found, the VI returns the final index of the array and its total length.  As used in Pulse Gen Control.vi, it makes sure that the pattern preview that is generated is only as long (on the x-axis) as the shortest of the patterns that is given.
+
+PG Initialize.vi
+Takes a single input to determine whether or not to set the arm mode to ext (T) or imm (F).  Resets the pulse generator to defaults, then sets the trigger mode to the internal oscillator and sets the arm mode as determined by user input.  You can check to see if there were any errors (or if the pulse generator is even there) by reading the status of the error cluster.
+
+PG Check On.vi
+Checks to see if the pulse generator is connected and on, and returns T or F.
+
