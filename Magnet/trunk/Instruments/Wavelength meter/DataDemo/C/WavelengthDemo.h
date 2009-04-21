@@ -1,8 +1,0 @@
-
-#define IDD_DIALOG1				100
-
-#define IDC_CANCEL				0
-#define IDC_LAMBDA				101
-#define IDC_BTN_GETLAMBDA		102
-
-BOOL CALLBACK DlgProc(HWND hDlg, UINT uMsg, WPARAM wP, LPARAM lP);
