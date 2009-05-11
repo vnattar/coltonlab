@@ -26,4 +26,4 @@ Calculate
  **2500: 0.1mm slits = 2.4nm*wavelength
 
 Drivers
-*Let user select R or X on cabinet, instead of only reading X
+ *Let user select R or X on cabinet, instead of only reading X
