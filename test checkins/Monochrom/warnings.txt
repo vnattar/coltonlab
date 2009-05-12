@@ -1,4 +1,0 @@
-Spectroscopy Control 14b
-  Front Panel
-    - Number of data points uses data range coercion, which now only applies to data entry; values will not be coerced when passed to subVIs.  To coerce passed values,  use the In Range and Coerce function.
-    - Slit Width uses data range coercion, which now only applies to data entry; values will not be coerced when passed to subVIs.  To coerce passed values,  use the In Range and Coerce function.
