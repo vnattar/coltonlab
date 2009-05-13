@@ -15,8 +15,8 @@
     * Please make sure your code compiles before committing.  It doesn't need to work properly, but it should at least compile.
 
   * Please subscribe to the project's two RSS feeds and check them regularly, e.g. with your email in the morning.
-    http://code.google.com/feeds/p/coltonlab/svnchanges/basic
-    http://code.google.com/feeds/p/coltonlab/issueupdates/basic
+    * http://code.google.com/feeds/p/coltonlab/svnchanges/basic
+    * http://code.google.com/feeds/p/coltonlab/issueupdates/basic
 
 = Subversion Basics = 
 Subversion is a replacement for the Open/Save commands that your operating system provides.  (It is essentially a new file system for your computer.)  Instead of saving a file, you save a new _version_ of the file and sign your name.  Subversion enables multiple users to work on a coding project: it saves a code history so that we can roll back to previous versions of files when the computers go awry.  It also provides an audit trail that is important when performing scientific experiments.
