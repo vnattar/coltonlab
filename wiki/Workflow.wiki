@@ -14,6 +14,8 @@
     * Only save your password if you have your own Windows account or are on a Unix machine.  Otherwise someone else may check in with your credentials and you will be responsible for what happens!
     * Please make sure your code compiles before committing.  It doesn't need to work properly, but it should at least compile.
 
+  * Please subscribe to the project RSS feed and check it regularly, e.g. with your email in the morning.
+    http://code.google.com/feeds/p/coltonlab/svnchanges/basic
 = Subversion Basics = 
 Subversion is a replacement for the Open/Save commands that your operating system provides.  (It is essentially a new file system for your computer.)  Instead of saving a file, you save a new _version_ of the file and sign your name.  Subversion enables multiple users to work on a coding project: it saves a code history so that we can roll back to previous versions of files when the computers go awry.  It also provides an audit trail that is important when performing scientific experiments.
 
