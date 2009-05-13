@@ -1,0 +1,4 @@
+  Kalibration coefficient for region: 
+     893.500000 - l0
+      -0.452260 - d
+       0.000098 - q
