@@ -1,0 +1,69 @@
+#summary How we plan to implement the object-oriented design pattern with our LabVIEW software.
+#labels Phase-Design,Featured
+
+= Introduction =
+
+Currently our lab uses a monolithic design pattern.  This is bloated, complex, duplicates effort, and is ridiculously hard to maintain.  As it currently stands, no single human can comprehend let alone maintain our codebase.  Splitting up the code into bite-sized chunks makes it possible (and easy) to use and maintain.  
+
+The benefits of object oriented design are overwhelming.  Newbies can get up and running quickly.  The design is much simpler.  Duplicated code is removed, and I would bet the size of the source tree would easily shrink to half.  New features need to be added only once, and bugfixes are localized and easy to change.  Write once, read many.  If planned appropriately, new code can fit right in with minimal and only localized changes to implement them.
+
+The disadvantage is that the learning curve goes up.  Newbies must put in the time to learn what object-oriented design is and does.  However, learning OO is a good investment.  As we are students, we'll graduate someday and go where these skills will be widely applicable.  Spending endless hours poring over a monolithic code tree is counterproductive and doesn't teach anything but patience.
+
+= Implementation Plan =
+  # Pore over existing drivers and scanners.  Make featurelist of needed things.  Throw out unnecessary features and kill bloat.
+  # Spring cleaning.  Find and delete all ancient, unneeded programs.
+  # Design the interface hierarchy.  Make sure they meet needs.  "The best opportunity to improve the program is designing the interfaces effectively." (or something like that.)
+  # Design and Document all the function prototypes we think we'll need.
+  # Implement the class hierarchy over the existing drivers.
+  # Reimplement the static control panels with the driver interfaces.
+  # Implement a ReadableInterface driver.  This is equivalent to our Etch-A-Sketch, except it will be unified, generic to work with any instrument.  This will be the first working prototype.
+  # Implement a ScannableInterface driver.
+  # Figure out how to do data processing and driver state serialization.
+  # Implement a ScanAndRead driver.  This will be the master scan control program.
+  # Implement a ScanAndReadMulti driver that can do more than one each of Scannable and Readable.
+
+= Scan Control Program =
+  # Factory - instantiate default instruments, or deserialize a saved scan configuration.
+  # Scan Setup - user configures instrument settings for Scannable and Readable instruments (perhaps more than one).  Output datafile name and lab comments box.
+  # Scan, abort button, check error conditions or emergent events
+  # Generate waveform datatype - need to figger out how to do multiple datatypes in one (e.g. Volts, Teslas, etc. all on same graph)  What kind of data structure?  Waveform datatype?
+  # Data preprocessing - (average, normalize, etc.) before sent to graph on screen
+  # Graph and write data to disk
+  # Serialize/marshal instrument objects INSIDE DATAFILE.  This will make VERIFIABLE, REPEATABLE scan results since instrument configuration is "guaranteed"
+
+= class Instrument =
+Members: NO TYPE PUNNING allowed.  (Eg. combine frequency and period into just one value.)  One variable which is interpreted by accessors and mutators accordingly. 
+  * Instrument(Visa v) : lock
+  * ~Instrument() : unlock v
+  * static showSettingsPanel()
+  * InstrSet readSettings()
+  * void writeSettings(InstrSet)
+  * void resetDefault()
+  
+= interface Serializable =
+  * serialize() - xml? binary?
+  * deserialize() - called from factory?
+
+= interface Scannable =
+extends Instrument, implements Iterator
+  * setMin(), setMax(), setStepSize()
+  * setInstrSpecificScanOptions()
+  * getInstrSpecificScanOptions()
+  * reset() - debounce code
+  * serialize - all?
+  * throw exception on error / emergent conditions
+  * scanNextStep() - move to next position
+
+= interface Readable =
+extends Instrument
+  * readNext() - read data point, timestamp, waveform point
+  * how do units unify into one data structure?
+  * throw exceptions?
+
+= Open Issues about this Plan =
+  # Exception handling
+  # Unify waveform datatypes
+  # Emergency stop / keep instruments from blowing up the lab
+  # Implement structs, convert to typedefs, convert to classes
+  # *Labview doesn't allow mutating objects on-heap.  There are no pointers, ever.  Everything is passed in and out by reference. _This could be a deal breaker._*
+  # Min version LabView 8.2, august 2006
