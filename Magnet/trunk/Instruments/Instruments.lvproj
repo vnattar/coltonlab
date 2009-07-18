@@ -21,7 +21,8 @@
 			<Item Name="Lockin SR830.lvclass" Type="LVClass" URL="../Lockin/Lockin SR830.lvclass"/>
 			<Item Name="Photon Counter SR400.lvclass" Type="LVClass" URL="../Photon Counter/Photon Counter SR400.lvclass"/>
 		</Item>
-		<Item Name="EtchLD.vi" Type="VI" URL="../Lockin/Etch-A-Sketch/EtchLD.vi"/>
+		<Item Name="Etch OO.vi" Type="VI" URL="../Lockin/Etch-A-Sketch/Etch OO.vi"/>
+		<Item Name="Multi Graph Toggle.vi" Type="VI" URL="../../Graphing/Multi Graph Toggle.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -75,10 +76,10 @@
 				<Item Name="SO Wait.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/SO Wait.vi"/>
 				<Item Name="SO Clear.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/SO Clear.vi"/>
 				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/instr/_sersup.llb/Open Serial Driver.vi"/>
-				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
-				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
-				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Read.vi"/>
-				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Write.vi"/>
+				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/instr/serial.llb/serpConfig.vi"/>
+				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/instr/serial.llb/Bytes At Serial Port.vi"/>
+				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/instr/serial.llb/Serial Port Read.vi"/>
+				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/instr/serial.llb/Serial Port Write.vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
@@ -99,7 +100,7 @@
 				<Item Name="DAQmx Timing.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing.vi"/>
 				<Item Name="DAQmx Timing (Sample Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Sample Clock).vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
-				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/daqmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Rollback Channel If Error.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Rollback Channel If Error.vi"/>
 				<Item Name="DAQmx Create Channel (AI-Voltage-Custom with Excitation).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Voltage-Custom with Excitation).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Resistance).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Resistance).vi"/>
@@ -201,6 +202,9 @@
 				<Item Name="DAQmx Read (Digital 1D U16 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U16 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Digital 1D U16 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U16 NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U16 NChan NSamp).vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 			</Item>
 			<Item Name="Check for Dir.vi" Type="VI" URL="../../File IO/Generic File IO/Check for Dir.vi"/>
 			<Item Name="Check for File.vi" Type="VI" URL="../../File IO/Generic File IO/Check for File.vi"/>
@@ -210,14 +214,12 @@
 			<Item Name="Create File (full).vi" Type="VI" URL="../../File IO/Generic File IO/Create File (full).vi"/>
 			<Item Name="Create Path Name.vi" Type="VI" URL="../../File IO/Generic File IO/Create Path Name.vi"/>
 			<Item Name="Date to Dir Name.vi" Type="VI" URL="../../File IO/Generic File IO/Date to Dir Name.vi"/>
-			<Item Name="EtchLD-Process Data.vi" Type="VI" URL="../Lockin/Etch-A-Sketch/EtchLD-Process Data.vi"/>
 			<Item Name="File Locations.vi" Type="VI" URL="../../Global/File Locations.vi"/>
 			<Item Name="Flags.vi" Type="VI" URL="../../Main/Global/Flags.vi"/>
 			<Item Name="GPIB Numbers.vi" Type="VI" URL="../../Global/GPIB Numbers.vi"/>
 			<Item Name="ISA DRIVER.VI" Type="VI" URL="../Spectrometer/Libraries/Isa_user.llb/ISA DRIVER.VI"/>
 			<Item Name="Level_0_Parse_Params.VI" Type="VI" URL="../Spectrometer/Libraries/ISA_COMM.LLB/Level_0_Parse_Params.VI"/>
 			<Item Name="Level_0_Tranmit_and_Receive.VI" Type="VI" URL="../Spectrometer/Libraries/ISA_COMM.LLB/Level_0_Tranmit_and_Receive.VI"/>
-			<Item Name="Lockin Take Data - Outputs.vi" Type="VI" URL="../Lockin/Lockin Take Data - Outputs.vi"/>
 			<Item Name="lvsound.dll" Type="Document" URL="../../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound.dll"/>
 			<Item Name="Misc.vi" Type="VI" URL="../../Main/Global/Misc.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -235,7 +237,6 @@
 			<Item Name="Sound Files.vi" Type="VI" URL="../../Global/Sound Files.vi"/>
 			<Item Name="SPECTROMETER SETUP.GBL" Type="VI" URL="../Spectrometer/Libraries/Isa_user.llb/SPECTROMETER SETUP.GBL"/>
 			<Item Name="T Time to Cycles.vi" Type="VI" URL="../Photon Counter/T Time to Cycles.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files/National Instruments/LabVIEW 8.6/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
