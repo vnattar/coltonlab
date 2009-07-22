@@ -1,27 +1,30 @@
 #summary Hints and tips about Labview and Subversion.
 #labels Phase-Implementation,Featured
 
-= Workflow =
+= Subversion Basics = 
+Subversion is a replacement for the Open/Save commands that your operating system provides.  (It is essentially a new file system for your computer.)  Instead of saving a file, you save a new _version_ of the file and sign your name.  Subversion enables multiple users to work on a coding project: it saves a code history so that we can roll back to previous versions of files when the computers go awry.  It also provides an audit trail that is important when performing scientific experiments.
+
+For an introduction, please read [http://www.mind.ilstu.edu/research/robots/iris4/developers/svntutorial/ this tutorial] (which is aimed toward the TortoiseSVN client).
+
+To check out code:
+
+Full manual:
+
+= Daily Workflow =
 
   * At beginning of work session, `svn switch` your working copy to the proper branch or tag.
-    * Developers should switch to the `trunk` or `branches` directory
+    * Developers should switch to the `trunk` or `branch` if appropriate.
     * Users should switch to the desired `tag` stable version 
 
-  * Please keep track of which files you changed.  LabVIEW loves to recompile and touch linked libraries, and these will appear modified when you prepare to commit.  Only commit files that you deliberately modified.
+  * Please keep track of which files you changed.  LabVIEW loves to recompile and touch every file it can, and these will appear modified when you prepare to commit.  Only commit files that you deliberately modified.  If you are unsure, you can right click on each item in the TortoiseSVN commit window and select "compare with base."  Don't commit files lacking substantive changes.
 
   * Developers: commit your changes at the end of the day.
     * You will need to use your Google Code password, which is obtained by logging into Google Code and clicking "profile" at the top-right corner of the screen, then the "settings" tab.
     * Only save your password if you have your own Windows account or are on a Unix machine.  Otherwise someone else may check in with your credentials and you will be responsible for what happens!
     * Please make sure your code compiles before committing.  It doesn't need to work properly, but it should at least compile.
 
-  * Please subscribe to the project's two RSS feeds and check them regularly, e.g. with your email in the morning.
-    * http://code.google.com/feeds/p/coltonlab/svnchanges/basic
-    * http://code.google.com/feeds/p/coltonlab/issueupdates/basic
-
-= Subversion Basics = 
-Subversion is a replacement for the Open/Save commands that your operating system provides.  (It is essentially a new file system for your computer.)  Instead of saving a file, you save a new _version_ of the file and sign your name.  Subversion enables multiple users to work on a coding project: it saves a code history so that we can roll back to previous versions of files when the computers go awry.  It also provides an audit trail that is important when performing scientific experiments.
-
-For an introduction, please read [http://www.mind.ilstu.edu/research/robots/iris4/developers/svntutorial/ this tutorial] (which is aimed toward the TortoiseSVN client).
+  * Please subscribe to the project's RSS feed and check it regularly, e.g. with your email in the morning.
+    * http://code.google.com/feeds/p/coltonlab/updates/basic
 
 = Working Copy =
 When used properly, subversion allows you to quickly reconfigure the entire build tree.  A developer can work on new features, and quickly switch off to a stable version when a user needs to use the instruments.
