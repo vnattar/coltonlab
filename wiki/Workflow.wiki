@@ -5,10 +5,20 @@
 Subversion is a replacement for the Open/Save commands that your operating system provides.  (It is essentially a new file system for your computer.)  Instead of saving a file, you save a new _version_ of the file and sign your name.  Subversion enables multiple users to work on a coding project: it saves a code history so that we can roll back to previous versions of files when the computers go awry.  It also provides an audit trail that is important when performing scientific experiments.
 
 For an introduction, please read [http://www.mind.ilstu.edu/research/robots/iris4/developers/svntutorial/ this tutorial] (which is aimed toward the TortoiseSVN client).
+If you would like to become highly competent with Subversion, its manual is actually quite good.  You can read it at http://svnbook.red-bean.com.
 
-To check out code:
+== Getting Started ==
+To check out (download) code:
+ - Install the command-line subversion client from http://svn.tigris.org
+ - Type `svn checkout http://coltonlab.googlecode.com/svn`
+Or:
+ - Install the TortoiseSVN client from http://tortoisesvn.tigris.org
+ - right click on a directory and select SVN Checkout... `http://coltonlab.googlecode.com`
 
-Full manual:
+== SVN passwords ==
+To check in (commit) code, your working copy must be from https://coltonlab.googlecode.com.  Note the http*s*.  The regular http version is not authenticated and read-only.
+
+To commit code, use your Google account and your randomly-generated GoogleCode password.  *Google Code uses a different password from your regular Google account.*  To get your Google Code password, log into the site, click on profile in the top-right corner of the page, and click on Settings.
 
 = Daily Workflow =
 
