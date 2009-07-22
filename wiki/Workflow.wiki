@@ -9,16 +9,16 @@ If you would like to become highly competent with Subversion, its manual is actu
 
 == Getting Started ==
 To check out (download) code:
- - Install the command-line subversion client from http://svn.tigris.org
- - Type `svn checkout http://coltonlab.googlecode.com/svn`
+  * Install the command-line subversion client from http://svn.tigris.org
+  * Type `svn checkout http://coltonlab.googlecode.com/svn/Magnet/trunk`
 Or:
- - Install the TortoiseSVN client from http://tortoisesvn.tigris.org
- - right click on a directory and select SVN Checkout... `http://coltonlab.googlecode.com`
+  * Install the TortoiseSVN client from http://tortoisesvn.tigris.org
+  * right click on a directory and select SVN Checkout... `http://coltonlab.googlecode.com/svn/Magnet/trunk`
 
 == SVN passwords ==
-To check in (commit) code, your working copy must be from https://coltonlab.googlecode.com.  Note the http*s*.  The regular http version is not authenticated and read-only.
+To check in (commit) code, your working copy must be from https://coltonlab.googlecode.com.  Note the *https*.  The regular http version is not authenticated and read-only.
 
-To commit code, use your Google account and your randomly-generated GoogleCode password.  *Google Code uses a different password from your regular Google account.*  To get your Google Code password, log into the site, click on profile in the top-right corner of the page, and click on Settings.
+To commit code, use your Google account and your randomly-generated Google Code password.  *Google Code uses a different password from your regular Google account.*  To get your Google Code password, log into the site, click on profile in the top-right corner of the page, and click on Settings.
 
 = Daily Workflow =
 
