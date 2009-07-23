@@ -1,0 +1,9 @@
+#summary Hierarchy for types of Scans.
+
+= class Scan =
+== class BFieldScan : public Scan ==
+== class PulseWidthScan : public Scan ==
+== class PulseGenScan : public Scan ==
+== class RFScan : public Scan ==
+== class WaitTimeScan : public Scan ==
+== class WavelengthScan : public Scan ==
