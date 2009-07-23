@@ -32,38 +32,61 @@ The disadvantage is that the learning curve goes up.  Newbies must put in the ti
   # Serialize/marshal instrument objects INSIDE DATAFILE.  This will make VERIFIABLE, REPEATABLE scan results since instrument configuration is "guaranteed"
 
 = class Instrument =
+implements Serializable
 Members: NO TYPE PUNNING allowed.  (Eg. combine frequency and period into just one value.)  One variable which is interpreted by accessors and mutators accordingly. 
   * Instrument(Visa v) : lock
   * ~Instrument() : unlock v
   * static showSettingsPanel()
   * InstrSet readSettings()
+     
+
   * void writeSettings(InstrSet)
   * void resetDefault()
-  
-= interface Serializable =
+
+== interface Serializable ==
   * serialize() - xml? binary?
   * deserialize() - called from factory?
 
-= interface Scannable =
+
+== class Collection: public Instrument ==
+Accessor wrapper functions for an array of Instruments.
+  * InstrSet readSettings()
+     -inheritance-based replacement for Current Instr/Read Instr Settings.vi
+
+== interface Scannable: public Instrument ==
 extends Instrument, implements Iterator
   * setMin(), setMax(), setStepSize()
-  * setInstrSpecificScanOptions()
-  * getInstrSpecificScanOptions()
+  * scanSetUp()
+    * instr-specific scan setup,  just like Scan Set Up/Scan Setup - Pulse Generator.vi.  Checks if instr is on and confirms settings, e.g. "Are you sure you want to set the outputs to 3000 volts?"
+    * ScanType::setupInstrs() calls each of these functions for instrument-specific setup.
   * reset() - debounce code
   * serialize - all?
   * throw exception on error / emergent conditions
   * scanNextStep() - move to next position
+=== class Spectrometer: public Scannable ===
+=== class MagnetField: public Scannable ===
+=== class Microwave: public Readable ===
 
-= interface Readable =
+== interface Readable: public Instrument ==
 extends Instrument
-  * readNext() - read data point, timestamp, waveform point
+  * _read() - read data point, timestamp, waveform point
+  * _readWaveform() - get the historical waveform since init
+  * Are waveforms even appropriate?
   * how do units unify into one data structure?
   * throw exceptions?
+
+=== class DAQMX Analog: public Readable ===
+=== class Lockin SR80: public Readable ===
+=== class Photon Counter: public Readable ===
+=== class MagnetTemp: public Readable ===
+
+
 
 = Open Issues about this Plan =
   # Exception handling
   # Unify waveform datatypes
   # Emergency stop / keep instruments from blowing up the lab
   # Implement structs, convert to typedefs, convert to classes
+  # *LabView doesn't have multiple inheritance.  Oops.*
   # *Labview doesn't allow mutating objects on-heap.  There are no pointers, ever.  Everything is passed in and out by reference. _This could be a deal breaker._*
   # Min version LabView 8.2, august 2006
