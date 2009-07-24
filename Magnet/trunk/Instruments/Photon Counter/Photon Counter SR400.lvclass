@@ -14,7 +14,7 @@
 </String>
 
 </Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"*!!!!!2"3:7&amp;E97*M:3ZM&gt;G.M98.T!&amp;"53$!!!!!L!!%!"1!!#EFO&gt;'6S:G&amp;D:8-)5G6B:'&amp;C&lt;'515G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"/!!!!!2"3:7&amp;E97*M:3ZM&gt;G.M98.T!&amp;"53$!!!!!Q!!%!"1!!$V6U;7RJ&gt;(EA1WRB=X.F=QB3:7&amp;E97*M:2"3:7&amp;E97*M:3ZM&gt;G.M98.T!!!!!!</Property>
 	<Item Name="Photon Counter SR400.ctl" Type="Class Private Data" URL="Photon Counter SR400.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>

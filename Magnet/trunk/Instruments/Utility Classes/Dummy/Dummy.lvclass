@@ -14,7 +14,7 @@
 </String>
 
 </Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"+!!!!!2"3:7&amp;E97*M:3ZM&gt;G.M98.T!&amp;"53$!!!!!M!!%!"A!!!!J*&lt;H2F=G:B9W6T#&amp;*F972B9GRF%&amp;*F972B9GRF,GRW9WRB=X-!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!_!!!!!2"3:7&amp;E97*M:3ZM&gt;G.M98.T!&amp;"53$!!!!!A!!%!"!!!#&amp;*F972B9GRF%&amp;*F972B9GRF,GRW9WRB=X-!!!!!</Property>
 	<Item Name="Dummy.ctl" Type="Class Private Data" URL="Dummy.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
