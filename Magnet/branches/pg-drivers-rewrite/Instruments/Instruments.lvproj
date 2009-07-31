@@ -303,6 +303,47 @@
 				<Item Name="Sound Output Wait.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Wait.vi"/>
 				<Item Name="Sound Output Task ID.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Task ID.ctl"/>
 				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
+				<Item Name="DTbl Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U8 to Digital.vi"/>
+				<Item Name="DTbl Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Compress Digital.vi"/>
+				<Item Name="Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Compress Digital.vi"/>
+				<Item Name="DWDT Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Compress Digital.vi"/>
+				<Item Name="Binary to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Binary to Digital.vi"/>
+				<Item Name="DWDT Binary U32 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U32 to Digital.vi"/>
+				<Item Name="DTbl Binary U32 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U32 to Digital.vi"/>
+				<Item Name="DWDT Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U16 to Digital.vi"/>
+				<Item Name="DTbl Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U16 to Digital.vi"/>
+				<Item Name="DWDT Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U8 to Digital.vi"/>
+				<Item Name="DTbl Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Boolean Array to Digital.vi"/>
+				<Item Name="Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Boolean Array to Digital.vi"/>
+				<Item Name="DWDT Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Boolean Array to Digital.vi"/>
+				<Item Name="Digital Pattern Generator (Single Value).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Single Value).vi"/>
+				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
+				<Item Name="DTbl Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Append Digital Samples.vi"/>
+				<Item Name="Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Size.vi"/>
+				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
+				<Item Name="Digital Pattern Generator.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Pattern Generator.vi"/>
+				<Item Name="Digital Pattern Generator (Ramp).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Ramp).vi"/>
+				<Item Name="Digital Pattern Generator (Marching Values).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Marching Values).vi"/>
+				<Item Name="Digital Pattern Generator (Random).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Random).vi"/>
+				<Item Name="Digital Pattern Generator (Toggle).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Toggle).vi"/>
+				<Item Name="Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Append Digital Samples.vi"/>
+				<Item Name="DWDT Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Append Digital Samples.vi"/>
+				<Item Name="DTbl Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Boolean Array.vi"/>
+				<Item Name="DTbl Replace Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Replace Subset.vi"/>
+				<Item Name="Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Uncompress Digital.vi"/>
+				<Item Name="Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Boolean Array.vi"/>
+				<Item Name="DWDT Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Boolean Array.vi"/>
+				<Item Name="Replace Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Replace Subset.vi"/>
+				<Item Name="DWDT Replace Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Replace Subset.vi"/>
+				<Item Name="Check for multiple of dt.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for multiple of dt.vi"/>
+				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
+				<Item Name="DTbl Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U8.vi"/>
+				<Item Name="Digital to Binary.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Binary.vi"/>
+				<Item Name="DWDT Digital to Binary U32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U32.vi"/>
+				<Item Name="DTbl Digital to Binary U32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U32.vi"/>
+				<Item Name="DWDT Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U16.vi"/>
+				<Item Name="DTbl Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U16.vi"/>
+				<Item Name="DWDT Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U8.vi"/>
 			</Item>
 			<Item Name="Check for Dir.vi" Type="VI" URL="../../File IO/Generic File IO/Check for Dir.vi"/>
 			<Item Name="Check for File.vi" Type="VI" URL="../../File IO/Generic File IO/Check for File.vi"/>
@@ -415,8 +456,6 @@
 			<Item Name="Steps to Points Log.vi" Type="VI" URL="../../Math Operations/Steps to Points Log.vi"/>
 			<Item Name="Build Total Data from Array Varying.vi" Type="VI" URL="../../Main/Scans/Build Total Data from Array Varying.vi"/>
 			<Item Name="CurrInstr Find Multi.vi" Type="VI" URL="../../Main/Current Instr/CurrInstr Find Multi.vi"/>
-			<Item Name="Get PG Volt.vi" Type="VI" URL="../../Main/Current Instr/Get PG Volt.vi"/>
-			<Item Name="Search by X Value.vi" Type="VI" URL="../../Graphing/Search by X Value.vi"/>
 			<Item Name="Search Instr Array.vi" Type="VI" URL="../../Main/Current Instr/Search Instr Array.vi"/>
 			<Item Name="Global for PG scan.vi" Type="VI" URL="../../Main/Scans/Pulse generator scans/Global for PG scan.vi"/>
 			<Item Name="Get UseLCD.vi" Type="VI" URL="../../Main/Scans/Set Up Data/Get UseLCD.vi"/>
@@ -445,6 +484,15 @@
 			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/MotorDetailsArrayINI.vi/Write Ini Topic.vi"/>
 			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/MotorDetailsArrayINI.vi/Read Ini Topic.vi"/>
 			<Item Name="inipath.vi" Type="VI" URL="../Magnet/Oxford/ISSAPPS.LLB/ISSUpdateSetup.vi/inipath.vi"/>
+			<Item Name="PG Pattern Send.vi" Type="VI" URL="../Pulse Gen/Basic Commands/PG Pattern Send.vi"/>
+			<Item Name="Pattern - Create Preview.vi" Type="VI" URL="../Pulse Gen/Pattern/Pattern - Create Preview.vi"/>
+			<Item Name="PG Initialize.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/PG Initialize.vi"/>
+			<Item Name="PG Dig Status.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/PG Dig Status.vi"/>
+			<Item Name="PG Voltage.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/PG Voltage.vi"/>
+			<Item Name="PG Freq-Per.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/PG Freq-Per.vi"/>
+			<Item Name="PG Output.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/PG Output.vi"/>
+			<Item Name="Comm - Send Cmd.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/Comm - Send Cmd.vi"/>
+			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
