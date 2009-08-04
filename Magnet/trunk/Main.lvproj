@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LabVIEW" Type="Folder" URL="/C/LabVIEW">
+		<Item Name="LabVIEW" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -63,9 +63,9 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Open/Create/Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open/Create/Replace File.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/platform/system.llb/Beep.vi"/>
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/daqmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
@@ -248,15 +248,15 @@
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Serial Port Init.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Init.vi"/>
-				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/instr/_sersup.llb/Open Serial Driver.vi"/>
-				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_sersup.llb/Open Serial Driver.vi"/>
+				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/serpConfig.vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
 				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Read.vi"/>
 				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Write.vi"/>
-				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Resize Panel.vi"/>
+				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Resize Panel.vi"/>
 				<Item Name="Snd Play Wave File.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Play Wave File.vi"/>
 				<Item Name="Snd Gen Error Call Chain.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Gen Error Call Chain.vi"/>
 				<Item Name="Snd Read Wave File.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Read Wave File.vi"/>
@@ -279,22 +279,22 @@
 				<Item Name="DAQmx Create Timing Source (Digital Change Detection_sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Digital Change Detection_sub).vi"/>
 				<Item Name="DAQmx Create Timing Source (Control Loop From Task).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Control Loop From Task).vi"/>
 				<Item Name="DAQmx Create Timing Source (sub2).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (sub2).vi"/>
-				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/FILE.LLB/Write File+ (string).vi"/>
+				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/GPIB Status Boolean Array.ctl"/>
+				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
-				<Item Name="Call Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Call Instrument.vi"/>
-				<Item Name="Convert Type Descriptor and Flat Data.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Convert Type Descriptor and Flat Data.vi"/>
-				<Item Name="VIParam.ctl" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/VIParam.ctl"/>
-				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Get Instrument State.vi"/>
-				<Item Name="Preload Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Preload Instrument.vi"/>
-				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/viRef buffer.vi"/>
-				<Item Name="Release Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Release Instrument.vi"/>
-				<Item Name="Run Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Run Instrument.vi"/>
-				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Close Panel.vi"/>
-				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Open Panel.vi"/>
+				<Item Name="Call Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Call Instrument.vi"/>
+				<Item Name="Convert Type Descriptor and Flat Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Convert Type Descriptor and Flat Data.vi"/>
+				<Item Name="VIParam.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/VIParam.ctl"/>
+				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
+				<Item Name="Preload Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Preload Instrument.vi"/>
+				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/viRef buffer.vi"/>
+				<Item Name="Release Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Release Instrument.vi"/>
+				<Item Name="Run Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Run Instrument.vi"/>
+				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
+				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Close Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/instr/serial.llb/Close Serial Driver.vi"/>
+				<Item Name="Close Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Close Serial Driver.vi"/>
 				<Item Name="Write Characters To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Characters To File.vi"/>
 				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
 				<Item Name="_Get Sound Error From Return Value.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_Get Sound Error From Return Value.vi"/>
@@ -453,6 +453,7 @@
 				<Item Name="DWDT Replace Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Replace Subset.vi"/>
 				<Item Name="Check for multiple of dt.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for multiple of dt.vi"/>
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
+				<Item Name="DAQmx Create Channel (AI-Position-EddyCurrentProxProbe).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Position-EddyCurrentProxProbe).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="OAOpenCommunication.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAOpenCommunication.vi"/>
@@ -470,106 +471,106 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Date to Folder Name.vi" Type="VI" URL="/C/LabVIEW/File IO/Generic File IO/Date to Folder Name.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 8.6/resource/lvanlys.dll"/>
-			<Item Name="Find Max by Y.vi" Type="VI" URL="/C/LabVIEW/Graphing/Find Max by Y.vi"/>
-			<Item Name="Round.vi" Type="VI" URL="/C/LabVIEW/Graphing/Round.vi"/>
-			<Item Name="Step size sign.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Step size sign.llb/Step size sign.vi"/>
-			<Item Name="Step size sign (single).vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Step size sign.llb/Step size sign (single).vi"/>
-			<Item Name="lvsound.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 8.6/resource/lvsound.dll"/>
-			<Item Name="FG Trigger.vi" Type="VI" URL="/C/LabVIEW/Instruments/Function Generator/FG Trigger.vi"/>
-			<Item Name="Data mode to header.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Data mode to header.vi"/>
-			<Item Name="Mag field to header.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Mag field to header.vi"/>
-			<Item Name="KelvAstUpdateSetup.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/KLVAST.LLB/KelvAstUpdateSetup.vi"/>
-			<Item Name="AVSUpdateSetup.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/AVSGEN.LLB/AVSUpdateSetup.vi"/>
-			<Item Name="IGHUpdateSetup.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/IGHSUBS.LLB/IGHUpdateSetup.vi"/>
-			<Item Name="inipath.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/ITCAPPS.LLB/ITCUpdateSetup.vi/inipath.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/ITCArrayINI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/ITCArrayINI.vi/Read Ini Topic.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/ITCINI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/ITCINI.vi/Read Ini Topic.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/LambdaINI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/LambdaINI.vi/Read Ini Topic.vi"/>
-			<Item Name="inipath.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/LCAPPS.LLB/LambdaControllerUpdateSetup.vi/inipath.vi"/>
-			<Item Name="inipath.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/SMC4APPS.LLB/SMC4UpdateSetup.vi/inipath.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/SMC4INI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/SMC4INI.vi/Read Ini Topic.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/MotorDetailsArrayINI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/INIFILE.LLB/MotorDetailsArrayINI.vi/Read Ini Topic.vi"/>
-			<Item Name="inipath.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/ISSAPPS.LLB/ISSUpdateSetup.vi/inipath.vi"/>
-			<Item Name="AVSInitialise.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/AVSIO.LLB/AVSInitialise.vi"/>
-			<Item Name="AVSTS530Command.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/avsio.llb/AVSTS530Command.vi"/>
-			<Item Name="KelvSetPoint.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/IGHSUBS.LLB/KelvSetPoint.vi"/>
-			<Item Name="AVSReadResistance.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/avsio.llb/AVSReadResistance.vi"/>
-			<Item Name="AVSRange.ctl" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/AVSGEN.LLB/AVSRange.ctl"/>
-			<Item Name="AVSExcitation.ctl" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/AVSGEN.LLB/AVSExcitation.ctl"/>
-			<Item Name="AVSMonSensor.ctl" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/AVSMON.LLB/AVSMonSensor.ctl"/>
-			<Item Name="HlxSetTemperature.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/HLXSUBS.LLB/HlxSetTemperature.vi"/>
-			<Item Name="HlxUpdateSetup.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/HLXSUBS.LLB/HlxUpdateSetup.vi"/>
-			<Item Name="GaugeInfo.ctl" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/IGHSUBS.LLB/GaugeInfo.ctl"/>
-			<Item Name="IGHSetup.ctl" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/IGHSUBS.LLB/IGHSetup.ctl"/>
-			<Item Name="Sensor Conversion Type.ctl" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/SENSORS.LLB/Sensor Conversion Type.ctl"/>
-			<Item Name="Sensor Calibration.ctl" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/SENSORS.LLB/Sensor Calibration.ctl"/>
-			<Item Name="Create New Directories from single path.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Oxford/Oiutils.llb/Create New Directories from single path.vi"/>
-			<Item Name="Temp Log.vi" Type="VI" URL="/C/LabVIEW/Instruments/Magnet/Other SubVI/Temp Log.vi"/>
-			<Item Name="lvsound2.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 8.6/resource/lvsound2.dll"/>
-			<Item Name="Mod Out SubVI.vi" Type="VI" URL="/C/LabVIEW/Instruments/Microwave/Quick Programs/Mod Out SubVI.vi"/>
-			<Item Name="Micro Comm.vi" Type="VI" URL="/C/LabVIEW/Instruments/Microwave/Comm SubVI/Micro Comm.vi"/>
-			<Item Name="create command.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Basic Commands/create command.vi"/>
-			<Item Name="pulse comm.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Basic Commands/pulse comm.vi"/>
-			<Item Name="wlmData.dll" Type="Document" URL="/C/WINDOWS/system32/wlmData.dll"/>
-			<Item Name="Relative to absolute path.vi" Type="VI" URL="/C/LabVIEW/Main/Scans/Pulse generator scans/Config.llb/Dual scan 2/Instruments/Pulse generator scan/Save data.llb/Relative to absolute path.vi"/>
-			<Item Name="scan type.ctl" Type="VI" URL="/C/LabVIEW/Main/Scans/Pulse generator scans/Config.llb/Dual scan 2/Instruments/Pulse generator scan/Type Defs.llb/scan type.ctl"/>
-			<Item Name="Find and clear error.vi" Type="VI" URL="/C/LabVIEW/Main/Scans/Pulse generator scans/Find and clear error.vi"/>
-			<Item Name="Find and clear error.vi" Type="VI" URL="/C/LabVIEW/Main/Scans/Pulse generator scans/Save data.llb/Find and clear error.vi"/>
-			<Item Name="Relative to absolute path.vi" Type="VI" URL="/C/LabVIEW/Main/Scans/Pulse generator scans/Dual scan 2/Instruments/Pulse generator scan/Save data.llb/Relative to absolute path.vi"/>
-			<Item Name="scan type.ctl" Type="VI" URL="/C/LabVIEW/Main/Scans/Pulse generator scans/Dual scan 2/Instruments/Pulse generator scan/Type Defs.llb/scan type.ctl"/>
-			<Item Name="Scan Setup - Function Gen - old.vi" Type="VI" URL="/C/LabVIEW/Instruments/Scan Set Up/Scan Setup - Function Gen - old.vi"/>
-			<Item Name="Error Create Msg.vi" Type="VI" URL="/C/LabVIEW/Main/Error/Error Create Msg.vi"/>
-			<Item Name="Scan global to header.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Scan global to header.vi"/>
-			<Item Name="PG Scan FP to header.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/PG Scan FP to header.vi"/>
-			<Item Name="Create data file.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Create data file.vi"/>
-			<Item Name="Write PG scan header.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Write PG scan header.vi"/>
-			<Item Name="Write header (refnum).vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Write header (refnum).vi"/>
-			<Item Name="Create header (path).vi" Type="VI" URL="/C/LabVIEW/Michael&apos;s practice/Lock-in/Create header (path).vi"/>
-			<Item Name="Graph in real-time.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Graph in real-time.vi"/>
-			<Item Name="Create PG scan header.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Create PG scan header.vi"/>
-			<Item Name="Create FG scan header.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Create FG scan header.vi"/>
-			<Item Name="Append data.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Append data.vi"/>
-			<Item Name="Append data (refnum).vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Append data (refnum).vi"/>
-			<Item Name="Comments.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Comments.vi"/>
-			<Item Name="Comments (refnum).vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Comments (refnum).vi"/>
-			<Item Name="Autoscaling on or off.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Autoscaling on or off.vi"/>
-			<Item Name="Relative to absolute path.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse generator scan/Save data.llb/Relative to absolute path.vi"/>
-			<Item Name="ex4.2 - Rnd Int.vi" Type="VI" URL="/C/LabVIEW/Tutorial/Exercise Solutions/Chapter 1.5/ex4.2 - Rnd Int.vi"/>
-			<Item Name="Car.lvclass" Type="LVClass" URL="/C/LabVIEW/Tutorial/Object-Oriented/Vehicle/Car.lvclass"/>
-			<Item Name="Car.ctl" Type="VI" URL="/C/LabVIEW/Tutorial/Object-Oriented/Vehicle/Car.lvclass/Car.ctl"/>
-			<Item Name="Spectral GOTO.VI" Type="VI" URL="/C/LabVIEW/Instruments/Spectrometer/Libraries/Isa_user.llb/Spectral GOTO.VI"/>
-			<Item Name="Spectral Position.VI" Type="VI" URL="/C/LabVIEW/Instruments/Spectrometer/Libraries/Isa_user.llb/Spectral Position.VI"/>
-			<Item Name="Interrupt.vi" Type="VI" URL="/C/LabView Programs/Tutorial/Interrupt.vi"/>
-			<Item Name="Read Slits.vi" Type="VI" URL="/C/LabView Programs/Spectrometer/Read Slits.vi"/>
-			<Item Name="Spectral Position.VI" Type="VI" URL="/C/LabView Programs/Spectrometer/Libraries/Isa_user.llb/Spectral Position.VI"/>
-			<Item Name="Port &amp; Grating.VI" Type="VI" URL="/C/LabView Programs/Spectrometer/Libraries/Isa_user.llb/Port &amp; Grating.VI"/>
-			<Item Name="Spectral GOTO.VI" Type="VI" URL="/C/LabView Programs/Spectrometer/Libraries/Isa_user.llb/Spectral GOTO.VI"/>
-			<Item Name="initialize spec.vi" Type="VI" URL="/C/LabView Programs/Spectrometer/initialize spec.vi"/>
+			<Item Name="Date to Folder Name.vi" Type="VI" URL="../File IO/Generic File IO/Date to Folder Name.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvanlys.dll"/>
+			<Item Name="Find Max by Y.vi" Type="VI" URL="../Graphing/Find Max by Y.vi"/>
+			<Item Name="Round.vi" Type="VI" URL="../Graphing/Round.vi"/>
+			<Item Name="Step size sign.vi" Type="VI" URL="../Instruments/Pulse generator scan/Step size sign.llb/Step size sign.vi"/>
+			<Item Name="Step size sign (single).vi" Type="VI" URL="../Instruments/Pulse generator scan/Step size sign.llb/Step size sign (single).vi"/>
+			<Item Name="lvsound.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound.dll"/>
+			<Item Name="FG Trigger.vi" Type="VI" URL="../Instruments/Function Generator/FG Trigger.vi"/>
+			<Item Name="Data mode to header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Data mode to header.vi"/>
+			<Item Name="Mag field to header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Mag field to header.vi"/>
+			<Item Name="KelvAstUpdateSetup.vi" Type="VI" URL="../Instruments/Magnet/Oxford/KLVAST.LLB/KelvAstUpdateSetup.vi"/>
+			<Item Name="AVSUpdateSetup.vi" Type="VI" URL="../Instruments/Magnet/Oxford/AVSGEN.LLB/AVSUpdateSetup.vi"/>
+			<Item Name="IGHUpdateSetup.vi" Type="VI" URL="../Instruments/Magnet/Oxford/IGHSUBS.LLB/IGHUpdateSetup.vi"/>
+			<Item Name="inipath.vi" Type="VI" URL="../Instruments/Magnet/Oxford/ITCAPPS.LLB/ITCUpdateSetup.vi/inipath.vi"/>
+			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/ITCArrayINI.vi/Write Ini Topic.vi"/>
+			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/ITCArrayINI.vi/Read Ini Topic.vi"/>
+			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/ITCINI.vi/Write Ini Topic.vi"/>
+			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/ITCINI.vi/Read Ini Topic.vi"/>
+			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/LambdaINI.vi/Write Ini Topic.vi"/>
+			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/LambdaINI.vi/Read Ini Topic.vi"/>
+			<Item Name="inipath.vi" Type="VI" URL="../Instruments/Magnet/Oxford/LCAPPS.LLB/LambdaControllerUpdateSetup.vi/inipath.vi"/>
+			<Item Name="inipath.vi" Type="VI" URL="../Instruments/Magnet/Oxford/SMC4APPS.LLB/SMC4UpdateSetup.vi/inipath.vi"/>
+			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/SMC4INI.vi/Write Ini Topic.vi"/>
+			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/SMC4INI.vi/Read Ini Topic.vi"/>
+			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/MotorDetailsArrayINI.vi/Write Ini Topic.vi"/>
+			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Instruments/Magnet/Oxford/INIFILE.LLB/MotorDetailsArrayINI.vi/Read Ini Topic.vi"/>
+			<Item Name="inipath.vi" Type="VI" URL="../Instruments/Magnet/Oxford/ISSAPPS.LLB/ISSUpdateSetup.vi/inipath.vi"/>
+			<Item Name="AVSInitialise.vi" Type="VI" URL="../Instruments/Magnet/Oxford/AVSIO.LLB/AVSInitialise.vi"/>
+			<Item Name="AVSTS530Command.vi" Type="VI" URL="../Instruments/Magnet/Oxford/avsio.llb/AVSTS530Command.vi"/>
+			<Item Name="KelvSetPoint.vi" Type="VI" URL="../Instruments/Magnet/Oxford/IGHSUBS.LLB/KelvSetPoint.vi"/>
+			<Item Name="AVSReadResistance.vi" Type="VI" URL="../Instruments/Magnet/Oxford/avsio.llb/AVSReadResistance.vi"/>
+			<Item Name="AVSRange.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/AVSGEN.LLB/AVSRange.ctl"/>
+			<Item Name="AVSExcitation.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/AVSGEN.LLB/AVSExcitation.ctl"/>
+			<Item Name="AVSMonSensor.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/AVSMON.LLB/AVSMonSensor.ctl"/>
+			<Item Name="HlxSetTemperature.vi" Type="VI" URL="../Instruments/Magnet/Oxford/HLXSUBS.LLB/HlxSetTemperature.vi"/>
+			<Item Name="HlxUpdateSetup.vi" Type="VI" URL="../Instruments/Magnet/Oxford/HLXSUBS.LLB/HlxUpdateSetup.vi"/>
+			<Item Name="GaugeInfo.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/IGHSUBS.LLB/GaugeInfo.ctl"/>
+			<Item Name="IGHSetup.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/IGHSUBS.LLB/IGHSetup.ctl"/>
+			<Item Name="Sensor Conversion Type.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/SENSORS.LLB/Sensor Conversion Type.ctl"/>
+			<Item Name="Sensor Calibration.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/SENSORS.LLB/Sensor Calibration.ctl"/>
+			<Item Name="Create New Directories from single path.vi" Type="VI" URL="../Instruments/Magnet/Oxford/Oiutils.llb/Create New Directories from single path.vi"/>
+			<Item Name="Temp Log.vi" Type="VI" URL="../Instruments/Magnet/Other SubVI/Temp Log.vi"/>
+			<Item Name="lvsound2.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound2.dll"/>
+			<Item Name="Mod Out SubVI.vi" Type="VI" URL="../Instruments/Microwave/Quick Programs/Mod Out SubVI.vi"/>
+			<Item Name="Micro Comm.vi" Type="VI" URL="../Instruments/Microwave/Comm SubVI/Micro Comm.vi"/>
+			<Item Name="create command.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/create command.vi"/>
+			<Item Name="pulse comm.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/pulse comm.vi"/>
+			<Item Name="wlmData.dll" Type="Document" URL="../../WINDOWS/system32/wlmData.dll"/>
+			<Item Name="Relative to absolute path.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Config.llb/Dual scan 2/Instruments/Pulse generator scan/Save data.llb/Relative to absolute path.vi"/>
+			<Item Name="scan type.ctl" Type="VI" URL="../Main/Scans/Pulse generator scans/Config.llb/Dual scan 2/Instruments/Pulse generator scan/Type Defs.llb/scan type.ctl"/>
+			<Item Name="Find and clear error.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Find and clear error.vi"/>
+			<Item Name="Find and clear error.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Find and clear error.vi"/>
+			<Item Name="Relative to absolute path.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Dual scan 2/Instruments/Pulse generator scan/Save data.llb/Relative to absolute path.vi"/>
+			<Item Name="scan type.ctl" Type="VI" URL="../Main/Scans/Pulse generator scans/Dual scan 2/Instruments/Pulse generator scan/Type Defs.llb/scan type.ctl"/>
+			<Item Name="Scan Setup - Function Gen - old.vi" Type="VI" URL="../Instruments/Scan Set Up/Scan Setup - Function Gen - old.vi"/>
+			<Item Name="Error Create Msg.vi" Type="VI" URL="../Main/Error/Error Create Msg.vi"/>
+			<Item Name="Scan global to header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Scan global to header.vi"/>
+			<Item Name="PG Scan FP to header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/PG Scan FP to header.vi"/>
+			<Item Name="Create data file.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Create data file.vi"/>
+			<Item Name="Write PG scan header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Write PG scan header.vi"/>
+			<Item Name="Write header (refnum).vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Write header (refnum).vi"/>
+			<Item Name="Create header (path).vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Create header (path).vi"/>
+			<Item Name="Graph in real-time.vi" Type="VI" URL="../Instruments/Pulse generator scan/Graph in real-time.vi"/>
+			<Item Name="Create PG scan header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Create PG scan header.vi"/>
+			<Item Name="Create FG scan header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Create FG scan header.vi"/>
+			<Item Name="Append data.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Append data.vi"/>
+			<Item Name="Append data (refnum).vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Append data (refnum).vi"/>
+			<Item Name="Comments.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Comments.vi"/>
+			<Item Name="Comments (refnum).vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Comments (refnum).vi"/>
+			<Item Name="Autoscaling on or off.vi" Type="VI" URL="../Instruments/Pulse generator scan/Autoscaling on or off.vi"/>
+			<Item Name="Relative to absolute path.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Relative to absolute path.vi"/>
+			<Item Name="ex4.2 - Rnd Int.vi" Type="VI" URL="../Tutorial/Exercise Solutions/Chapter 1.5/ex4.2 - Rnd Int.vi"/>
+			<Item Name="Car.lvclass" Type="LVClass" URL="../Tutorial/Object-Oriented/Vehicle/Car.lvclass"/>
+			<Item Name="Car.ctl" Type="VI" URL="../Tutorial/Object-Oriented/Vehicle/Car.lvclass/Car.ctl"/>
+			<Item Name="Spectral GOTO.VI" Type="VI" URL="../Instruments/Spectrometer/Libraries/Isa_user.llb/Spectral GOTO.VI"/>
+			<Item Name="Spectral Position.VI" Type="VI" URL="../Instruments/Spectrometer/Libraries/Isa_user.llb/Spectral Position.VI"/>
+			<Item Name="Interrupt.vi" Type="VI" URL="../../LabView Programs/Tutorial/Interrupt.vi"/>
+			<Item Name="Read Slits.vi" Type="VI" URL="../../LabView Programs/Spectrometer/Read Slits.vi"/>
+			<Item Name="Spectral Position.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Spectral Position.VI"/>
+			<Item Name="Port &amp; Grating.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Port &amp; Grating.VI"/>
+			<Item Name="Spectral GOTO.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Spectral GOTO.VI"/>
+			<Item Name="initialize spec.vi" Type="VI" URL="../../LabView Programs/Spectrometer/initialize spec.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create header.vi" Type="VI" URL="/C/LabVIEW/Michael&apos;s practice/Lock-in/Create header.vi"/>
-			<Item Name="PG Pattern Send.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Basic Commands/PG Pattern Send.vi"/>
-			<Item Name="Pattern - Create Preview.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Pattern/Pattern - Create Preview.vi"/>
-			<Item Name="PG Initialize.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Initialize.vi"/>
-			<Item Name="PG Dig Status.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Dig Status.vi"/>
-			<Item Name="PG Voltage.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Voltage.vi"/>
-			<Item Name="PG Freq-Per.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Freq-Per.vi"/>
-			<Item Name="PG Output.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Output.vi"/>
-			<Item Name="Comm - Send Cmd.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Send Cmd.vi"/>
-			<Item Name="Comm - Create Command.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
-			<Item Name="ReplyStringValidation.vi" Type="VI" URL="/C/LabVIEW/Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
-			<Item Name="Slits.VI" Type="VI" URL="/C/LabView Programs/Spectrometer/Libraries/Isa_user.llb/Slits.VI"/>
+			<Item Name="Create header.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Create header.vi"/>
+			<Item Name="PG Pattern Send.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/PG Pattern Send.vi"/>
+			<Item Name="Pattern - Create Preview.vi" Type="VI" URL="../Instruments/Pulse Gen/Pattern/Pattern - Create Preview.vi"/>
+			<Item Name="PG Initialize.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Initialize.vi"/>
+			<Item Name="PG Dig Status.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Dig Status.vi"/>
+			<Item Name="PG Voltage.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Voltage.vi"/>
+			<Item Name="PG Freq-Per.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Freq-Per.vi"/>
+			<Item Name="PG Output.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Output.vi"/>
+			<Item Name="Comm - Send Cmd.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Send Cmd.vi"/>
+			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
+			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
+			<Item Name="Slits.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Slits.VI"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">

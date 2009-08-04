@@ -15,10 +15,10 @@
 
 </Property>
 	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"1!!!!!2&amp;49W&amp;O&lt;G&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=V"53$!!!!!S!!%!"1!!$V6U;7RJ&gt;(EA1WRB=X.F=QF49W&amp;O&lt;G&amp;C&lt;'525W.B&lt;GZB9GRF,GRW9WRB=X-!!!!!</Property>
-	<Item Name="Pulse Generator.ctl" Type="Class Private Data" URL="/C/LabVIEW/Instruments/Pulse Gen/Pulse Generator.lvclass/Pulse Generator.ctl">
+	<Item Name="Pulse Generator.ctl" Type="Class Private Data" URL="Pulse Generator.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Scan Setup.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Scan Setup.vi">
+	<Item Name="Scan Setup.vi" Type="VI" URL="../Scan Setup.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%F!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%!B$V6T:8)A1W&amp;O9W6M&lt;'6E0Q!%!!!!.E"Q!"Y!!"E85(6M=W5A2W6O:8*B&gt;'^S,GRW9WRB=X-!%V"V&lt;(.F)%&gt;F&lt;G6S982P=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!W1(!!(A!!'2&gt;1&gt;7RT:3"(:7ZF=G&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!35(6M=W5A2W6O:8*B&gt;'^S)'FO!!!]!0!!$!!$!!1!"1!'!!5!"1!&amp;!!5!"Q!&amp;!!5!#!-!!(A.#!E!!!#.#Q!!!!!!!!!!#A!!!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741827</Property>
@@ -27,7 +27,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 	</Item>
-	<Item Name="Control Panel.vi" Type="VI" URL="/C/LabVIEW/Instruments/Pulse Gen/Control Panel.vi">
+	<Item Name="Control Panel.vi" Type="VI" URL="../Control Panel.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;V"V&lt;(.F)%&gt;F&lt;G6S982P=CZM&gt;G.M98.T!".1&gt;7RT:3"(:7ZF=G&amp;U&lt;X)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!"E85(6M=W5A2W6O:8*B&gt;'^S,GRW9WRB=X-!%F"V&lt;(.F)%&gt;F&lt;G6S982P=C"J&lt;A!!0!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y$1A!!!!!D1M!!!!!!!!!!!I!!!!!!*!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073774912</Property>
@@ -35,5 +35,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
+	<Item Name="Check Status.vi" Type="VI" URL="../Check Status.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&gt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:3:7&amp;E?4]!!$:!=!!?!!!:&amp;V"V&lt;(.F)%&gt;F&lt;G6S982P=CZM&gt;G.M98.T!".1&gt;7RT:3"(:7ZF=G&amp;U&lt;X)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!"E85(6M=W5A2W6O:8*B&gt;'^S,GRW9WRB=X-!%F"V&lt;(.F)%&gt;F&lt;G6S982P=C"J&lt;A!!0!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y$1A!!!EAD1M!!!!!!!!!!!I!!!!!!*)!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074274832</Property>
 	</Item>
 </LVClass>
