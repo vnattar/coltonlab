@@ -31,6 +31,19 @@ The disadvantage is that the learning curve goes up.  Newbies must put in the ti
   # Graph and write data to disk
   # Serialize/marshal instrument objects INSIDE DATAFILE.  This will make VERIFIABLE, REPEATABLE scan results since instrument configuration is "guaranteed"
 
+= Abstraction levels =
+  # Main control
+  # Scan programs
+  # ScanType scanners
+  # Object-oriented instrument drivers
+  # Static atomic instrument drivers
+  # VISA, other low-level voodoo
+  # Hardware
+
+Note each instrument needs TWO sets of drivers:
+-Static: atomic VISA commands.  These perform one task, do it well, and store no state.
+-Class-based: larger molecular instrument tasks, i.e. set up for scan, that can be handled in a generic way.  Ideally, scan programs should call the class-based drivers, which call the deeper atomic VISA commands.
+
 = class Instrument =
 implements Serializable
 Members: NO TYPE PUNNING allowed.  (Eg. combine frequency and period into just one value.)  One variable which is interpreted by accessors and mutators accordingly. 
@@ -55,6 +68,7 @@ Accessor wrapper functions for an array of Instruments.
 
 == interface Scannable: public Instrument ==
 extends Instrument, implements Iterator
+Scannable Instruments are the independent variables during a typical scan.
   * setMin(), setMax(), setStepSize()
   * scanSetUp()
     * instr-specific scan setup,  just like Scan Set Up/Scan Setup - Pulse Generator.vi.  Checks if instr is on and confirms settings, e.g. "Are you sure you want to set the outputs to 3000 volts?"
@@ -69,6 +83,7 @@ extends Instrument, implements Iterator
 
 == interface Readable: public Instrument ==
 extends Instrument
+Readable Instruments are the dependent variables on a typical scan.
   * _read() - read data point, timestamp, waveform point
   * _readWaveform() - get the historical waveform since init
   * Are waveforms even appropriate?
