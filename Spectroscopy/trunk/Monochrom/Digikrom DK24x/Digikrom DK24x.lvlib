@@ -20,11 +20,11 @@ Phone (877) 208-0245 Fax (505) 298-9908</Property>
 		<Item Name="Action-Status" Type="Folder">
 			<Item Name="Query" Type="Folder">
 				<Item Name="Query Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Filter.vi"/>
+				<Item Name="Query Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Wavelength.vi"/>
 				<Item Name="Query Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Grating.vi"/>
 				<Item Name="Query Scan Speed.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Scan Speed.vi"/>
 				<Item Name="Query Slits.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Slits.vi"/>
 			</Item>
-			<Item Name="Query Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Wavelength.vi"/>
 			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="Goto Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Goto Wavelength.vi"/>
 			<Item Name="Scan.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan.vi"/>
@@ -66,6 +66,8 @@ Phone (877) 208-0245 Fax (505) 298-9908</Property>
 			<Item Name="Serial Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Serial Query.vi"/>
 			<Item Name="Echo.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Echo.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Revision Query.vi"/>
+			<Item Name="Set CSR Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Set CSR Mode.vi"/>
+			<Item Name="Clear.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Clear.vi"/>
 		</Item>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/dir.mnu"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/VI Tree.vi"/>
@@ -84,6 +86,8 @@ Phone (877) 208-0245 Fax (505) 298-9908</Property>
 		<Item Name="Filter State.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Filter State.vi"/>
 		<Item Name="Flush.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Flush.vi"/>
 		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Default Instrument Setup.vi"/>
+		<Item Name="Reset Wait.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Reset Wait.vi"/>
+		<Item Name="Unlock.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Unlock.vi"/>
 	</Item>
 	<Item Name="Digikrom DK24x Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Digikrom DK24x/Digikrom DK24x Readme.html"/>
 </Library>
