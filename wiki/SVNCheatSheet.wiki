@@ -3,6 +3,8 @@
 
 This cheat sheet is intended to be brief.  For details, please read the [http://svnbook.red-bean.com/ friendly manual].
 
+See also the [Workflow] wiki page and [http://www.mind.ilstu.edu/research/robots/iris4/developers/svntutorial/ this tutorial].
+
 To run commands, right click on the desired file or folder, and use the *TortoiseSVN->* submenu.
 
 ==Day-to-Day Use==
