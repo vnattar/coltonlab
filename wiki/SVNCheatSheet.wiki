@@ -6,7 +6,7 @@ This cheat sheet is intended to be brief.  For details, please read the [http://
 To run commands, right click on the desired file or folder, and use the *TortoiseSVN->* submenu.
 
 ==Day-to-Day Use==
-  # Help!  Nothing works at all!
+  # *Help!  Nothing works at all!*
     * `TortoiseSVN -> Switch...` on the top-level LabVIEW folder to [http://code.google.com/p/coltonlab/source/browse/Magnet/tags one of these] stable tags.
     * This command will _annihilate_ everything inside the LabVIEW folder.  Make sure all changes are `commit`ted before `switch`ing.
   # Sync the latest changes from the Internet.
@@ -19,16 +19,22 @@ To run commands, right click on the desired file or folder, and use the *Tortois
     * `TortoiseSVN -> Update to Revision...` on the top-level LabVIEW folder.
 
 ==Development==
-  # Download (Check out) the code from the Internet onto my home computer.
-    * Follow the instructions [http://code.google.com/p/coltonlab/source/checkout here].  Note you need to use your randomly-generated [http://code.google.com/p/support/wiki/FAQ#Where_do_I_get_a_password_for_committing_to_Subversion? Google Code password].
-  # *I saved changes to a file by mistake.* 
+  # Getting started:
+    # Install LabVIEW 8.6 and the DaqMX 8.9 drivers.
+    # Install [http://tortoisesvn.tigris.org/ TortoiseSVN] and/or the command-line SVN client.
+    # Install [http://meta-diff.sourceforge.net/ meta-diff] and configure its `.lvdiff` file.  Then go to TortoiseSVN -> Settings -> External Programs -> Diff Viewer -> Advanced... and add `C:\Program Files\meta-diff\lvdiff.exe` as a viewer for `.vi` files.
+    # Download (Check out) the code from the Internet.  Follow the instructions [http://code.google.com/p/coltonlab/source/checkout here].  Note you need to use your randomly-generated [http://code.google.com/p/support/wiki/FAQ#Where_do_I_get_a_password_for_committing_to_Subversion? Google Code password].
+  # I saved changes to a file by mistake. 
     * If the changes are uncommitted, just `TortoiseSVN->Revert`.
     * If they're already committed, pull out a previous revision as above.
   # What parts of this file did I modify?
-    * `TortoiseSVN -> Diff` (for LabVIEW integration, you need to install [http://meta-diff.sourceforge.net/ meta-diff] and configure its `.lvdiff` file).
+    * `TortoiseSVN -> Diff` which invokes `LVdiff` if you have it installed.
     * To see changes for the entire code tree, `TortoiseSVN -> Check for Modifications...` on the top-level folder.
   # Upload (Commit) my changes to the Internet.
     * `TortoiseSVN -> Commit...` and login using your [http://code.google.com/p/support/wiki/FAQ#Where_do_I_get_a_password_for_committing_to_Subversion? Google Code password].
+    * Your changes won't automatically show up on other computers until someone manually `update`s them.
+  # Someone else changed a file at the same time as I did.
+    * This is called a conflict and happens occasionally. SVN won't let two people commit the same file at the same time.  Try to coordinate with others to tag-team: after your friend is finished and `commit`s his changes, you `update` the file and begin making your changes.
   # I made a new file, but it doesn't get committed. I deleted a file, but it won't go away.
     * Subversion needs to know explicitly which files to track and which to ignore.  Make sure to use `TortoiseSVN -> Add` and `TortoiseSVN -> Delete` to add/delete files from version control.
   # My changes are far-reaching and might break lots of things.
