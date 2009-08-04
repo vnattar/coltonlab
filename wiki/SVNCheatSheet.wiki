@@ -1,0 +1,22 @@
+#summary Ten most common Subversion commands.
+#labels Featured
+
+=Use & Debugging=
+# *Help!  It won't work at all!*
+  Switch to a stable tag.
+# *Download the latest changes from the Internet*
+# What was modified and why?
+ - Right-click on any file or folder, then *TortoiseSVN -> Show Log...*
+# Pull out a previous revision of a particular file.
+# Roll back the entire code tree to a previous date.
+
+=Development=
+# *I saved changes to a file by mistake.*
+ If the changes are uncommitted, just TortoiseSVN->Revert
+# What parts of this file did I modify?
+ - Svn diff
+ - Check for revisions
+# *Upload my changes to the Internet*
+# I made a new file, but it doesn't get committed. I deleted a file, but it won't go away.
+# My changes are far-reaching and might break lots of things.
+  Create your own branch.  Read the SVN book for help.
