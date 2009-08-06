@@ -516,8 +516,6 @@
 			<Item Name="lvsound2.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound2.dll"/>
 			<Item Name="Mod Out SubVI.vi" Type="VI" URL="../Instruments/Microwave/Quick Programs/Mod Out SubVI.vi"/>
 			<Item Name="Micro Comm.vi" Type="VI" URL="../Instruments/Microwave/Comm SubVI/Micro Comm.vi"/>
-			<Item Name="create command.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/create command.vi"/>
-			<Item Name="pulse comm.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/pulse comm.vi"/>
 			<Item Name="wlmData.dll" Type="Document" URL="../../WINDOWS/system32/wlmData.dll"/>
 			<Item Name="Find and clear error.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Find and clear error.vi"/>
 			<Item Name="Find and clear error.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Find and clear error.vi"/>
@@ -559,13 +557,14 @@
 			<Item Name="PG Output.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Output.vi"/>
 			<Item Name="Comm - Send Cmd.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Send Cmd.vi"/>
 			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
+			<Item Name="Graph in real-time.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Graph in real-time.vi"/>
+			<Item Name="Save from graph.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Save from graph.vi"/>
 			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
 			<Item Name="Read Slits.vi" Type="VI" URL="../../LabView Programs/Spectrometer/Read Slits.vi"/>
 			<Item Name="Port &amp; Grating.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Port &amp; Grating.VI"/>
 			<Item Name="Slits.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Slits.VI"/>
-			<Item Name="Graph in real-time.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Graph in real-time.vi"/>
-			<Item Name="Match value to time constant.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Match value to time constant.vi"/>
-			<Item Name="Save from graph.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Save from graph.vi"/>
+			<Item Name="Spect Control.vi" Type="VI" URL="../Instruments/Spectrometer/Spect Control.vi"/>
+			<Item Name="LCD Control.vi" Type="VI" URL="../Instruments/LCD/LCD Control.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">

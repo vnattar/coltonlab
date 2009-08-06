@@ -18,6 +18,15 @@
 	<Item Name="Spectrometer Triax 550.ctl" Type="Class Private Data" URL="Spectrometer Triax 550.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Control Panel.vi" Type="VI" URL="../Control Panel.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!A(F.Q:7.U=G^N:82F=C"5=GFB?#!V.4!O&lt;(:D&lt;'&amp;T=Q!!'F.Q:7.U=G^N:82F=C"5=GFB?#!V.4!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!A(F.Q:7.U=G^N:82F=C"5=GFB?#!V.4!O&lt;(:D&lt;'&amp;T=Q!!'6.Q:7.U=G^N:82F=C"5=GFB?#!V.4!A;7Y!0!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y$1A!!!!!D1M!!!!!!!!!!!A!!!!!!*!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">33587520</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="Scan Setup.vi" Type="VI" URL="../Scan Setup.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%!B$V6T:8)A1W&amp;O9W6M&lt;'6E0Q!%!!!!2E"Q!"Y!!#!?5X"F9X2S&lt;WVF&gt;'6S)&amp;2S;7&amp;Y)$5V-#ZM&gt;G.M98.T!!!;5X"F9X2S&lt;WVF&gt;'6S)&amp;2S;7&amp;Y)$5V-#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!2%"Q!"Y!!#!?5X"F9X2S&lt;WVF&gt;'6S)&amp;2S;7&amp;Y)$5V-#ZM&gt;G.M98.T!!!:5X"F9X2S&lt;WVF&gt;'6S)&amp;2S;7&amp;Y)$5V-#"J&lt;A!]!0!!$!!$!!1!"1!'!!5!"1!&amp;!!5!"Q!&amp;!!5!#!-!!(A.#!E!!!#.#Q!!!!!!!!!!#!!!!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
