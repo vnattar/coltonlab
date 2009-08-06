@@ -541,7 +541,6 @@
 			<Item Name="Interrupt.vi" Type="VI" URL="../../LabView Programs/Tutorial/Interrupt.vi"/>
 			<Item Name="Spectral Position.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Spectral Position.VI"/>
 			<Item Name="Spectral GOTO.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Spectral GOTO.VI"/>
-			<Item Name="initialize spec.vi" Type="VI" URL="../../LabView Programs/Spectrometer/initialize spec.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -559,12 +558,13 @@
 			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
 			<Item Name="Graph in real-time.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Graph in real-time.vi"/>
 			<Item Name="Save from graph.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Save from graph.vi"/>
+			<Item Name="Spect Control.vi" Type="VI" URL="../Instruments/Spectrometer/Spect Control.vi"/>
+			<Item Name="LCD Control.vi" Type="VI" URL="../Instruments/LCD/LCD Control.vi"/>
 			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
 			<Item Name="Read Slits.vi" Type="VI" URL="../../LabView Programs/Spectrometer/Read Slits.vi"/>
 			<Item Name="Port &amp; Grating.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Port &amp; Grating.VI"/>
 			<Item Name="Slits.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Slits.VI"/>
-			<Item Name="Spect Control.vi" Type="VI" URL="../Instruments/Spectrometer/Spect Control.vi"/>
-			<Item Name="LCD Control.vi" Type="VI" URL="../Instruments/LCD/LCD Control.vi"/>
+			<Item Name="initialize spec.vi" Type="VI" URL="../../LabView Programs/Spectrometer/initialize spec.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
