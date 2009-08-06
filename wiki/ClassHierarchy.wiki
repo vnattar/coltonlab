@@ -103,5 +103,7 @@ Readable Instruments are the dependent variables on a typical scan.
   # Emergency stop / keep instruments from blowing up the lab
   # Implement structs, convert to typedefs, convert to classes
   # *LabView doesn't have multiple inheritance.  Oops.*
-  # *Labview doesn't allow mutating objects on-heap.  There are no pointers, ever.  Everything is passed in and out by reference. _This could be a deal breaker._*
+  # *Labview doesn't allow mutating objects on-heap.*
+    * It looks like this is possible, but kludgey.  You can create a wrapper class that acts like a pointer, and use "obtain queue" to dereference a pointer to the object.  It would complicate things.
+    * See especially `LabVIEW-8.6/examples/lvoop/ReferenceObject/ReferenceClass/Checkout.vi`
   # Min version LabView 8.2, august 2006
