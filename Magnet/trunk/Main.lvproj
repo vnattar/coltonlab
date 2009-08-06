@@ -519,20 +519,13 @@
 			<Item Name="create command.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/create command.vi"/>
 			<Item Name="pulse comm.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/pulse comm.vi"/>
 			<Item Name="wlmData.dll" Type="Document" URL="../../WINDOWS/system32/wlmData.dll"/>
-			<Item Name="Relative to absolute path.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Config.llb/Dual scan 2/Instruments/Pulse generator scan/Save data.llb/Relative to absolute path.vi"/>
-			<Item Name="scan type.ctl" Type="VI" URL="../Main/Scans/Pulse generator scans/Config.llb/Dual scan 2/Instruments/Pulse generator scan/Type Defs.llb/scan type.ctl"/>
 			<Item Name="Find and clear error.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Find and clear error.vi"/>
 			<Item Name="Find and clear error.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Find and clear error.vi"/>
-			<Item Name="Relative to absolute path.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Dual scan 2/Instruments/Pulse generator scan/Save data.llb/Relative to absolute path.vi"/>
-			<Item Name="scan type.ctl" Type="VI" URL="../Main/Scans/Pulse generator scans/Dual scan 2/Instruments/Pulse generator scan/Type Defs.llb/scan type.ctl"/>
 			<Item Name="Scan Setup - Function Gen - old.vi" Type="VI" URL="../Instruments/Scan Set Up/Scan Setup - Function Gen - old.vi"/>
 			<Item Name="Error Create Msg.vi" Type="VI" URL="../Main/Error/Error Create Msg.vi"/>
-			<Item Name="Scan global to header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Scan global to header.vi"/>
-			<Item Name="PG Scan FP to header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/PG Scan FP to header.vi"/>
 			<Item Name="Create data file.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Create data file.vi"/>
 			<Item Name="Write PG scan header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Write PG scan header.vi"/>
 			<Item Name="Write header (refnum).vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Write header (refnum).vi"/>
-			<Item Name="Create header (path).vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Create header (path).vi"/>
 			<Item Name="Graph in real-time.vi" Type="VI" URL="../Instruments/Pulse generator scan/Graph in real-time.vi"/>
 			<Item Name="Create PG scan header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Create PG scan header.vi"/>
 			<Item Name="Create FG scan header.vi" Type="VI" URL="../Instruments/Pulse generator scan/Save data.llb/Create FG scan header.vi"/>
@@ -548,9 +541,7 @@
 			<Item Name="Spectral GOTO.VI" Type="VI" URL="../Instruments/Spectrometer/Libraries/Isa_user.llb/Spectral GOTO.VI"/>
 			<Item Name="Spectral Position.VI" Type="VI" URL="../Instruments/Spectrometer/Libraries/Isa_user.llb/Spectral Position.VI"/>
 			<Item Name="Interrupt.vi" Type="VI" URL="../../LabView Programs/Tutorial/Interrupt.vi"/>
-			<Item Name="Read Slits.vi" Type="VI" URL="../../LabView Programs/Spectrometer/Read Slits.vi"/>
 			<Item Name="Spectral Position.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Spectral Position.VI"/>
-			<Item Name="Port &amp; Grating.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Port &amp; Grating.VI"/>
 			<Item Name="Spectral GOTO.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Spectral GOTO.VI"/>
 			<Item Name="initialize spec.vi" Type="VI" URL="../../LabView Programs/Spectrometer/initialize spec.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -559,7 +550,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create header.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Create header.vi"/>
 			<Item Name="PG Pattern Send.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/PG Pattern Send.vi"/>
 			<Item Name="Pattern - Create Preview.vi" Type="VI" URL="../Instruments/Pulse Gen/Pattern/Pattern - Create Preview.vi"/>
 			<Item Name="PG Initialize.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Initialize.vi"/>
@@ -570,7 +560,12 @@
 			<Item Name="Comm - Send Cmd.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Send Cmd.vi"/>
 			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
 			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
+			<Item Name="Read Slits.vi" Type="VI" URL="../../LabView Programs/Spectrometer/Read Slits.vi"/>
+			<Item Name="Port &amp; Grating.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Port &amp; Grating.VI"/>
 			<Item Name="Slits.VI" Type="VI" URL="../../LabView Programs/Spectrometer/Libraries/Isa_user.llb/Slits.VI"/>
+			<Item Name="Graph in real-time.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Graph in real-time.vi"/>
+			<Item Name="Match value to time constant.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Match value to time constant.vi"/>
+			<Item Name="Save from graph.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Save from graph.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
