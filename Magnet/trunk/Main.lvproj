@@ -65,7 +65,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/daqmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
@@ -248,15 +248,15 @@
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Serial Port Init.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Init.vi"/>
-				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_sersup.llb/Open Serial Driver.vi"/>
-				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/serpConfig.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/instr/_sersup.llb/Open Serial Driver.vi"/>
+				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
 				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Read.vi"/>
 				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Write.vi"/>
-				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Resize Panel.vi"/>
+				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Resize Panel.vi"/>
 				<Item Name="Snd Play Wave File.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Play Wave File.vi"/>
 				<Item Name="Snd Gen Error Call Chain.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Gen Error Call Chain.vi"/>
 				<Item Name="Snd Read Wave File.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Read Wave File.vi"/>
@@ -279,22 +279,22 @@
 				<Item Name="DAQmx Create Timing Source (Digital Change Detection_sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Digital Change Detection_sub).vi"/>
 				<Item Name="DAQmx Create Timing Source (Control Loop From Task).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Control Loop From Task).vi"/>
 				<Item Name="DAQmx Create Timing Source (sub2).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (sub2).vi"/>
-				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/GPIB Status Boolean Array.ctl"/>
-				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
+				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/FILE.LLB/Write File+ (string).vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
-				<Item Name="Call Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Call Instrument.vi"/>
-				<Item Name="Convert Type Descriptor and Flat Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Convert Type Descriptor and Flat Data.vi"/>
-				<Item Name="VIParam.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/VIParam.ctl"/>
-				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
-				<Item Name="Preload Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Preload Instrument.vi"/>
-				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/viRef buffer.vi"/>
-				<Item Name="Release Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Release Instrument.vi"/>
-				<Item Name="Run Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Run Instrument.vi"/>
-				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
-				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
+				<Item Name="Call Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Call Instrument.vi"/>
+				<Item Name="Convert Type Descriptor and Flat Data.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Convert Type Descriptor and Flat Data.vi"/>
+				<Item Name="VIParam.ctl" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/VIParam.ctl"/>
+				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Get Instrument State.vi"/>
+				<Item Name="Preload Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Preload Instrument.vi"/>
+				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/viRef buffer.vi"/>
+				<Item Name="Release Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Release Instrument.vi"/>
+				<Item Name="Run Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Run Instrument.vi"/>
+				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Close Panel.vi"/>
+				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Open Panel.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Close Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Close Serial Driver.vi"/>
+				<Item Name="Close Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/instr/serial.llb/Close Serial Driver.vi"/>
 				<Item Name="Write Characters To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Characters To File.vi"/>
 				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
 				<Item Name="_Get Sound Error From Return Value.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_Get Sound Error From Return Value.vi"/>
