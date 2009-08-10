@@ -11,7 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Vehicle.lvclass" Type="LVClass" URL="../Vehicle/Vehicle.lvclass"/>
-		<Item Name="Driver.vi" Type="VI" URL="../Driver.vi"/>
+		<Item Name="OO Demo.vi" Type="VI" URL="../OO Demo.vi"/>
 		<Item Name="Volvo.lvclass" Type="LVClass" URL="../Volvo/Volvo.lvclass"/>
 		<Item Name="Bike.lvclass" Type="LVClass" URL="../Bike/Bike.lvclass"/>
 		<Item Name="RollerBlades.lvclass" Type="LVClass" URL="../RollerBlades/RollerBlades.lvclass"/>
