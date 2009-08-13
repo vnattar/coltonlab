@@ -24,7 +24,12 @@ To run commands, right click on the desired file or folder, and use the *Tortois
   # Getting started:
     # Install LabVIEW 8.6 and the DaqMX 8.9 drivers.
     # Install [http://tortoisesvn.tigris.org/ TortoiseSVN] and/or the command-line SVN client.
-    # Install [http://meta-diff.sourceforge.net/ meta-diff] and configure its `.lvdiff` file.  Then go to TortoiseSVN -> Settings -> External Programs -> Diff Viewer -> Advanced... and add `C:\Program Files\meta-diff\lvdiff.exe` as a viewer for `.vi` files.
+    # Install [http://meta-diff.sourceforge.net/ meta-diff suite].  Change string in `lvdiff.vi` from `"T,T,T,T,T,T"` to `"T,T,F,T,F,F"`.  Edit `.lvdiff` to read:
+{{{
+pathToLV=C:\Program Files\National Instruments\LabVIEW 8.6
+pathToLVDiff=C:\Program Files\meta-diff suite
+}}}
+    # TortoiseSVN -> Settings -> External Programs -> Diff Viewer -> Advanced... and add `C:\Program Files\meta-diff\lvdiff.exe` as a viewer for `.vi` files.
     # Download (Check out) the code from the Internet.  Follow the instructions [http://code.google.com/p/coltonlab/source/checkout here].  Note you need to use your randomly-generated [http://code.google.com/p/support/wiki/FAQ#Where_do_I_get_a_password_for_committing_to_Subversion? Google Code password].
   # I saved changes to a file by mistake. 
     * If the changes are uncommitted, just `TortoiseSVN->Revert`.
