@@ -513,15 +513,12 @@
 			<Item Name="wlmData.dll" Type="Document" URL="../../WINDOWS/system32/wlmData.dll"/>
 			<Item Name="Scan Setup - Function Gen - old.vi" Type="VI" URL="../Instruments/Scan Set Up/Scan Setup - Function Gen - old.vi"/>
 			<Item Name="Error Create Msg.vi" Type="VI" URL="../Main/Error/Error Create Msg.vi"/>
-			<Item Name="Car.lvclass" Type="LVClass" URL="../Tutorial/Object-Oriented/Vehicle/Car.lvclass"/>
-			<Item Name="Car.ctl" Type="VI" URL="../Tutorial/Object-Oriented/Vehicle/Car.lvclass/Car.ctl"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PG Pattern Send.vi" Type="VI" URL="../Instruments/Pulse Gen/Basic Commands/PG Pattern Send.vi"/>
 			<Item Name="Pattern - Create Preview.vi" Type="VI" URL="../Instruments/Pulse Gen/Pattern/Pattern - Create Preview.vi"/>
 			<Item Name="PG Initialize.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Initialize.vi"/>
 			<Item Name="PG Dig Status.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Dig Status.vi"/>
