@@ -511,8 +511,6 @@
 			<Item Name="Mod Out SubVI.vi" Type="VI" URL="../Instruments/Microwave/Quick Programs/Mod Out SubVI.vi"/>
 			<Item Name="Micro Comm.vi" Type="VI" URL="../Instruments/Microwave/Comm SubVI/Micro Comm.vi"/>
 			<Item Name="wlmData.dll" Type="Document" URL="../../WINDOWS/system32/wlmData.dll"/>
-			<Item Name="Scan Setup - Function Gen - old.vi" Type="VI" URL="../Instruments/Scan Set Up/Scan Setup - Function Gen - old.vi"/>
-			<Item Name="Error Create Msg.vi" Type="VI" URL="../Main/Error/Error Create Msg.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -529,6 +527,7 @@
 			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
 			<Item Name="Spect Control.vi" Type="VI" URL="../Instruments/Spectrometer/Spect Control.vi"/>
 			<Item Name="LCD Control.vi" Type="VI" URL="../Instruments/LCD/LCD Control.vi"/>
+			<Item Name="Scan Setup - Function Gen - old.vi" Type="VI" URL="../Instruments/Scan Set Up/Scan Setup - Function Gen - old.vi"/>
 			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
