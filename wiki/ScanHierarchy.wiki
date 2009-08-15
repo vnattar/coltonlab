@@ -1,6 +1,10 @@
 #summary Hierarchy for types of Scans.
 #labels Phase-Design,Featured
 
+The `ScanDriver` class controls the *loops* and the *independent variable* for the scan.  E.g. Scanner tells the magnet where to go and how fast.  It calls the ExperimentReader on each loop iteration.
+
+The `ExperimentReader` class controls peripherals (e.g. modulates LCD, pulses laser) and reads the data point (independent variable) when it is called.  It has no inner loops.
+
 = class Scan =
 settingsWindow()
 dataFile() - We also need data file methods
@@ -9,11 +13,11 @@ scanDriver() - abstract method for children
 enum ExperimentMode
   * doesn't work well as an enum; perhaps this needs a class hierarchy as well
   * it seems like the ExpMode is used in the critical inner read() loop
-  * perhaps we could make a ScanDataPointReader() class that differs among scans, and pass it in a generic manner
+  * Scanner needs an ExperimentReader argument that differs among scans
 
 The general scan process:
   # Scan setup window - constructs intruments
-  # General Pre-scan check - sometimes implemented (?) as a specific <scanType>-pre-scan-check
+  # General Pre-scan check - sometimes implemented (?) as a specific _scanType_-pre-scan-check -- these may be orphaned/abandoned
   # Construct datafiles
   # Call scanDriver()
   # Do it again?
