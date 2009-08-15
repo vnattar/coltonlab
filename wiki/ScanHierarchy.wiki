@@ -2,12 +2,65 @@
 #labels Phase-Design,Featured
 
 = class Scan =
+settingsWindow()
+dataFile() - We also need data file methods
+scanDriver() - abstract method for children
+  * currently implemented as `enum ScanType`
+enum ExperimentMode
+  * doesn't work well as an enum; perhaps this needs a class hierarchy as well
+  * it seems like the ExpMode is used in the critical inner read() loop
+  * perhaps we could make a ScanDataPointReader() class that differs among scans, and pass it in a generic manner
+
+The general scan process:
+  # Scan setup window - constructs intruments
+  # General Pre-scan check - sometimes implemented (?) as a specific <scanType>-pre-scan-check
+  # Construct datafiles
+  # Call scanDriver()
+  # Do it again?
+
 == class BFieldScan : public Scan ==
+subclass scanDrivers() - BFieldScanContinuous, BFieldScanRFRamp
+BFieldScanRFRamp
+  # PEM
+  # LCD
+  # PEM exc - LCD det
+  # LCD exc - PEM det
+  # No retarders
+  # Stepped Sweep LD
+BFieldScanContinuous
+  # Continuous Sweep LD - uses BFieldScanContinous; all others use RFRamp
+
 == class PulseWidthScan : public Scan ==
-== class PulseGenScan : public Scan ==
+  # PEM
+  # LCD
+  # PEM exc - LCD det
+  # LCD exc - PEM det
+  # Lockin Scan
+
 == class RFScan : public Scan ==
+  # Photon Counter
+  # Lockin
+
 == class WaitTimeScan : public Scan ==
+  # PEM
+  # LCD
+  # PEM exc - LCD det
+  # LCD exc - PEM det
+  # Spin Echo PL
+  # Spin Echo LP
+  # Spin Echo LD
+  # Lockin Scan
+
 == class WavelengthScan : public Scan ==
+  # PEM
+  # LCD
+  # PEM exc - LCD det
+  # LCD exc - PEM det
+  # No retarders
+
+== class PulseGenScan : public Scan ==
+This is Michael's "Dual Scan" scanner - it needs to be reconciled with Lee-style drivers into one big generic architecture
+
 
 == Open issues ==
 OK, here are some of the things I've been thinking about. I didn't completely digest all of the things above, so forgive me if what I say is redundant or doesn't make sense in this context.
