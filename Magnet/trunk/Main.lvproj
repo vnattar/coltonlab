@@ -527,7 +527,6 @@
 			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
 			<Item Name="Spect Control.vi" Type="VI" URL="../Instruments/Spectrometer/Spect Control.vi"/>
 			<Item Name="LCD Control.vi" Type="VI" URL="../Instruments/LCD/LCD Control.vi"/>
-			<Item Name="Scan Setup - Function Gen - old.vi" Type="VI" URL="../Instruments/Scan Set Up/Scan Setup - Function Gen - old.vi"/>
 			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
