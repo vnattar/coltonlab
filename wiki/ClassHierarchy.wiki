@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Currently our lab uses a monolithic design pattern.  This is bloated, complex, duplicates effort, and is ridiculously hard to maintain.  As it currently stands, no single human can comprehend let alone maintain our codebase.  Splitting up the code into bite-sized chunks makes it possible (and easy) to use and maintain.  
+Currently our lab uses a monolithic design pattern.  This is bloated, complex, duplicates effort, and is difficult to maintain.  As it currently stands, no single human can comprehend let alone maintain our codebase.  Splitting up the code into bite-sized chunks makes it possible (and easy) to use and maintain.  
 
 The benefits of object oriented design are overwhelming.  Newbies can get up and running quickly.  The design is much simpler.  Duplicated code is removed, and I would bet the size of the source tree would easily shrink to half.  New features need to be added only once, and bugfixes are localized and easy to change.  Write once, read many.  If planned appropriately, new code can fit right in with minimal and only localized changes to implement them.
 
@@ -33,26 +33,30 @@ The disadvantage is that the learning curve goes up.  Newbies must put in the ti
 
 = Abstraction levels =
   # Main control
-  # Scan programs
-  # ScanType scanners
+  # Scan Driver programs
+  # Scanners, Reader Objects
+
   # Object-oriented instrument drivers
   # Static atomic instrument drivers
   # VISA, other low-level voodoo
   # Hardware
+
+LabVIEW is a language that uses graphical objects.  But it's not really an object-oriented language!  This won't make sense at first.  Read this over again until it makes sense.
 
 Note each instrument needs TWO sets of drivers:
 -Static: atomic VISA commands.  These perform one task, do it well, and store no state.
 -Class-based: larger molecular instrument tasks, i.e. set up for scan, that can be handled in a generic way.  Ideally, scan programs should call the class-based drivers, which call the deeper atomic VISA commands.
 
 = class Instrument =
+An instrument need not be Scannable nor Readable.  It can just be a plain Instrument to take advantage of generic functionality.
 implements Serializable
 Members: NO TYPE PUNNING allowed.  (Eg. combine frequency and period into just one value.)  One variable which is interpreted by accessors and mutators accordingly. 
   * Instrument(Visa v) : lock
   * ~Instrument() : unlock v
-  * static showSettingsPanel()
+  * static Control Panel()
   * InstrSet readSettings()
-     
-
+  * bool Check Status
+  * bool Scan Setup
   * void writeSettings(InstrSet)
   * void resetDefault()
 
@@ -68,7 +72,7 @@ Accessor wrapper functions for an array of Instruments.
 
 == interface Scannable: public Instrument ==
 extends Instrument, implements Iterator
-Scannable Instruments are the independent variables during a typical scan.
+`Scannable` Instruments are the *independent variables* during a typical scan.
   * setMin(), setMax(), setStepSize()
   * scanSetUp()
     * instr-specific scan setup,  just like Scan Set Up/Scan Setup - Pulse Generator.vi.  Checks if instr is on and confirms settings, e.g. "Are you sure you want to set the outputs to 3000 volts?"
@@ -83,7 +87,7 @@ Scannable Instruments are the independent variables during a typical scan.
 
 == interface Readable: public Instrument ==
 extends Instrument
-Readable Instruments are the dependent variables on a typical scan.
+`Readable` Instruments are the *dependent variables* on a typical scan.
   * _read() - read data point, timestamp, waveform point
   * _readWaveform() - get the historical waveform since init
   * Are waveforms even appropriate?
