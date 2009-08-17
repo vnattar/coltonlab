@@ -1,19 +1,43 @@
 #summary Hierarchy for types of Scans.
 #labels Phase-Design,Featured
 
-The `ScanDriver` class controls the *loops* and the *independent variable* for the scan.  E.g. Scanner tells the magnet where to go and how fast.  It calls the ExperimentReader on each loop iteration.
+The `Scanner` class controls the *loops* and the *independent variable* for the scan.  E.g. Scanner tells the magnet where to go and how fast.  It calls the ExperimentReader on each loop iteration.  This used to be called `enum ScanType`.
 
-The `ExperimentReader` class controls peripherals (e.g. modulates LCD, pulses laser) and reads the data point (independent variable) when it is called.  It has no inner loops.
+The `Reader` class *controls peripherals* (e.g. modulates LCD, pulses laser) and *reads the data point* (independent variable) when it is called.  It has no inner loops.  This used to called `enum ExprMode`.
+
+How does a `Scanner` differ from a `Scannable Instrument`?  How does a `Reader` differ from a `Readable Instrument`?
+  * `Scannable / Readable Instruments` *do not contain any logic* that deals with the application you're running.  
+  * Instruments don't discriminate between an Etch-A-Sketch program, a ScanDriver program, a diagnostic program, etc.  
+  * Instruments only contain enough logic to keep the instrument session in a consistent state.
+  * Instruments are generic interfaces to use the instrument.  You can write a plethora of programs based on Scannables and Readables.  You know that any `Scannable` instrument contains a "Next Step" method, and any `Readable` instrument has a "Read" method.  This doesn't presume anything about how you will manipulate them within your program.
+
+  * On the other hand, a `Scanner` and a `Reader` are helper classes that specifically work for the ScanDriver program.  They probably don't have much utility outside of the ScanDriver program.
+  * Scanners and Readers take Scannables and Readables as parameters (arguments).
+  * Scanners contain logic that is specific to the type of scan you're doing.  They *control other equipment* while the scan is being performed.  
+  * There are Rabi Scanners, Pulse Width Scanners, B Field Scanners, etc. that all need to iterate in slightly different ways.
+  * For example, a Rabi `Scanner` takes a `Scannable` as its parameter.  When the `ScanDriver` calls Rabi to go to the next point, Rabi will move its `Scannable` to the next data point, _and tell channel B to change its mode_.  This is the additional functionality that `Scanner` adds on top of a `Scannable` that is specific to the Rabi Scan.
+  * Readers add additional functionality that a certain scan needs, but the instrument doesn't do on its own.  For example, an LCD/PEM `Reader` takes a `Readable` as its argument.  During a scan that uses LCD/PEM `Reader`s, LCD/PEM will modulate the retardance and then call the `Readable` to get a data point.
+
+== Analogy to C++/Java ==
+This is very dubious, but maybe you could think of these analogues:
+  * Reader is like StreamReader
+  * Scanner is like overriding Iterator to iterate differently
+  * Readable is like InputStream
+  * Scannable is like Iterator
+  * Collection is like ArrayList or Vector;
+
+== Scan Setup ==
+  * ScanDriver takes Scanner and Reader arguments.
+  * Scanner and Reader take Scannable and Readable arguments.
+  * We have lots of Scannable and Readable instruments.
+  * One generic ScanDriver has hundreds of combinations of arguments.
+  * There are hundreds of possible experiments we can do! Object-orientation makes this all possible.
 
 = class Scan =
 settingsWindow()
 dataFile() - We also need data file methods
 scanDriver() - abstract method for children
-  * currently implemented as `enum ScanType`
-enum ExperimentMode
-  * doesn't work well as an enum; perhaps this needs a class hierarchy as well
-  * it seems like the ExpMode is used in the critical inner read() loop
-  * Scanner needs an ExperimentReader argument that differs among scans
+  * ScanDriver needs Reader and Scanner arguments that differ among scans
 
 The general scan process:
   # Scan setup window - constructs intruments
