@@ -42,10 +42,31 @@ The disadvantage is that the learning curve goes up.  Newbies must put in the ti
   # Hardware
 
 LabVIEW is a language that uses graphical objects.  But it's not really an object-oriented language!  This won't make sense at first.  Read this over again until it makes sense.
+== Two Drivers for each Instrument? ==
 
 Note each instrument needs TWO sets of drivers:
 -Static: atomic VISA commands.  These perform one task, do it well, and store no state.
 -Class-based: larger molecular instrument tasks, i.e. set up for scan, that can be handled in a generic way.  Ideally, scan programs should call the class-based drivers, which call the deeper atomic VISA commands.
+
+
+Implement two sets of drivers.  Static drivers are focused on simply allowing the computer to control the instrument.  Object-oriented drivers are focused on our lab software talking to instruments through a generic interface.
+
+Object-Oriented
+  * Are just for use inside the Colton Lab.
+  * contain bigger "molecular" commands like Check Status, Scan Setup, Control Panel.
+  * Contain little logic, but may contain state.
+  * Don't have anything to do with a specific application.
+  * Protect their state with an intrument pointer / blocking queues.
+
+Static VISA drivers
+  * We intend to give them away, or we download from the Internet.  When they're good enough, we can (and should) give them to National Instruments for publishing to the whole world.
+  * contain "atomic" commands like Get Period, Set Period, Get Wavelength, Set Wavelength, Turn On Output A.
+  * as dumb as possible.
+  * *are completely stateless.*
+  * Use the "Project-Style VISA Driver Architecture".  This means that every command has a VISA in and VISA Out, and the drivers live inside their own `.lvproj` project and `.lvlib` container/namespace.  (`.lvlib`, not .LLB - they're outdated.)
+  * To make one, use the templates found under Tools -> Instrumentation -> Create Instrument Driver Project...
+  * Protect their VISA session with mutexes.
+
 
 = class Instrument =
 An instrument need not be Scannable nor Readable.  It can just be a plain Instrument to take advantage of generic functionality.
