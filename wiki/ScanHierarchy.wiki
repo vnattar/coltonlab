@@ -33,6 +33,15 @@ This is very dubious, but maybe you could think of these analogues:
   * One generic ScanDriver has hundreds of combinations of arguments.
   * There are hundreds of possible experiments we can do! Object-orientation makes this all possible.
 
+= Pseudocode =
+foreach scan, foreach datapoint:
+  # Set and get X value (call Scanner::Next Step())
+  # Update scan progress textbox
+  # Take data (call Reader::Read())
+  # Immediate post-processing: Do some Scanner- and Reader-specific post-processing, e.g. compute polarization by subtracting two points)
+  # Find min/max and adjust graph range
+  # Log current date
+
 = class Scan =
 settingsWindow()
 dataFile() - We also need data file methods
