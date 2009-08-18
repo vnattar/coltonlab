@@ -1,5 +1,0 @@
-look up difference between trigger out and strobe out on pulse generator
-
-scaling in the graph: if we're using r and theta mode, is there a way to make
-them display on different scales, so that each is visible?
-update or monitor current voltage settings on the pulse gen and display them on the front panel

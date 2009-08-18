@@ -1,6 +1,0 @@
-VIs to look at and try to pick apart:
-
-Pulse Width Scan.vi (in C:\LabVIEW\Main\Scans\Pulse Width)
-Pulse Gen Control.vi (in C:\LabVIEW\Instruments\Pulse Gen)
-
-Also, the main program that runs everything is Driver.vi (in C:\LabVIEW\Main)
