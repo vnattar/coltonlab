@@ -1,0 +1,22 @@
+#summary LabVIEW Object-Oriented tutorial.
+#labels Featured
+
+= Introduction =
+
+In LabVIEW, an object is a cluster that can't be unbundled outside of member methods.   This is somewhat like C++, where an object is a struct with function pointers.
+
+For general Object-Oriented theory, Google is full of great introductory tutorials.  For LabVIEW-specific implementation details, [http://zone.ni.com/reference/en-XX/help/371361B-01/lvconcepts/creating_classes/ this tutorial] will teach you everything you need to know about creating classes, inheritance, overriding, etc.
+
+
+= Practice =
+Create an Object Farm.  Create an abstract (pure virtual) `Animal` superclass, and farm animal classes that inherit from `Animal`.
+
+  # *Class definition*. Create an `Animal` superclass.  Give this class private data fields that describe animals in general.  For example: `name, stomach capacity, numberOfLegs`.  Use your imagination.  
+  # *Accessors/Mutators*.  Create methods to read and write each private data field.
+  # *Methods*.  Create functional methods that all animals can do, such as `walk(), playSound(), eat()`.
+  # *Inheritance*.  Create at least three subclasses that inherit from `Animal`.  For example, create a `Cow`, `Duck`, `Pig` etc.  Make these classes inherit from `Animal` (see the manual to find out how to do this.)  Give these classes more specific fields that are unique to this animal, for example `milkCapacity`, `numberOfFeathers`.  Give them more specific methods as well, like `milkTheCow()`, `rollInMud()`, etc.  Be creative!
+  # *Constructors*.  A constructor is function that will initialize an object with user-specified starting values instead of the defaults.  Create a VI that will initialize each specific class.  Each class needs its own constructor.  The constructor must have the same name as the class itself.  For example, a `Cow.lvclass` has a constructor named `Cow.vi` that takes the parameters `name`, `AnnualMilkProduction`, `FavoriteHayFlavor`, etc.  and returns a new `Cow` object with these fields set.
+  # *Superclass methods*.  Show that you can call a superclass method. For example, the `Cow` constructor cannot set the `name` because `name` is a field of `Animal` and only `Animal` methods may access that data.  You will either need to call an accessor `Animal::SetName()` or call an `Animal` constructor at the start of the `Cow` constructor.
+  # *Instantiation*.  Instantiate several different farm animals.  Show that you can operate independently on each object.  Make a program that instantiates at least two animals from each farm animal class.  Give them different names.  Show that you can independently feed Horace the Hog and milk Bessie the Cow, etc.
+  # *Overriding*.  Give the `Animal` class a `playSound()` method that takes no parameters.  All the other farm animal classes should override this method to play the appropriate sound for each animal.  Make a playSound.vi file in the Cow folder that plays a cow sound, make a playSound.vi for the pig that plays an oink, etc.  To override a method, check the LabVIEW manual.  You can find sound clips on the internet, and use LabVIEW's built-in sound playback functionality.
+  # *Polymorphism / Late (dynamic) binding*.  Put all the farm animals into an array.  Make loop over the array and call the playSound() method.  Demonstrate that LabVIEW automatically chooses the correct overriding method for each animal.  You should get a cacaphony of animal noises!
