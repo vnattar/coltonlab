@@ -9,12 +9,17 @@ Good programming habits = fewer bugs.  If we can follow these rules, we can desi
 
   # Every function should have input coercion.
   # Every function needs a one-sentence description.
+  # Never use stacked sequences.  As much code as possible should be visible on the surface.  Avoid hiding things beneath structures where they're not immediately apparent.
+  # Never, ever, ever use global variables.  Not even once.
+  # Do not align your diagrams by hand.  Always let the computer do this by pushing the "clean up" button.  This will reveal hidden bugs.
+  # If possible, attach your comments to a nearby function node or structure with Right-click->Show Label.  This will keep the comments attached when the "clean up" algorithm rearranges things.
   # The comments should state what you mean, not what you did.  In case they disagree,  someone can track down what you meant to do.
-  # There is almost always a more concise way to express something.
-  # Reduce the [http://en.wikipedia.org/wiki/Cyclomatic_complexity cyclomatic complexity] of your functions.  No function should ever contain more than four nested code blocks.  If it does, you are doing something wrong.
+  # Brevity is the soul of wit.  Try to find more concise ways to write your code.
+  # Reduce the [http://en.wikipedia.org/wiki/Cyclomatic_complexity cyclomatic complexity] of your code.  No subVI should ever contain more than four nested code blocks.  If it does, you are doing something wrong.
   # Make functions as generic as possible.  In the absence of templating, use object-oriented interfaces where appropriate.
   # Never, never duplicate code.  There is always a better way than to make twelve duplicate, slightly different, functions.
-  # The red dots mean that a type cast has taken place.  Avoid red dots!
+  # The red dots mean that a type cast has taken place.  Watch out for red dots!  Avoid type casts like the plague!
   # No magic numbers.  Learn to use enums, or better yet, typedefs.
   # Programmatic simplicity trumps new features.
   # Everybody needs to be a member of a class, with limited access for functions outside the class.  Fewer points of entry = fewer possible bugs.
+  # Set "Private Access" for as many functions as possible.  There needs to be a really compelling reason to grant public access to a subVI.
