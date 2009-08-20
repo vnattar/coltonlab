@@ -18,6 +18,8 @@ Good programming habits = fewer bugs.  If we can follow these rules, we can desi
   # Reduce the [http://en.wikipedia.org/wiki/Cyclomatic_complexity cyclomatic complexity] of your code.  No subVI should ever contain more than four nested code blocks.  If it does, you are doing something wrong.
   # Make functions as generic as possible.  In the absence of templating, use object-oriented interfaces where appropriate.
   # Never, never duplicate code.  There is always a better way than to make twelve duplicate, slightly different, functions.
+  # Use the standard connector pattern.  Objects in the top, errors in the bottom, arguments on left and right.
+  # Use only the standard connector pattern.  If you need more inputs than the standard connector pattern gives, you have too many inputs!  Simplify your design instead.
   # The red dots mean that a type cast has taken place.  Watch out for red dots!  Avoid type casts like the plague!
   # No magic numbers.  Learn to use enums, or better yet, typedefs.
   # Programmatic simplicity trumps new features.
