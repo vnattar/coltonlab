@@ -7,6 +7,36 @@ In LabVIEW, an object is a cluster that can't be unbundled outside of member met
 
 For general Object-Oriented theory, Google is full of great introductory tutorials.  For LabVIEW-specific implementation details, [http://zone.ni.com/reference/en-XX/help/371361B-01/lvconcepts/creating_classes/ this tutorial] will teach you everything you need to know about creating classes, inheritance, overriding, etc.
 
+= Conventions =
+  # Member functions /methods are always in the dynamic context.
+
+
+As of version 8.6, LabVIEW does not yet come with built-in object constructors and destructors.  However, these are useful components, and until NI gives built-in functionality, we will make up our own conventions in the interim.
+
+==Open issues==
+
+Constructors may not be necessary in the first place.  They do not fit logically into the "Labview philosophy" of dataflow programming; they seem kludgey.  For example, what happens if you "construct" an object and then branch its wire into two parallel tracks?  Does this behave like a copy constructor?  Does a wire branch just clone the object?  Should we even have constructors at all?
+
+Furthermore, copy constructors are another quagmire.  How deep is the copy?  Does a wire branch automatically do a deep copy or just a shallow copy?  Do we need to have explicit copy constructors to perform a deep copy?
+
+==Constructors==
+  # Constructors are always in the static context.
+  # Always name constructors after the class.  The constructor for `Cow.lvclass` is named `Cow.vi`.
+  # It is sometimes necessary to overload constructors. In this case, create a [http://zone.ni.com/reference/en-XX/help/371361B-01/lvhowto/using_polymorphic_vis/ polymorphic VI] named `Cow.vi` with instances named like `Cow (Legs).vi` and `Cow (Milk).vi`.
+  # Put the text "new()" on the icon so it is obvious that this is the constructor method.
+  # Change the Object input to a constant.  Constructors must never have class inputs.
+  # Do not allocate heap memory inside constructors.  Let the caller do this beforehand, just as the `new` operator in C++.
+  # Never override a superclass constructor.  The child class's constructor should have a different name anyway!
+  # If you need to call a superclass constructor, do so first or last as appropriate.  Cast the produced superclass object into a "More Specific Class" using the Class constant that remains from the Object input you removed earlier.
+  # Pure virtual (abstract) superclass constructors should be Protected access and called from their children.
+
+==Destructors==
+  # Destructors are always in the dynamic context.
+  # Always name the destructor `Delete.vi`, no matter what.
+  # Put "delete()" on the icon.
+  # If the destructor needs to release a resource, such as a VISA session or Queue, release this resource inside the destructor.  If it is useful to return the resource to the caller, add "Finalized" to the output terminal's name, e.g. `Finalized VISA session`.
+
+
 
 = Practice =
 Create an Object Farm.  Create an abstract (pure virtual) `Animal` superclass, and farm animal classes that inherit from `Animal`.
@@ -17,7 +47,7 @@ Create an Object Farm.  Create an abstract (pure virtual) `Animal` superclass, a
   # *Inheritance*.  Create at least three subclasses that inherit from `Animal`.  For example, create a `Cow`, `Duck`, `Pig` etc.  Make these classes inherit from `Animal` (see the manual to find out how to do this.)  Give these classes more specific fields that are unique to this animal, for example `milkCapacity`, `numberOfFeathers`.  Give them more specific methods as well, like `milkTheCow()`, `rollInMud()`, etc.  Be creative!
   # *Constructors*.  A constructor is function that will initialize an object with user-specified starting values instead of the defaults.  Create a VI that will initialize each specific class.  Each class needs its own constructor.  The constructor must have the same name as the class itself.  For example, a `Cow.lvclass` has a constructor named `Cow.vi` that takes the parameters `name`, `AnnualMilkProduction`, `FavoriteHayFlavor`, etc.  and returns a new `Cow` object with these fields set.
   # *Superclass methods*.  Show that you can call a superclass method. For example, the `Cow` constructor cannot set the `name` because `name` is a field of `Animal` and only `Animal` methods may access that data.  You will either need to call an accessor `Animal::SetName()` or call an `Animal` constructor at the start of the `Cow` constructor.
-  # *Instantiation*.  Instantiate several different farm animals.  Show that you can operate independently on each object.  Make a program that instantiates at least two animals from each farm animal class.  Give them different names.  Show that you can independently feed Horace the Hog and milk Bessie the Cow, etc.
+  # *Instantiation*.  Instantiate several different farm animals.  Show that you can operate independently on each instance.  Make a program that instantiates at least two animals from each farm animal class.  Give them different names.  Show that you can independently feed Horace the Hog and milk Bessie the Cow, etc.
   # *Overriding*.  Give the `Animal` class a `playSound()` method that takes no parameters.  All the other farm animal classes should override this method to play the appropriate sound for each animal.  Make a playSound.vi file in the Cow folder that plays a cow sound, make a playSound.vi for the pig that plays an oink, etc.  To override a method, check the LabVIEW manual.  You can find sound clips on the internet, and use LabVIEW's built-in sound playback functionality.
   # *Polymorphism / Late (dynamic) binding*.  Put all the farm animals into an array.  Loop over the array and call the playSound() method for each animal.  Demonstrate that LabVIEW automatically chooses the correct overriding method for each animal.  You should get a cacaphony of animal noises!
   # *Extra credit*.  Extend the `Cow` class with a `MadCow` subclass variant.  A `MadCow` should behave exactly like a regular `Cow`, but its `playSound()` method should play [http://www.berro.com/images3/mad_cow_berro_dot_com.wav this] sound instead.
