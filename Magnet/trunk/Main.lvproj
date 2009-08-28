@@ -454,6 +454,7 @@
 				<Item Name="Check for multiple of dt.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for multiple of dt.vi"/>
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="DAQmx Create Channel (AI-Position-EddyCurrentProxProbe).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Position-EddyCurrentProxProbe).vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="OAOpenCommunication.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAOpenCommunication.vi"/>
@@ -568,6 +569,7 @@
 			<Item Name="MW Save Settings.vi" Type="VI" URL="../Instruments/Function Generator/Quick Fn Sweep - PC Cont.vi/MW Save Settings.vi"/>
 			<Item Name="FG Trigger.vi" Type="VI" URL="../Instruments/Function Generator/Quick Fn Sweep - PC Cont.vi/FG Trigger.vi"/>
 			<Item Name="MW Save Settings.vi" Type="VI" URL="../Instruments/Function Generator/Quick Fn Sweep.vi/MW Save Settings.vi"/>
+			<Item Name="Settings Find.vi" Type="VI" URL="../Scans/Settings/Settings Find.vi"/>
 			<Item Name="Get Modes.vi" Type="VI" URL="../Scans/Get Modes.vi"/>
 			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
 			<Item Name="Confirm On.vi" Type="VI" URL="../../Instruments/Magnet/SubVI/Confirm On.vi"/>
@@ -582,8 +584,6 @@
 			<Item Name="HP81110A Query High Low Level Of Outputs.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/Hp81110a.llb/HP81110A Query High Low Level Of Outputs.vi"/>
 			<Item Name="HP81110A Output Set.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/HP81110A Output Set.vi"/>
 			<Item Name="HP81110A Transfer Buff Data Into Memory.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Transfer Buff Data Into Memory.vi"/>
-			<Item Name="Settings Find.vi" Type="VI" URL="../Scans/Main/Settings/Settings Find.vi"/>
-			<Item Name="Settings Find.vi" Type="VI" URL="../Scans/Settings/Settings Find.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
