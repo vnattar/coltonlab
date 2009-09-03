@@ -85,9 +85,11 @@ Phone (877) 208-0245 Fax (505) 298-9908</Property>
 		<Item Name="Scan Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Scan Abort.vi"/>
 		<Item Name="Filter State.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Filter State.vi"/>
 		<Item Name="Flush.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Flush.vi"/>
+		<Item Name="Debug Log.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Debug Log.vi"/>
 		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Default Instrument Setup.vi"/>
 		<Item Name="Reset Wait.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Reset Wait.vi"/>
 		<Item Name="Unlock.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Unlock.vi"/>
+		<Item Name="Command.ctl" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Command.ctl"/>
 	</Item>
 	<Item Name="Digikrom DK24x Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Digikrom DK24x/Digikrom DK24x Readme.html"/>
 </Library>
