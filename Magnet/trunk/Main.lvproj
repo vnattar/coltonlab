@@ -569,9 +569,8 @@
 			<Item Name="MW Save Settings.vi" Type="VI" URL="../Instruments/Function Generator/Quick Fn Sweep - PC Cont.vi/MW Save Settings.vi"/>
 			<Item Name="FG Trigger.vi" Type="VI" URL="../Instruments/Function Generator/Quick Fn Sweep - PC Cont.vi/FG Trigger.vi"/>
 			<Item Name="MW Save Settings.vi" Type="VI" URL="../Instruments/Function Generator/Quick Fn Sweep.vi/MW Save Settings.vi"/>
-			<Item Name="Settings Find.vi" Type="VI" URL="../Scans/Settings/Settings Find.vi"/>
-			<Item Name="Get Modes.vi" Type="VI" URL="../Scans/Get Modes.vi"/>
 			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
+			<Item Name="Get Modes.vi" Type="VI" URL="../Scans/Get Modes.vi"/>
 			<Item Name="Confirm On.vi" Type="VI" URL="../../Instruments/Magnet/SubVI/Confirm On.vi"/>
 			<Item Name="HP81110A Revision Query.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Revision Query.vi"/>
 			<Item Name="Pattern - Generate.vi" Type="VI" URL="../../Instruments/Pulse Gen/Pattern/Pattern - Generate.vi"/>
@@ -584,6 +583,7 @@
 			<Item Name="HP81110A Query High Low Level Of Outputs.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/Hp81110a.llb/HP81110A Query High Low Level Of Outputs.vi"/>
 			<Item Name="HP81110A Output Set.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/HP81110A Output Set.vi"/>
 			<Item Name="HP81110A Transfer Buff Data Into Memory.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Transfer Buff Data Into Memory.vi"/>
+			<Item Name="Settings Find.vi" Type="VI" URL="../Scans/Settings/Settings Find.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
