@@ -453,6 +453,7 @@
 				<Item Name="DWDT Replace Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Replace Subset.vi"/>
 				<Item Name="Check for multiple of dt.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for multiple of dt.vi"/>
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
+				<Item Name="Get Project Library Version.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Project Library Version.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="OAOpenCommunication.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAOpenCommunication.vi"/>
@@ -526,9 +527,6 @@
 			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
 			<Item Name="Spect Control.vi" Type="VI" URL="../Instruments/Spectrometer/Spect Control.vi"/>
 			<Item Name="LCD Control.vi" Type="VI" URL="../Instruments/LCD/LCD Control.vi"/>
-			<Item Name="Get Col-Plot Labels.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Col-Plot Labels.vi"/>
-			<Item Name="Use Setting In Header.vi" Type="VI" URL="../Main/Scans/Use Setting In Header.vi"/>
-			<Item Name="Get Col Placement.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Col Placement.vi"/>
 			<Item Name="Wait Time Setup.vi" Type="VI" URL="../Main/Scans/Wait Time/Wait Time Setup.vi"/>
 			<Item Name="Pulse Width Set up.vi" Type="VI" URL="../Main/Scans/Pulse Width/Pulse Width Set up.vi"/>
 			<Item Name="Wavelength Set up.vi" Type="VI" URL="../Main/Scans/Wavelength/Wavelength Set up.vi"/>
@@ -539,7 +537,6 @@
 			<Item Name="Pulse Width Scan.vi" Type="VI" URL="../Main/Scans/Pulse Width/Pulse Width Scan.vi"/>
 			<Item Name="Wavelength Scan.vi" Type="VI" URL="../Main/Scans/Wavelength/Wavelength Scan.vi"/>
 			<Item Name="B Field Scan.vi" Type="VI" URL="../Main/Scans/Magnetic Field/B Field Scan.vi"/>
-			<Item Name="B Field Cont Scan.vi" Type="VI" URL="../Main/Scans/Magnetic Field/B Field Cont Scan.vi"/>
 			<Item Name="rf Scan.vi" Type="VI" URL="../Main/Scans/rf Scan/rf Scan.vi"/>
 			<Item Name="Relative to absolute path.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Relative to absolute path.vi"/>
 			<Item Name="Hide controls.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Hide controls.vi"/>
@@ -548,7 +545,6 @@
 			<Item Name="Create ArrayVarying.vi" Type="VI" URL="../Main/Scans/Create ArrayVarying.vi"/>
 			<Item Name="Data mode to header.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Data mode to header.vi"/>
 			<Item Name="Mag field to header.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Mag field to header.vi"/>
-			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
 			<Item Name="Create data file.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Create data file.vi"/>
 			<Item Name="Write header (refnum).vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Write header (refnum).vi"/>
 			<Item Name="Write PG scan header.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Write PG scan header.vi"/>
@@ -556,17 +552,12 @@
 			<Item Name="Create FG scan header.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Create FG scan header.vi"/>
 			<Item Name="Append data.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Append data.vi"/>
 			<Item Name="Comments.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Comments.vi"/>
-			<Item Name="Autoscaling on or off.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Autoscaling on or off.vi"/>
 			<Item Name="Comments (refnum).vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Comments (refnum).vi"/>
 			<Item Name="Append data (refnum).vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Append data (refnum).vi"/>
 			<Item Name="Save from graph.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Save data.llb/Save from graph.vi"/>
 			<Item Name="Find and clear error.vi" Type="VI" URL="../../Generic SubVI/Find and clear error.vi"/>
-			<Item Name="Instr Status.vi" Type="VI" URL="../Global/Instr Status.vi"/>
-			<Item Name="Confirm On.vi" Type="VI" URL="../../Instruments/Magnet/SubVI/Confirm On.vi"/>
 			<Item Name="Check for lock-in 2.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Check for lock-in 2.vi"/>
-			<Item Name="HP81110A Revision Query.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Revision Query.vi"/>
 			<Item Name="GPIB Numbers.vi" Type="VI" URL="../../Global/GPIB Numbers.vi"/>
-			<Item Name="Pattern - Generate.vi" Type="VI" URL="../../Instruments/Pulse Gen/Pattern/Pattern - Generate.vi"/>
 			<Item Name="Pattern - Pad with Zeroes.vi" Type="VI" URL="../../Instruments/Pulse Gen/Pattern/Pattern - Pad with Zeroes.vi"/>
 			<Item Name="Calculate ETA.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Calculate ETA.vi"/>
 			<Item Name="Read lockin time constant.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Read lockin time constant.vi"/>
@@ -575,6 +566,24 @@
 			<Item Name="Lock-in sin out voltage.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Lock-in sin out voltage.vi"/>
 			<Item Name="Lock-in reference mode.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Lock-in reference mode.vi"/>
 			<Item Name="Lock-in frequency.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Lock-in frequency.vi"/>
+			<Item Name="Snap data.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Snap data.vi"/>
+			<Item Name="Get Col-Plot Labels.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Col-Plot Labels.vi"/>
+			<Item Name="Get Modes.vi" Type="VI" URL="../Main/Settings/Get Modes.vi"/>
+			<Item Name="Use Setting In Header.vi" Type="VI" URL="../Main/Scans/Use Setting In Header.vi"/>
+			<Item Name="Get Label Data.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Label Data.vi"/>
+			<Item Name="Get Col Placement.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Col Placement.vi"/>
+			<Item Name="Get Use PCspec.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Use PCspec.vi"/>
+			<Item Name="Get UseLCD.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get UseLCD.vi"/>
+			<Item Name="Global for PG scan.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Global for PG scan.vi"/>
+			<Item Name="Class Name.vi" Type="VI" URL="../Generic SubVI/Class Name.vi"/>
+			<Item Name="Tokenize.vi" Type="VI" URL="../Generic SubVI/Tokenize.vi"/>
+			<Item Name="Save Start End Step.vi" Type="VI" URL="../Main/Settings/Save Start End Step.vi"/>
+			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
+			<Item Name="Get Modes.vi" Type="VI" URL="../Scans/Get Modes.vi"/>
+			<Item Name="Autoscaling on or off.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Autoscaling on or off.vi"/>
+			<Item Name="Confirm On.vi" Type="VI" URL="../../Instruments/Magnet/SubVI/Confirm On.vi"/>
+			<Item Name="HP81110A Revision Query.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Revision Query.vi"/>
+			<Item Name="Pattern - Generate.vi" Type="VI" URL="../../Instruments/Pulse Gen/Pattern/Pattern - Generate.vi"/>
 			<Item Name="HP81110A Set Arm Source.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/HP81110A Set Arm Source.vi"/>
 			<Item Name="HP81110A Set Value Of Period.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Set Value Of Period.vi"/>
 			<Item Name="HP81110A Generating Cont Pattern.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Generating Cont Pattern.vi"/>
@@ -584,8 +593,8 @@
 			<Item Name="HP81110A Query High Low Level Of Outputs.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/Hp81110a.llb/HP81110A Query High Low Level Of Outputs.vi"/>
 			<Item Name="HP81110A Output Set.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/HP81110A Output Set.vi"/>
 			<Item Name="HP81110A Transfer Buff Data Into Memory.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Transfer Buff Data Into Memory.vi"/>
-			<Item Name="Snap data.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Snap data.vi"/>
-			<Item Name="Settings Find.vi" Type="VI" URL="../Settings/Settings Find.vi"/>
+			<Item Name="Settings Find.vi" Type="VI" URL="../Scans/Settings/Settings Find.vi"/>
+			<Item Name="Save Strings.vi" Type="VI" URL="../Main/Settings/Save Strings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
