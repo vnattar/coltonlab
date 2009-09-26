@@ -65,7 +65,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/daqmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
@@ -248,15 +248,15 @@
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Serial Port Init.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Init.vi"/>
-				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/instr/_sersup.llb/Open Serial Driver.vi"/>
-				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_sersup.llb/Open Serial Driver.vi"/>
+				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/serpConfig.vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
 				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Read.vi"/>
 				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Write.vi"/>
-				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Resize Panel.vi"/>
+				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Resize Panel.vi"/>
 				<Item Name="Snd Play Wave File.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Play Wave File.vi"/>
 				<Item Name="Snd Gen Error Call Chain.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Gen Error Call Chain.vi"/>
 				<Item Name="Snd Read Wave File.vi" Type="VI" URL="/&lt;vilib&gt;/sound/lvsound.llb/Snd Read Wave File.vi"/>
@@ -279,22 +279,22 @@
 				<Item Name="DAQmx Create Timing Source (Digital Change Detection_sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Digital Change Detection_sub).vi"/>
 				<Item Name="DAQmx Create Timing Source (Control Loop From Task).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Control Loop From Task).vi"/>
 				<Item Name="DAQmx Create Timing Source (sub2).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (sub2).vi"/>
-				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/FILE.LLB/Write File+ (string).vi"/>
+				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/GPIB Status Boolean Array.ctl"/>
+				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
-				<Item Name="Call Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Call Instrument.vi"/>
-				<Item Name="Convert Type Descriptor and Flat Data.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Convert Type Descriptor and Flat Data.vi"/>
-				<Item Name="VIParam.ctl" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/VIParam.ctl"/>
-				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Get Instrument State.vi"/>
-				<Item Name="Preload Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Preload Instrument.vi"/>
-				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/viRef buffer.vi"/>
-				<Item Name="Release Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/victl.llb/Release Instrument.vi"/>
-				<Item Name="Run Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Run Instrument.vi"/>
-				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Close Panel.vi"/>
-				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/UTILITY/VICTL.LLB/Open Panel.vi"/>
+				<Item Name="Call Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Call Instrument.vi"/>
+				<Item Name="Convert Type Descriptor and Flat Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Convert Type Descriptor and Flat Data.vi"/>
+				<Item Name="VIParam.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/VIParam.ctl"/>
+				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
+				<Item Name="Preload Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Preload Instrument.vi"/>
+				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/viRef buffer.vi"/>
+				<Item Name="Release Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Release Instrument.vi"/>
+				<Item Name="Run Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Run Instrument.vi"/>
+				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
+				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Close Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/instr/serial.llb/Close Serial Driver.vi"/>
+				<Item Name="Close Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Close Serial Driver.vi"/>
 				<Item Name="Write Characters To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Characters To File.vi"/>
 				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
 				<Item Name="_Get Sound Error From Return Value.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_Get Sound Error From Return Value.vi"/>
@@ -318,7 +318,7 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="VISA GPIB Control REN Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA GPIB Control REN Mode.ctl"/>
+				<Item Name="VISA GPIB Control REN Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA GPIB Control REN Mode.ctl"/>
 				<Item Name="Sound Output Set Volume (Array).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Set Volume (Array).vi"/>
 				<Item Name="Sound Output Clear.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Clear.vi"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
@@ -396,7 +396,7 @@
 				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
 				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
-				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/platform/ax-events.llb/OccFireType.ctl"/>
+				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
@@ -567,19 +567,20 @@
 			<Item Name="Lock-in reference mode.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Lock-in reference mode.vi"/>
 			<Item Name="Lock-in frequency.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Lock-in frequency.vi"/>
 			<Item Name="Snap data.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Snap data.vi"/>
-			<Item Name="Get Col-Plot Labels.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Col-Plot Labels.vi"/>
 			<Item Name="Get Modes.vi" Type="VI" URL="../Main/Settings/Get Modes.vi"/>
+			<Item Name="Class Name.vi" Type="VI" URL="../Generic SubVI/Class Name.vi"/>
+			<Item Name="Tokenize.vi" Type="VI" URL="../Generic SubVI/Tokenize.vi"/>
+			<Item Name="Save Start End Step.vi" Type="VI" URL="../Main/Settings/Save Start End Step.vi"/>
+			<Item Name="Get Modes.vi" Type="VI" URL="../Scans/Get Modes.vi"/>
+			<Item Name="Save Strings.vi" Type="VI" URL="../Main/Settings/Save Strings.vi"/>
+			<Item Name="Get Col-Plot Labels.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Col-Plot Labels.vi"/>
 			<Item Name="Use Setting In Header.vi" Type="VI" URL="../Main/Scans/Use Setting In Header.vi"/>
 			<Item Name="Get Label Data.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Label Data.vi"/>
 			<Item Name="Get Col Placement.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Col Placement.vi"/>
 			<Item Name="Get Use PCspec.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get Use PCspec.vi"/>
 			<Item Name="Get UseLCD.vi" Type="VI" URL="../Main/Scans/Set Up Data/Get UseLCD.vi"/>
 			<Item Name="Global for PG scan.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Global for PG scan.vi"/>
-			<Item Name="Class Name.vi" Type="VI" URL="../Generic SubVI/Class Name.vi"/>
-			<Item Name="Tokenize.vi" Type="VI" URL="../Generic SubVI/Tokenize.vi"/>
-			<Item Name="Save Start End Step.vi" Type="VI" URL="../Main/Settings/Save Start End Step.vi"/>
 			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
-			<Item Name="Get Modes.vi" Type="VI" URL="../Scans/Get Modes.vi"/>
 			<Item Name="Autoscaling on or off.vi" Type="VI" URL="../Main/Scans/Pulse generator scans/Autoscaling on or off.vi"/>
 			<Item Name="Confirm On.vi" Type="VI" URL="../../Instruments/Magnet/SubVI/Confirm On.vi"/>
 			<Item Name="HP81110A Revision Query.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Revision Query.vi"/>
@@ -594,7 +595,6 @@
 			<Item Name="HP81110A Output Set.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/HP81110A Output Set.vi"/>
 			<Item Name="HP81110A Transfer Buff Data Into Memory.vi" Type="VI" URL="../../Instruments/Pulse Generator - hp81110a/hp81110a.llb/HP81110A Transfer Buff Data Into Memory.vi"/>
 			<Item Name="Settings Find.vi" Type="VI" URL="../Scans/Settings/Settings Find.vi"/>
-			<Item Name="Save Strings.vi" Type="VI" URL="../Main/Settings/Save Strings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
