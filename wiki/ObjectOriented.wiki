@@ -3,31 +3,32 @@
 
 = Introduction =
 
-In LabVIEW, an object is a cluster that can't be unbundled outside of member methods.   This is somewhat like C++, where an object is a struct with function pointers.
+In LabVIEW, an object is a cluster that can't be unbundled outside of member methods.   This is like C++, where an object is just a struct with a few new conventions.
 
 For general Object-Oriented theory, Google is full of great introductory tutorials.  For LabVIEW-specific implementation details, [http://zone.ni.com/reference/en-XX/help/371361B-01/lvconcepts/creating_classes/ this tutorial] will teach you everything you need to know about creating classes, inheritance, overriding, etc.
 
 = Conventions =
-  # Member functions /methods are always in the dynamic context.
 
-
-As of version 8.6, LabVIEW does not yet come with built-in object constructors and destructors.  However, these are useful components, and until NI gives built-in functionality, we will make up our own conventions in the interim.
+As of version 8.6, LabVIEW does not yet come with built-in object constructors and destructors, and there is not yet consensus as to the conventions.  I have made up my own conventions in the interim:
 
 ==Open issues==
 
-Constructors may not be necessary in the first place.  They do not fit logically into the "Labview philosophy" of dataflow programming; they seem kludgey.  For example, what happens if you "construct" an object and then branch its wire into two parallel tracks?  Does this behave like a copy constructor?  Does a wire branch just clone the object?  Should we even have constructors at all?
+Constructors do not fit logically into the "Labview philosophy" of dataflow programming; they seem kludgey.  For example, if you "construct" an object and then branch its wire, LabVIEW just clones the object, instead of copying it as you intended.  Constructors disrupt the dataflow model.  Should we even have constructors at all?  Do we need to have explicit copy constructors to perform a deep copy?
 
-Furthermore, copy constructors are another quagmire.  How deep is the copy?  Does a wire branch automatically do a deep copy or just a shallow copy?  Do we need to have explicit copy constructors to perform a deep copy?
+==Members==
+  # Member functions / methods are always in the dynamic context.
+  # Give members fewest access privileges necessary.  Keep them private or protected whenever possible.
 
 ==Constructors==
   # Constructors are always in the static context.
   # Always name constructors after the class.  The constructor for `Cow.lvclass` is named `Cow.vi`.
-  # It is sometimes necessary to overload constructors. In this case, create a [http://zone.ni.com/reference/en-XX/help/371361B-01/lvhowto/using_polymorphic_vis/ polymorphic VI] named `Cow.vi` with instances named like `Cow (Legs).vi` and `Cow (Milk).vi`.
+  # To overload constructors, create a [http://zone.ni.com/reference/en-XX/help/371361B-01/lvhowto/using_polymorphic_vis/ polymorphic VI] named `Cow.vi` with instances named like `Cow (Legs).vi` and `Cow (Milk).vi`.
   # Put the text "new()" on the icon so it is obvious that this is the constructor method.
-  # Change the Object input to a constant.  Constructors must never have class inputs.
+  # Change the Object input to a constant.  Constructors must never have class inputs unless they are a copy constructor.
   # Do not allocate heap memory inside constructors.  Let the caller do this beforehand, just as the `new` operator in C++.
   # Never override a superclass constructor.  The child class's constructor should have a different name anyway!
-  # If you need to call a superclass constructor, do so first or last as appropriate.  Cast the produced superclass object into a "More Specific Class" using the Class constant that remains from the Object input you removed earlier.
+  # When a subclass instance is created, call the superclass constructor *first*, before the subclass constructor's specifics.  In an inheritance chain, constructors are executed from top to bottom.
+  # Cast the constructed superclass object into a "More Specific Class" (perhaps using the Class constant that remains from the Object input you removed earlier.)
   # Pure virtual (abstract) superclass constructors should be Protected access and called from their children.
 
 ==Destructors==
@@ -35,11 +36,10 @@ Furthermore, copy constructors are another quagmire.  How deep is the copy?  Doe
   # Always name the destructor `Delete.vi`, no matter what.
   # Put "delete()" on the icon.
   # If the destructor needs to release a resource, such as a VISA session or Queue, release this resource inside the destructor.  If it is useful to return the resource to the caller, add "Finalized" to the output terminal's name, e.g. `Finalized VISA session`.
-
-
+  # When a subclass instance is destroyed, call the superclass destructor *after* the subclass destructor.  In an inheritance chain, destructors are executed from bottom to top.
 
 = Practice =
-Create an Object Farm.  Create an abstract (pure virtual) `Animal` superclass, and farm animal classes that inherit from `Animal`.
+Create an Animal Farm.  Create an abstract (pure virtual) `Animal` superclass, and farm animal classes that inherit from `Animal`.
 
   # *Class definition*. Create an `Animal` superclass.  Give this class private data fields that describe animals in general.  For example: `name, stomach capacity, numberOfLegs`.  Use your imagination.  
   # *Accessors/Mutators*.  Create methods to read and write each private data field.
