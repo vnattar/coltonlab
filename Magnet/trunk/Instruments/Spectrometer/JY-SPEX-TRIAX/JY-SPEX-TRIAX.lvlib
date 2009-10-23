@@ -47,5 +47,6 @@
 		<Item Name="Send Command.vi" Type="VI" URL="../Private/Send Command.vi"/>
 		<Item Name="Send Query.vi" Type="VI" URL="../Private/Send Query.vi"/>
 		<Item Name="Start Main Program.vi" Type="VI" URL="../Private/Start Main Program.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
 	</Item>
 </Library>
