@@ -12,11 +12,14 @@ To logon to coltonlab remotely:
   # If you are off-campus, first logon to remote.byu.edu.  This will get you inside the firewall.
   # Use the physics remote server to logon to coltonlab.physics.byu.edu.
 
+To access files from any physics department computer:
+  # type \\coltonlab.physics.byu.edu\c$ in the Windows Explorer address bar.
+
 Here are things to remember:
   # You only get one session per user. (Console session or remote session.)
   # There is a maximum of three simultaneous sessions overall.  Only Bill Gates knows why.
   # On the coltonlab computer, everyone actually has two independent accounts: your local administrator account and your normal physics network account.  This is kind of silly, but...
   # Use both accounts if you need to log in twice for some reason.
   # Logging in remotely will not kick off the console user. The exception: if you logged in with the same account, you'd kick yourself off.  (I don't know why you'd do that, but anyway...)
-  # Do not continue if the logon warns you are about to kick someone off!
-  # Still bugs to work out!  Right now (11/23) if you reboot coltonlab, it will revert to the old ways (only one user; kick people off.)  Steve is working to make the changes permanent.
+  # Do not continue if the logon warns you are about to kick someone off! When in doubt, call the lab at 801-422-5286.  If someone answers, don't kick them off the computer.
+  # Still bugs to work out!  Right now (11/23/2009) if you reboot coltonlab, it will revert to the old ways (only one user; kick people off.)  Steve is working to make the changes permanent.
