@@ -1,0 +1,22 @@
+#summary Remote access to lab computers.
+This page is on the wiki at 
+
+==Remote Desktop==
+
+Modern computer systems (not XP) allow multiple users to use the same computer, simultaneously if needs be.  With XP, it's frustrating because when someone logs in remotely (through "Remote Desktop Connection") it kicks off the console user (the person sitting at the keyboard.)  Steve found a way around this, so you can have multiple users.
+
+Details are at http://alonbilu.wordpress.com/2008/05/17/enabling-multiple-concurrent-remote-sessions-on-windows-xp-sp3-patched-file-included/
+
+
+To logon to coltonlab remotely:
+  # If you are off-campus, first logon to remote.byu.edu.  This will get you inside the firewall.
+  # Use the physics remote server to logon to coltonlab.physics.byu.edu.
+
+Here are things to remember:
+  # You only get one session per user. (Console session or remote session.)
+  # There is a maximum of three simultaneous sessions overall.  Only Bill Gates knows why.
+  # On the coltonlab computer, everyone actually has two independent accounts: your local administrator account and your normal physics network account.  This is kind of silly, but...
+  # Use both accounts if you need to log in twice for some reason.
+  # Logging in remotely will not kick off the console user. The exception: if you logged in with the same account, you'd kick yourself off.  (I don't know why you'd do that, but anyway...)
+  # Do not continue if the logon warns you are about to kick someone off!
+  # Still bugs to work out!  Right now (11/23) if you reboot coltonlab, it will revert to the old ways (only one user; kick people off.)  Steve is working to make the changes permanent.
