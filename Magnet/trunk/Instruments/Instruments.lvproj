@@ -257,7 +257,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Resize Panel.vi"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
@@ -279,15 +278,10 @@
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 				<Item Name="Call Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Call Instrument.vi"/>
 				<Item Name="VIParam.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/VIParam.ctl"/>
-				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
 				<Item Name="Preload Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Preload Instrument.vi"/>
 				<Item Name="Release Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Release Instrument.vi"/>
 				<Item Name="Run Instrument.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Run Instrument.vi"/>
-				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Close Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Close Serial Driver.vi"/>
 				<Item Name="Write Characters To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Characters To File.vi"/>
 				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
@@ -333,21 +327,11 @@
 				<Item Name="DTbl Digital to Binary U32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U32.vi"/>
 				<Item Name="DWDT Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U16.vi"/>
 				<Item Name="DTbl Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U16.vi"/>
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Read.vi"/>
-				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Write.vi"/>
-				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Resize Panel.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
-				<Item Name="Serial Port Init.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Init.vi"/>
 				<Item Name="DAQmx Create Channel (AO-FuncGen).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AO-FuncGen).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Voltage-RMS).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Voltage-RMS).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Current-RMS).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Current-RMS).vi"/>
-				<Item Name="DAQmx Create Channel (AI-Position-EddyCurrentProxProbe).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Position-EddyCurrentProxProbe).vi"/>
 				<Item Name="DAQmx Timing (Pipelined Sample Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Pipelined Sample Clock).vi"/>
-				<Item Name="VISA GPIB Control REN Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA GPIB Control REN Mode.ctl"/>
+				<Item Name="VISA GPIB Control REN Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA GPIB Control REN Mode.ctl"/>
 				<Item Name="Convert Type Descriptor and Flat Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Convert Type Descriptor and Flat Data.vi"/>
 				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/viRef buffer.vi"/>
 				<Item Name="DTbl Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Boolean Array to Digital.vi"/>
@@ -374,7 +358,7 @@
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
 				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
-				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/platform/ax-events.llb/OccFireType.ctl"/>
+				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
@@ -385,6 +369,81 @@
 				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
 				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Write.vi"/>
+				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Resize Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Resize Panel.vi"/>
+				<Item Name="Serial Port Init.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Init.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Read.vi"/>
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
+				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Lock Async.vi"/>
+				<Item Name="subSigGeneratorBlock.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subSigGeneratorBlock.vi"/>
+				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
+				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
+				<Item Name="subInternalTiming.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subInternalTiming.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="subShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subShouldUseDefSigName.vi"/>
+				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
+				<Item Name="subGetSignalName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subGetSignalName.vi"/>
+				<Item Name="ex_GenAddAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/ex_GenAddAttribs.vi"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="ex_SetExpAttribsAndT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetExpAttribsAndT0.vi"/>
+				<Item Name="Timestamp Add.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Add.vi"/>
+				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
+				<Item Name="ex_SetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetAllExpressAttribs.vi"/>
+				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
+				<Item Name="ex_WaveformAttribsPlus.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribsPlus.ctl"/>
+				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Get Project Library Version.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Project Library Version.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Open Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Open Config Data.vi"/>
+				<Item Name="Config Data Open Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Open Reference.vi"/>
+				<Item Name="Config Data Registry.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Registry.vi"/>
+				<Item Name="Config Data RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data RefNum"/>
+				<Item Name="Config Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data.ctl"/>
+				<Item Name="Config Data Section.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Section.ctl"/>
+				<Item Name="Config Data Registry Functions.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Registry Functions.ctl"/>
+				<Item Name="Config Data Set File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Set File Path.vi"/>
+				<Item Name="Config Data Modify.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Modify.vi"/>
+				<Item Name="Info From Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Info From Config Data.vi"/>
+				<Item Name="Config Data Modify Functions.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Modify Functions.ctl"/>
+				<Item Name="Config Data Read From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Read From File.vi"/>
+				<Item Name="Config Data Get File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Get File Path.vi"/>
+				<Item Name="String to Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/String to Config Data.vi"/>
+				<Item Name="Invalid Config Data Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Invalid Config Data Reference.vi"/>
+				<Item Name="Config Data Close Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Close Reference.vi"/>
+				<Item Name="Read Key (Double).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (Double).vi"/>
+				<Item Name="Config Data Get Key Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Get Key Value.vi"/>
+				<Item Name="Close Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Close Config Data.vi"/>
+				<Item Name="Config Data Write To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Write To File.vi"/>
+				<Item Name="Config Data to String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data to String.vi"/>
+				<Item Name="Add Quotes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Add Quotes.vi"/>
+				<Item Name="Read Key.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key.vi"/>
+				<Item Name="Read Key (Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (Boolean).vi"/>
+				<Item Name="Read Key (I32).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (I32).vi"/>
+				<Item Name="Read Key (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (Path).vi"/>
+				<Item Name="Remove Quotes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Remove Quotes.vi"/>
+				<Item Name="Common Path to Specific Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Common Path to Specific Path.vi"/>
+				<Item Name="Read Key (String).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (String).vi"/>
+				<Item Name="Parse Stored String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Parse Stored String.vi"/>
+				<Item Name="Get Next Character.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Get Next Character.vi"/>
+				<Item Name="Read Key (U32).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (U32).vi"/>
+				<Item Name="Write Key (Double).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Write Key (Double).vi"/>
+				<Item Name="Write Key.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Write Key.vi"/>
+				<Item Name="Write Key (Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Write Key (Boolean).vi"/>
+				<Item Name="Write Key (I32).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Write Key (I32).vi"/>
+				<Item Name="Write Key (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Write Key (Path).vi"/>
+				<Item Name="Specific Path to Common Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Specific Path to Common Path.vi"/>
+				<Item Name="Write Key (String).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Write Key (String).vi"/>
+				<Item Name="Single to Double Backslash.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Single to Double Backslash.vi"/>
+				<Item Name="Remove Unprintable Chars.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Remove Unprintable Chars.vi"/>
+				<Item Name="Write Key (U32).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Write Key (U32).vi"/>
 			</Item>
 			<Item Name="Check for Dir.vi" Type="VI" URL="../../File IO/Generic File IO/Check for Dir.vi"/>
 			<Item Name="Check for File.vi" Type="VI" URL="../../File IO/Generic File IO/Check for File.vi"/>
@@ -399,12 +458,8 @@
 			<Item Name="Remove File Extension.vi" Type="VI" URL="../../File IO/Generic File IO/Remove File Extension.vi"/>
 			<Item Name="Round left of dec.vi" Type="VI" URL="../../Math Operations/Round left of dec.vi"/>
 			<Item Name="Sound Files.vi" Type="VI" URL="../../Global/Sound Files.vi"/>
-			<Item Name="Step size sign.vi" Type="VI" URL="../Pulse generator scan/Step size sign.llb/Step size sign.vi"/>
-			<Item Name="Step size sign (single).vi" Type="VI" URL="../Pulse generator scan/Step size sign.llb/Step size sign (single).vi"/>
 			<Item Name="Calculate ETA.vi" Type="VI" URL="../../Michael&apos;s practice/Lock-in/Calculate ETA.vi"/>
 			<Item Name="Seconds to h m s.vi" Type="VI" URL="../../Michael&apos;s practice/Seconds to h m s.vi"/>
-			<Item Name="Relative to absolute path.vi" Type="VI" URL="../../Main/Scans/Pulse generator scans/Save data.llb/Relative to absolute path.vi"/>
-			<Item Name="Hide controls.vi" Type="VI" URL="../../Main/Scans/Pulse generator scans/Hide controls.vi"/>
 			<Item Name="Text object visible.vi" Type="VI" URL="../../Michael&apos;s practice/Text object visible.vi"/>
 			<Item Name="CurrInstr Save Multi.vi" Type="VI" URL="../../Main/Current Instr/CurrInstr Save Multi.vi"/>
 			<Item Name="CurrInstr Find.vi" Type="VI" URL="../../Main/Current Instr/CurrInstr Find.vi"/>
@@ -418,82 +473,47 @@
 			<Item Name="Step to Points.vi" Type="VI" URL="../../Math Operations/Step to Points.vi"/>
 			<Item Name="Find Instr.vi" Type="VI" URL="../../Main/Current Instr/Find Instr.vi"/>
 			<Item Name="Instr Names.vi" Type="VI" URL="../../Global/Instr Names.vi"/>
-			<Item Name="Busy Bar and Time.vi" Type="VI" URL="../../Generic SubVI/Busy Bar and Time.vi"/>
 			<Item Name="Seconds to Time.vi" Type="VI" URL="../../Generic SubVI/Seconds to Time.vi"/>
 			<Item Name="Round right of dec.vi" Type="VI" URL="../../Math Operations/Round right of dec.vi"/>
 			<Item Name="Instr Array.vi" Type="VI" URL="../../Main/Global/Instr Array.vi"/>
 			<Item Name="Sort By Comm.vi" Type="VI" URL="../../Main/Current Instr/Sort By Comm.vi"/>
 			<Item Name="Read Instr Settings.vi" Type="VI" URL="../../Main/Current Instr/Read Instr Settings.vi"/>
-			<Item Name="Error Find.vi" Type="VI" URL="../../Main/Error/Error Find.vi"/>
-			<Item Name="Error.vi" Type="VI" URL="../../Main/Global/Error.vi"/>
-			<Item Name="Error Save.vi" Type="VI" URL="../../Main/Error/Error Save.vi"/>
 			<Item Name="Lockin Global.vi" Type="VI" URL="../../Global/Lockin Global.vi"/>
 			<Item Name="Write File.vi" Type="VI" URL="../../File IO/Write File.vi"/>
 			<Item Name="Write Action.vi" Type="VI" URL="../../File IO/Write Action.vi"/>
 			<Item Name="Rename File Popup.vi" Type="VI" URL="../../File IO/Generic File IO/Rename File Popup.vi"/>
 			<Item Name="Write Header.vi" Type="VI" URL="../../File IO/Write Header.vi"/>
-			<Item Name="Get Modes.vi" Type="VI" URL="../../Main/Settings/Get Modes.vi"/>
+			<Item Name="Get Modes.vi" Type="VI" URL="../../Scans/Scan Driver/Get Modes.vi"/>
 			<Item Name="Create Col Labels.vi" Type="VI" URL="../../File IO/Create Col Labels.vi"/>
-			<Item Name="Get Col-Plot Labels.vi" Type="VI" URL="../../Main/Scans/Set Up Data/Get Col-Plot Labels.vi"/>
-			<Item Name="Search Setup.vi" Type="VI" URL="../../Main/Scans/Set Up Data/Search Setup.vi"/>
 			<Item Name="Set Up.vi" Type="VI" URL="../../Global/Set Up.vi"/>
 			<Item Name="Create Header.vi" Type="VI" URL="../../File IO/Create Header.vi"/>
-			<Item Name="Use Setting In Header.vi" Type="VI" URL="../../Main/Scans/Use Setting In Header.vi"/>
 			<Item Name="Use PG Setting Header.vi" Type="VI" URL="../../Main/Settings/Use PG Setting Header.vi"/>
 			<Item Name="Use FG Settings Header.vi" Type="VI" URL="../../Main/Settings/Use FG Settings Header.vi"/>
 			<Item Name="Use MW Settings Header.vi" Type="VI" URL="../../Main/Settings/Use MW Settings Header.vi"/>
 			<Item Name="Special Chars.vi" Type="VI" URL="../../Global/Special Chars.vi"/>
 			<Item Name="Master Save.vi" Type="VI" URL="../../File IO/Master Save.vi"/>
-			<Item Name="Save Start End Step.vi" Type="VI" URL="../../Main/Settings/Save Start End Step.vi"/>
 			<Item Name="Save Modes.vi" Type="VI" URL="../../Main/Settings/Save Modes.vi"/>
-			<Item Name="Create ArrayVarying.vi" Type="VI" URL="../../Main/Scans/Create ArrayVarying.vi"/>
-			<Item Name="Get Col Placement.vi" Type="VI" URL="../../Main/Scans/Set Up Data/Get Col Placement.vi"/>
-			<Item Name="Get Start End Step.vi" Type="VI" URL="../../Main/Settings/Get Start End Step.vi"/>
+			<Item Name="Get Col Placement.vi" Type="VI" URL="../../Scans/Set Up Data/Get Col Placement.vi"/>
 			<Item Name="Curr to Setting.vi" Type="VI" URL="../../Main/Curr to Setting.vi"/>
 			<Item Name="Save Strings.vi" Type="VI" URL="../../Main/Settings/Save Strings.vi"/>
-			<Item Name="FG Trigger.vi" Type="VI" URL="../Function Generator/FG Trigger.vi"/>
-			<Item Name="Data mode to header.vi" Type="VI" URL="../Pulse generator scan/Save data.llb/Data mode to header.vi"/>
-			<Item Name="Mag field to header.vi" Type="VI" URL="../Pulse generator scan/Save data.llb/Mag field to header.vi"/>
 			<Item Name="Clear timeout error.vi" Type="VI" URL="../../Michael&apos;s practice/Interfaces/Clear timeout error.vi"/>
 			<Item Name="Scan string to double.vi" Type="VI" URL="../../Generic SubVI/Scan string to double.vi"/>
 			<Item Name="Find and clear error.vi" Type="VI" URL="../../Generic SubVI/Find and clear error.vi"/>
 			<Item Name="time constants.ctl" Type="VI" URL="../../Michael&apos;s practice/Lock-in/time constants.ctl"/>
-			<Item Name="KelvAstUpdateSetup.vi" Type="VI" URL="../Magnet/Oxford/KLVAST.LLB/KelvAstUpdateSetup.vi"/>
-			<Item Name="AVSUpdateSetup.vi" Type="VI" URL="../Magnet/Oxford/AVSGEN.LLB/AVSUpdateSetup.vi"/>
-			<Item Name="IGHUpdateSetup.vi" Type="VI" URL="../Magnet/Oxford/IGHSUBS.LLB/IGHUpdateSetup.vi"/>
-			<Item Name="AVSInitialise.vi" Type="VI" URL="../Magnet/Oxford/AVSIO.LLB/AVSInitialise.vi"/>
-			<Item Name="AVSTS530Command.vi" Type="VI" URL="../Magnet/Oxford/avsio.llb/AVSTS530Command.vi"/>
-			<Item Name="KelvSetPoint.vi" Type="VI" URL="../Magnet/Oxford/IGHSUBS.LLB/KelvSetPoint.vi"/>
-			<Item Name="AVSReadResistance.vi" Type="VI" URL="../Magnet/Oxford/avsio.llb/AVSReadResistance.vi"/>
-			<Item Name="AVSRange.ctl" Type="VI" URL="../Magnet/Oxford/AVSGEN.LLB/AVSRange.ctl"/>
-			<Item Name="AVSExcitation.ctl" Type="VI" URL="../Magnet/Oxford/AVSGEN.LLB/AVSExcitation.ctl"/>
-			<Item Name="AVSMonSensor.ctl" Type="VI" URL="../Magnet/Oxford/AVSMON.LLB/AVSMonSensor.ctl"/>
-			<Item Name="HlxSetTemperature.vi" Type="VI" URL="../Magnet/Oxford/HLXSUBS.LLB/HlxSetTemperature.vi"/>
-			<Item Name="HlxUpdateSetup.vi" Type="VI" URL="../Magnet/Oxford/HLXSUBS.LLB/HlxUpdateSetup.vi"/>
-			<Item Name="GaugeInfo.ctl" Type="VI" URL="../Magnet/Oxford/IGHSUBS.LLB/GaugeInfo.ctl"/>
-			<Item Name="IGHSetup.ctl" Type="VI" URL="../Magnet/Oxford/IGHSUBS.LLB/IGHSetup.ctl"/>
-			<Item Name="Sensor Conversion Type.ctl" Type="VI" URL="../Magnet/Oxford/SENSORS.LLB/Sensor Conversion Type.ctl"/>
-			<Item Name="Sensor Calibration.ctl" Type="VI" URL="../Magnet/Oxford/SENSORS.LLB/Sensor Calibration.ctl"/>
-			<Item Name="Create New Directories from single path.vi" Type="VI" URL="../Magnet/Oxford/Oiutils.llb/Create New Directories from single path.vi"/>
-			<Item Name="Limited Equal Check.vi" Type="VI" URL="../../Math Operations/Limited Equal Check.vi"/>
+			<Item Name="limited equal check.vi" Type="VI" URL="../../Math Operations/limited equal check.vi"/>
 			<Item Name="Busy Bar.vi" Type="VI" URL="../../Generic SubVI/Busy Bar.vi"/>
 			<Item Name="Last Log.vi" Type="VI" URL="../../Global/Last Log.vi"/>
 			<Item Name="Temp Log.vi" Type="VI" URL="../Magnet/Other SubVI/Temp Log.vi"/>
-			<Item Name="Micro Comm.vi" Type="VI" URL="../Microwave/Comm SubVI/Micro Comm.vi"/>
 			<Item Name="Temp Info.vi" Type="VI" URL="../../Main/Global/Temp Info.vi"/>
 			<Item Name="Save LD Settings.vi" Type="VI" URL="../../Main/Settings/Save LD Settings.vi"/>
 			<Item Name="Date to Folder Name.vi" Type="VI" URL="../../File IO/Generic File IO/Date to Folder Name.vi"/>
 			<Item Name="Mod Out SubVI.vi" Type="VI" URL="../Microwave/Quick Programs/Mod Out SubVI.vi"/>
-			<Item Name="create command.vi" Type="VI" URL="../Pulse Gen/Basic Commands/create command.vi"/>
-			<Item Name="pulse comm.vi" Type="VI" URL="../Pulse Gen/Basic Commands/pulse comm.vi"/>
 			<Item Name="Save PG Settings.vi" Type="VI" URL="../../Main/Settings/Save PG Settings.vi"/>
 			<Item Name="Steps to Points Log.vi" Type="VI" URL="../../Math Operations/Steps to Points Log.vi"/>
-			<Item Name="Build Total Data from Array Varying.vi" Type="VI" URL="../../Main/Scans/Build Total Data from Array Varying.vi"/>
 			<Item Name="CurrInstr Find Multi.vi" Type="VI" URL="../../Main/Current Instr/CurrInstr Find Multi.vi"/>
 			<Item Name="Search Instr Array.vi" Type="VI" URL="../../Main/Current Instr/Search Instr Array.vi"/>
-			<Item Name="Global for PG scan.vi" Type="VI" URL="../../Main/Scans/Pulse generator scans/Global for PG scan.vi"/>
-			<Item Name="Get UseLCD.vi" Type="VI" URL="../../Main/Scans/Set Up Data/Get UseLCD.vi"/>
-			<Item Name="Get Use PCspec.vi" Type="VI" URL="../../Main/Scans/Set Up Data/Get Use PCspec.vi"/>
+			<Item Name="Global for PG scan.vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Global for PG scan.vi"/>
+			<Item Name="Get Use PCspec.vi" Type="VI" URL="../../Scans/Set Up Data/Get Use PCspec.vi"/>
 			<Item Name="wlmData.dll" Type="Document" URL="../../../WINDOWS/system32/wlmData.dll"/>
 			<Item Name="Multi Graph Toggle.vi" Type="VI" URL="../../Graphing/Multi Graph Toggle.vi"/>
 			<Item Name="Flags.vi" Type="VI" URL="../../Main/Global/Flags.vi"/>
@@ -504,28 +524,12 @@
 			<Item Name="CurrInstr Save.vi" Type="VI" URL="../../Main/Current Instr/CurrInstr Save.vi"/>
 			<Item Name="Settings Find.vi" Type="VI" URL="../../Main/Settings/Settings Find.vi"/>
 			<Item Name="Settings Find Multi.vi" Type="VI" URL="../../Main/Settings/Settings Find Multi.vi"/>
-			<Item Name="inipath.vi" Type="VI" URL="../Magnet/Oxford/ITCAPPS.LLB/ITCUpdateSetup.vi/inipath.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/ITCArrayINI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/ITCArrayINI.vi/Read Ini Topic.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/ITCINI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/ITCINI.vi/Read Ini Topic.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/LambdaINI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/LambdaINI.vi/Read Ini Topic.vi"/>
-			<Item Name="inipath.vi" Type="VI" URL="../Magnet/Oxford/LCAPPS.LLB/LambdaControllerUpdateSetup.vi/inipath.vi"/>
-			<Item Name="inipath.vi" Type="VI" URL="../Magnet/Oxford/SMC4APPS.LLB/SMC4UpdateSetup.vi/inipath.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/SMC4INI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/SMC4INI.vi/Read Ini Topic.vi"/>
-			<Item Name="Write Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/MotorDetailsArrayINI.vi/Write Ini Topic.vi"/>
-			<Item Name="Read Ini Topic.vi" Type="VI" URL="../Magnet/Oxford/INIFILE.LLB/MotorDetailsArrayINI.vi/Read Ini Topic.vi"/>
-			<Item Name="inipath.vi" Type="VI" URL="../Magnet/Oxford/ISSAPPS.LLB/ISSUpdateSetup.vi/inipath.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files/National Instruments/LabVIEW 8.6/resource/lvanlys.dll"/>
 			<Item Name="lvsound.dll" Type="Document" URL="../../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound.dll"/>
-			<Item Name="ReplyStringValidation.vi" Type="VI" URL="../../Oxford/INSTRUM.LLB/ReplyStringValidation.vi"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="../../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound2.dll"/>
-			<Item Name="PG Pattern Send.vi" Type="VI" URL="../Pulse Gen/Basic Commands/PG Pattern Send.vi"/>
 			<Item Name="Pattern - Create Preview.vi" Type="VI" URL="../Pulse Gen/Pattern/Pattern - Create Preview.vi"/>
 			<Item Name="PG Initialize.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/PG Initialize.vi"/>
 			<Item Name="PG Dig Status.vi" Type="VI" URL="../Pulse Gen/Pulse Gen/Basic Commands/PG Dig Status.vi"/>
@@ -540,6 +544,34 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Step size sign.vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Step size sign.llb/Step size sign.vi"/>
+			<Item Name="Step size sign (single).vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Step size sign.llb/Step size sign (single).vi"/>
+			<Item Name="Step size sign (array).vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Step size sign.llb/Step size sign (array).vi"/>
+			<Item Name="To Start and Stop (frequency).vi" Type="VI" URL="../../Math Operations/To Start and Stop (frequency).vi"/>
+			<Item Name="To Start and Stop (bare).vi" Type="VI" URL="../../Math Operations/To Start and Stop (bare).vi"/>
+			<Item Name="To Center and Span (frequency).vi" Type="VI" URL="../../Math Operations/To Center and Span (frequency).vi"/>
+			<Item Name="To Center and Span (bare).vi" Type="VI" URL="../../Math Operations/To Center and Span (bare).vi"/>
+			<Item Name="Sensible Tab Order.vi" Type="VI" URL="../../Generic SubVI/Sensible Tab Order.vi"/>
+			<Item Name="build control list.vi" Type="VI" URL="../../Generic SubVI/build control list.vi"/>
+			<Item Name="To Start and Stop.vi" Type="VI" URL="../../Math Operations/To Start and Stop.vi"/>
+			<Item Name="To Center and Span.vi" Type="VI" URL="../../Math Operations/To Center and Span.vi"/>
+			<Item Name="Relative to absolute path.vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Save data.llb/Relative to absolute path.vi"/>
+			<Item Name="Hide controls.vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Hide controls.vi"/>
+			<Item Name="Get Col-Plot Labels.vi" Type="VI" URL="../../Scans/Set Up Data/Get Col-Plot Labels.vi"/>
+			<Item Name="Search Setup.vi" Type="VI" URL="../../Scans/Set Up Data/Search Setup.vi"/>
+			<Item Name="Use Setting In Header.vi" Type="VI" URL="../../Scans/Scan Driver/Use Setting In Header.vi"/>
+			<Item Name="Scanner.lvclass" Type="LVClass" URL="../../Scans/Scanner/Scanner.lvclass"/>
+			<Item Name="Data.vi" Type="VI" URL="../../Main/Global/Data.vi"/>
+			<Item Name="scan mode.ctl" Type="VI" URL="../../Scans/Scan Driver/scan controls.llb/scan mode.ctl"/>
+			<Item Name="MW Save Settings.vi" Type="VI" URL="../Function Generator/Nuclear Relaxation.vi/MW Save Settings.vi"/>
+			<Item Name="FG Trigger.vi" Type="VI" URL="../Function Generator/Quick Fn Sweep - Cont LD.vi/FG Trigger.vi"/>
+			<Item Name="Data mode to header.vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Save data.llb/Data mode to header.vi"/>
+			<Item Name="Mag field to header.vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Save data.llb/Mag field to header.vi"/>
+			<Item Name="Read B field from global.vi" Type="VI" URL="../../Scans/Rabi Spin-Echo/Save data.llb/Read B field from global.vi"/>
+			<Item Name="MotorDetails.ctl" Type="VI" URL="../Magnet/Oxford/SMC4SUBS.LLB/MotorDetails.ctl"/>
+			<Item Name="PIDEntry.ctl" Type="VI" URL="../Magnet/Oxford/PIDTABLE.LLB/PIDEntry.ctl"/>
+			<Item Name="PIDTableControl.ctl" Type="VI" URL="../Magnet/Oxford/PIDTABLE.LLB/PIDTableControl.ctl"/>
+			<Item Name="Build Total Data from Array Varying.vi" Type="VI" URL="../../Scans/Scan Driver/Build Total Data from Array Varying.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
