@@ -471,12 +471,9 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Date to Folder Name.vi" Type="VI" URL="../File IO/Generic File IO/Date to Folder Name.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvanlys.dll"/>
 			<Item Name="lvsound.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound.dll"/>
-			<Item Name="Temp Log.vi" Type="VI" URL="../Instruments/Magnet/Other SubVI/Temp Log.vi"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound2.dll"/>
-			<Item Name="Mod Out SubVI.vi" Type="VI" URL="../Instruments/Microwave/Quick Programs/Mod Out SubVI.vi"/>
 			<Item Name="wlmData.dll" Type="Document" URL="../../WINDOWS/system32/wlmData.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -517,6 +514,8 @@
 			<Item Name="spin echo mode.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/spin echo mode.ctl"/>
 			<Item Name="data source.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/data source.ctl"/>
 			<Item Name="scan state.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/scan state.ctl"/>
+			<Item Name="Mod Out SubVI.vi" Type="VI" URL="../Instruments/Microwave/Quick Programs/Microwave Scan.vi/Mod Out SubVI.vi"/>
+			<Item Name="Date to Folder Name.vi" Type="VI" URL="../File IO/Generic File IO/Date to Folder Name.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
