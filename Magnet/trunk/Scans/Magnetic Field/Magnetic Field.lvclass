@@ -37,13 +37,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 	<Item Name="Next Step.vi" Type="VI" URL="../Next Step.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%U!(!!R$&gt;8*S:7ZU)&amp;.U:8!!!"6!#A!097.U&gt;7&amp;M)("P=WFU;7^O!$Z!=!!?!!!9&amp;EVB:WZF&gt;'FD)%:J:7RE,GRW9WRB=X-!!"J.97&gt;O:82J9S"';76M:#ZM&gt;G.M98.T)'^V&gt;!!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"A747&amp;H&lt;G6U;7-A2GFF&lt;'1O&lt;(:D&lt;'&amp;T=Q!!'5VB:WZF&gt;'FD)%:J:7RE,GRW9WRB=X-A;7Y!0!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!(!!E$!!"Y$1A*!!E!D1M!!!!!!!!!!!A!!!!!!*)!!!!!!1!+!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%U!(!!R$&gt;8*S:7ZU)&amp;.U:8!!!"6!#A!097.U&gt;7&amp;M)("P=WFU;7^O!$Z!=!!?!!!9&amp;EVB:WZF&gt;'FD)%:J:7RE,GRW9WRB=X-!!"J.97&gt;O:82J9S"';76M:#ZM&gt;G.M98.T)'^V&gt;!!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"A747&amp;H&lt;G6U;7-A2GFF&lt;'1O&lt;(:D&lt;'&amp;T=Q!!'5VB:WZF&gt;'FD)%:J:7RE,GRW9WRB=X-A;7Y!0!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!(!!E$!!"Y$1A*!!E!C1!!!!!!!!!!!!A!!!!!!*!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="Magnetic Field.vi" Type="VI" URL="../Magnetic Field.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;1!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!9&amp;EVB:WZF&gt;'FD)%:J:7RE,GRW9WRB=X-!!"J.97&gt;O:82J9S"';76M:#ZM&gt;G.M98.T)'^V&gt;!!!$5!+!!&gt;/&gt;7VF=GFD!"J!1!!"`````Q!'$'&amp;S=G&amp;Z&gt;G&amp;S?7FO:Q!!&amp;E!B%&amp;"F=H.J=X2F&lt;H1A47^E:4]!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(U!;!!-!!P`^!!1!!1!&amp;``]!#F.X:76Q)&amp;*B&gt;'5!!"&amp;!#A!,6'6N='6S982V=G5!0!$Q!!Q!!Q!%!!1!"1!%!!1!"Q!)!!E!#A!,!!1#!!"Y$1A!!!!!#1!!!!!!#A!+!!I!#A!)!!!!!!!!!1!-!!!!!!</Property>
