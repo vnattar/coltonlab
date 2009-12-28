@@ -59,7 +59,13 @@ Meeting&quot; in Pittsburgh, PA, 18 Mar 2009.</li>
 
 <h1>Published papers</h1>
 <h2>Coauthored by Dr. Colton</h2>
+
 <ul class="icons article">
+<li><a href="pubs/2010%20Solid%20State%20Comm%20Heaton%20thesis.pdf">&quot;Nuclear effects in Kerr rotation-detected magnetic resonance of electrons in GaAs&quot;</a>
+B. Heaton, J.S. Colton, D.N. Jenson, M.J. Johnson, A.S. Bracker, Solid State Communications <b>150</b> (2010), 244-247</li>
+<li><a href="pubs/resonant%20microwave%20cavity%20-%20RSI%202009.pdf">&quot;Resonant microwave cavity for 8.5-12 GHz optically detected electron spin
+resonance with simultaneous nuclear magnetic resonance,&quot</a>
+J. S. Colton and L. R. Wienkes, Rev. Sci. Instrum. <b>80</b>, 035106 (2009).</li>
 <li><a href="pubs/gaas%20resonance%20-%20SSC%202004.pdf">
 &quot;Dependence 
 of optically oriented and detected electron spin resonance on donor concentration 

@@ -1,5 +1,6 @@
 Overview = index.php
-Research = research.php
+Basics = basics.php
 Background = background.php
+Research = research.php
 Publications/Recent Presentations = publications.php
 Membership = membership.php

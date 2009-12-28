@@ -50,28 +50,28 @@ function MM_CheckFlashVersion(reqVerStr,msg){
 <p>The objectives of this research project are to perform optical experiments, such 
 as </p>
 <ul>
-<li>Hanle Effect</li>
-<li>time-resolved Kerr rotation</li>
-<li>time-resolved polarization decay</li>
+	<li>Hanle Effect</li>
+	<li>time-resolved Kerr rotation</li>
+	<li>time-resolved polarization decay</li>
 </ul>
 <p>and combined optical-microwave experiments, such as </p>
 <ul>
-<li>optically-detected magnetic resonance</li>
-<li>optically-detected spin echo</li>
+	<li>optically-detected magnetic resonance</li>
+	<li>optically-detected spin echo</li>
 </ul>
 <p>on three specific sets of III-V semiconductor nanostructures</p>
 <ul>
-<li>GaAs quantum wells and "interface fluctuation" quantum dots</li>
-<li>&quot;self-assembled&quot; InAs quantum dots</li>
-<li>GaAs spin-LEDs</li>
+	<li>GaAs quantum wells and "interface fluctuation" quantum dots</li>
+	<li>&quot;self-assembled&quot; InAs quantum dots</li>
+	<li>GaAs spin-LEDs</li>
 </ul>
 <p>in order to</p>
 <ul>
-<li>obtain important information about the spin dynamics in those nanostructures 
-(such as T2*, T2, and T1 spin lifetimes), and </li>
-<li>develop new techniques (such as Kerr rotation-detected spin echo) which 
-will be usable to characterize other semiconductor systems in the future.
-</li>
+	<li>obtain important information about the spin dynamics in those nanostructures 
+	(such as T2*, T2, and T1 spin lifetimes), and </li>
+	<li>develop new techniques (such as Kerr rotation-detected spin echo) which 
+	will be usable to characterize other semiconductor systems in the future.
+	</li>
 </ul>
 <p>This has the potential to add significantly to knowledge which will be helpful 
 in making quantum computing possible and spintronics more useful. Details on the 

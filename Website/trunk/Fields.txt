@@ -2,4 +2,4 @@ SiteTitle = Colton Research Group
 ContactName = John Colton
 PersonID = 98
 MenuTitle = Colton Research Group
-TitleImage = http://www.physics.byu.edu/research/coltonlab/images/header.jpg
+TitleImageDisabled = http://www.physics.byu.edu/research/coltonlab/images/header.jpg
