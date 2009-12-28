@@ -19,13 +19,13 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Setup.vi" Type="VI" URL="../Setup.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!")!!!!!A!%!!!!0!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%6!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!4%6&gt;B;81A6'FN:3ZM&gt;G.M98.T!"6897FU)&amp;2J&lt;75O&lt;(:D&lt;'&amp;T=S"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"J!)224:81A65EA&gt;']A;7ZQ&gt;81`)#B'+1!!,E"Q!"Y!!"-26W&amp;J&gt;#"5;7VF,GRW9WRB=X-!%6&gt;B;81A6'FN:3ZM&gt;G.M98.T!$Q!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!U)!!!!!)U,!!!!!!!!!!!)!!!!%A#1!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1241809224</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1074037056</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082917392</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
 	<Item Name="Animation.vi" Type="VI" URL="../Animation.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$-!!!!#1!%!!!!#E!B"72V97Q`!!^!#A!)&gt;(*J:W:S:8%!!"*!6!!(#GFO=(6U)'2B&gt;'%!!"J!1!!"`````Q!$$7VJ9X*P='&amp;U&gt;'6S&lt;H-!$5!+!!:Q:8*J&lt;W1!!"B!1!!"`````Q!&amp;#W&amp;S=G&amp;Z='6S;7^E!"J!1!!"`````Q!$$7&amp;S=G&amp;Z='&amp;U&gt;'6S&lt;H-!0!$Q!!Q!!!!!!!!!!!!"!!!!!A!%!!!!!!!'!!=$!!"Y!!!!!!!!!!!+!!!!#A!+!!!!!!!+!!I!!!!!!1!)!!!!!!</Property>

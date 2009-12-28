@@ -394,22 +394,8 @@
 				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
 				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/platform/ax-events.llb/OccFireType.ctl"/>
-				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
-				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
-				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
-				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
-				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
-				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
-				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
 				<Item Name="Query Registry Key Info.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Query Registry Key Info.vi"/>
 				<Item Name="Enum Registry Keys.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Keys.vi"/>
-				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
-				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
-				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
-				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
-				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
-				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
-				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
 				<Item Name="Flatten Pixmap(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap(6_1).vi"/>
 				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
@@ -454,6 +440,33 @@
 				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
 				<Item Name="Get Project Library Version.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Project Library Version.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
+				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
+				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
+				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
+				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
+				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
+				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
+				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
+				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
+				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="OAOpenCommunication.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAOpenCommunication.vi"/>
@@ -475,34 +488,6 @@
 			<Item Name="lvsound.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound2.dll"/>
 			<Item Name="wlmData.dll" Type="Document" URL="../../WINDOWS/system32/wlmData.dll"/>
-			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Pattern - Create Preview.vi" Type="VI" URL="../Instruments/Pulse Gen/Pattern/Pattern - Create Preview.vi"/>
-			<Item Name="PG Initialize.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Initialize.vi"/>
-			<Item Name="PG Dig Status.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Dig Status.vi"/>
-			<Item Name="PG Voltage.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Voltage.vi"/>
-			<Item Name="PG Freq-Per.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Freq-Per.vi"/>
-			<Item Name="PG Output.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/PG Output.vi"/>
-			<Item Name="Comm - Send Cmd.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Send Cmd.vi"/>
-			<Item Name="Comm - Create Command.vi" Type="VI" URL="../Instruments/Pulse Gen/Pulse Gen/Basic Commands/Comm - Create Command.vi"/>
-			<Item Name="Spect Control.vi" Type="VI" URL="../Instruments/Spectrometer/Spect Control.vi"/>
-			<Item Name="LCD Control.vi" Type="VI" URL="../Instruments/LCD/LCD Control.vi"/>
-			<Item Name="Wait Time Setup.vi" Type="VI" URL="../Main/Scans/Wait Time/Wait Time Setup.vi"/>
-			<Item Name="Pulse Width Set up.vi" Type="VI" URL="../Main/Scans/Pulse Width/Pulse Width Set up.vi"/>
-			<Item Name="Wavelength Set up.vi" Type="VI" URL="../Main/Scans/Wavelength/Wavelength Set up.vi"/>
-			<Item Name="B Field Set up.vi" Type="VI" URL="../Main/Scans/Magnetic Field/B Field Set up.vi"/>
-			<Item Name="rf Set up.vi" Type="VI" URL="../Main/Scans/rf Scan/rf Set up.vi"/>
-			<Item Name="General Pre-Scan Check.vi" Type="VI" URL="../Main/Scans/Set Up Data/General Pre-Scan Check.vi"/>
-			<Item Name="Wait Time Scan.vi" Type="VI" URL="../Main/Scans/Wait Time/Wait Time Scan.vi"/>
-			<Item Name="Pulse Width Scan.vi" Type="VI" URL="../Main/Scans/Pulse Width/Pulse Width Scan.vi"/>
-			<Item Name="Wavelength Scan.vi" Type="VI" URL="../Main/Scans/Wavelength/Wavelength Scan.vi"/>
-			<Item Name="B Field Scan.vi" Type="VI" URL="../Main/Scans/Magnetic Field/B Field Scan.vi"/>
-			<Item Name="rf Scan.vi" Type="VI" URL="../Main/Scans/rf Scan/rf Scan.vi"/>
-			<Item Name="Save Strings.vi" Type="VI" URL="../Main/Settings/Save Strings.vi"/>
 			<Item Name="MW Save Settings.vi" Type="VI" URL="../Instruments/Function Generator/Nuclear Relaxation.vi/MW Save Settings.vi"/>
 			<Item Name="MotorDetails.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/SMC4SUBS.LLB/MotorDetails.ctl"/>
 			<Item Name="PIDEntry.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/PIDTABLE.LLB/PIDEntry.ctl"/>
@@ -514,8 +499,13 @@
 			<Item Name="spin echo mode.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/spin echo mode.ctl"/>
 			<Item Name="data source.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/data source.ctl"/>
 			<Item Name="scan state.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/scan state.ctl"/>
-			<Item Name="Mod Out SubVI.vi" Type="VI" URL="../Instruments/Microwave/Quick Programs/Microwave Scan.vi/Mod Out SubVI.vi"/>
-			<Item Name="Date to Folder Name.vi" Type="VI" URL="../File IO/Generic File IO/Date to Folder Name.vi"/>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Round left of dec.vi" Type="VI" URL="../Math Operations/Round left of dec.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
