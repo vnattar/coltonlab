@@ -33,6 +33,23 @@ This is very dubious, but maybe you could think of these analogues:
   * One generic ScanDriver has hundreds of combinations of arguments.
   * There are hundreds of possible experiments we can do! Object-orientation makes this all possible.
 
+== Constructors vs. "Setup UI" ==
+Here is the design problem:
+  * Constructors programmatically initialize objects, at the programmer's discretion.
+  * Constructors are not polymorphic.  Constructors' parameters depend on the object.
+  * For the "Scan Setup" phase, the user needs to specify these parameters.
+  * Ideally, we could just use the constructor's UI widgets, to avoid duplicating code.
+  * Yet "Setup UI" needs to be polymorphic (same parameters for all copies) so that LabVIEW can dynamically call the appropriate user interface.
+  * Also "Setup UI" must take only one parameter: whether or not to initialize the existing values in the UI, or take them fresh from the user.
+  * Therefore we must have a separate UI subVI from the Constructor.
+
+Here is the solution Steve came up with, for lack of knowing any better:
+  * "Setup UI" should provide an *interface* to the constructor.
+  * All "Setup UI" methods should call the class constructor when they're run, to *reconstruct the object* with the user's parameters from the UI.
+  * It would be silly to duplicate code and make Setup UI a second constructor.
+  * This creates another problem: we call constructors perhaps twenty times.  This means constructors must be idempotent (i.e. constructing again has no [bad?] effects).
+  * If class constructors are actually initializing equipment (which they should), this wastes resources and may crash the program by reserving already-inited equipment.
+
 = Pseudocode =
 foreach scan, foreach datapoint:
   # Set and get X value (call Scanner::Next Step())
