@@ -505,7 +505,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Round left of dec.vi" Type="VI" URL="../Math Operations/Round left of dec.vi"/>
+			<Item Name="Lockin Control.vi" Type="VI" URL="../Instruments/Lockin/Lockin Control.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
