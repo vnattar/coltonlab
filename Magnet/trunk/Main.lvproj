@@ -506,6 +506,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Lockin Control.vi" Type="VI" URL="../Instruments/Lockin/Lockin Control.vi"/>
+			<Item Name="PC Take Data No Poll.vi" Type="VI" URL="../Instruments/Photon Counter/PC Take Data No Poll.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">

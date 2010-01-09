@@ -19,7 +19,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%7!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!'E"!!!(`````!!5..#"%982B)&amp;"P;7ZU=Q!K1(!!(A!!%B"+&gt;8.U)&amp;"&amp;43ZM&gt;G.M98.T!!!-3H6T&gt;#"125UA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#B!=!!?!!!3%%JV=X1A5%6.,GRW9WRB=X-!!!N+&gt;8.U)&amp;"&amp;43"J&lt;A!]!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1-!!(A.#!!!#3#.+Q!!!!!!!!!!#A!!!!!!EC!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%7!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!'E"!!!(`````!!5..#"%982B)&amp;"P;7ZU=Q!K1(!!(A!!%B"+&gt;8.U)&amp;"&amp;43ZM&gt;G.M98.T!!!-3H6T&gt;#"125UA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#B!=!!?!!!3%%JV=X1A5%6.,GRW9WRB=X-!!!N+&gt;8.U)&amp;"&amp;43"J&lt;A!]!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1-!!(A.#!!!#1#.#Q!!!!!!!!!!#A!!!!!!EA!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
