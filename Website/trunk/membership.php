@@ -7,7 +7,7 @@
 
 <body>
 
-<h1>Meeting Schedule, Fall 2009</h1>
+<h1>Meeting Schedule, Winter 2009</h1>
 <p>Our research group is recruiting undergraduate and graduate students.&nbsp; 
 Interested parties should first
 <a href="http://www.physics.byu.edu/directory.aspx?personid=98">contact Dr. 
@@ -15,12 +15,13 @@ Colton</a> and then attend our weekly group meeting.&nbsp; Also listed are other
 groups of interest.</p>
 <h2>Colton Research Group (<a href="http://www.physics.byu.edu/faculty/colton/">John Colton</a>)</h2>
 <ul>
-	<li>N335 ESC, Mondays, 3pm - 4pm</li>
+	<li>N335 ESC, Thursdays, 12pm - 1pm</li>
 </ul>
 
-<h2>Condensed Matter Group (<a href="http://stokes.byu.edu/">Harold Stokes</a>)</h2>
+<h2><a href="http://groups.google.com/group/byucm?hl=en">
+Condensed Matter Seminar</a> (<a href="http://stokes.byu.edu/">Harold Stokes</a>)</h2>
 <ul>
-	<li>N288 ESC, Thursdays, 2pm - 3pm</li>
+	<li>C460 ESC, Wednesdays, 2pm - 3pm</li>
 </ul>
 
 

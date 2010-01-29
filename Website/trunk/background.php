@@ -86,7 +86,7 @@ light is of a sufficient energy to allow the electron to jump the
 energy gap between the valence and conduction bands. Nonradiative
 transitions between energy levels are also possible if the energy
 is carried away by phonons (vibrations in the material's lattice).
-/or an absorption vs. energy graph for GaAs, see <a href=
+For an absorption vs. energy graph for GaAs, see <a href=
 /#figure-22">Figure 2.2</a>. The sharp rise in the graph near 1.51
 eV is indicative of the energy gap in GaAs. Only light that will
 cause transitions to excited states will be absorbed. It can then
@@ -127,9 +127,7 @@ comparing reflectance graphs for each concentration of doping.</dd>
 "background/figure-26.png" /></a>
 <p class="caption">Figure 2.6. Photoluminescence (solid curves) of 3 GaAs single 
 quantum wells at 300K.</p>
-<a class="credit" href="http://ds.lib.kyutech.ac.jp/dspace/bitstream/10228/1617/1/fujiwara_13.pdf">K. Fujiwara,. N. Tsukada, and T. Nakayama. "Observation 
-of free excitons in room-temperature photoluminescence of GaAs/AIGaAs single 
-quantum wells." <i>Appl. Phys. Lett.</i> <b>53</b>, 675-677.</a>
+<a class="credit" href="http://ds.lib.kyutech.ac.jp/dspace/bitstream/10228/1617/1/fujiwara_13.pdf">K. Fujiwara et. al. <i>Appl. Phys. Lett.</i> <b>53</b>, 675-677.</a>
 &nbsp;</div>
 
 Photoluminescence is a useful experiment for the study of
@@ -150,9 +148,7 @@ GaAs in <a href="#figure-26">Figure 2.6</a>.</dd>
 <div class="figure left"><a href="background/figure-27.png" id="figure-27"><img alt="Figure 2.7" src=
 "background/figure-27.png" /></a>
 <p class="caption">Figure 2.7. GaAs P.L.E. vs. energy.</p>
-<a class="credit" href="http://dx.doi.org/10.1016/j.physe.2003.12.080">A. Babinski, et. al. "Photoluminescence
-excitation spectroscopy of InAs/GaAs quantum dots in high magnetic
-field." <i>Physica E</i> <b>22</b>, 603-606.</a></div>
+<a class="credit" href="http://dx.doi.org/10.1016/j.physe.2003.12.080">A. Babinski et. al. <i>Physica E</i> <b>22</b>, 603-606.</a></div>
 
 P.L.E. uses the same experimental set-up as photoluminescence (see
 <a href="#figure-27">Figure 2.7</a>), except the wavelength of the
@@ -186,5 +182,9 @@ detection of the coherence of electron spin since the changing spin
 will cause changes in the polarization of the incident light that
 can be measured over any time interval (see <a href="#figure-29">Figure 2.9</a>).</dd>
 </dl>
+
+<h2>Further reading</h2>
+<p>For more information on optical experiments, see <a href="http://portal.acm.org/citation.cfm?id=179091">
+N. Peyghambarian, <em>Introduction to semiconductor optics</em> (Prentice Hall, 1993)</a>.
 </body>
 </html>
