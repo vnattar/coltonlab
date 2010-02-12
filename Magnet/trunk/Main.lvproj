@@ -505,6 +505,14 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PC Take Data No Poll.vi" Type="VI" URL="../Instruments/Photon Counter/PC Take Data No Poll.vi"/>
+			<Item Name="Master File Name to Temp Path.vi" Type="VI" URL="../File IO/Master File Name to Temp Path.vi"/>
+			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAOpenCommunication.vi"/>
+			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OACloseCommunication.vi"/>
+			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OASaveProject.vi"/>
+			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAExecute.vi"/>
+			<Item Name="OAPutWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutWorksheet.vi"/>
+			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutStringWorksheet.vi"/>
+			<Item Name="OAGetStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAGetStringWorksheet.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">

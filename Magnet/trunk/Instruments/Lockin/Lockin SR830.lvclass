@@ -19,13 +19,13 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Lockin SR830.vi" Type="VI" URL="../Lockin SR830.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%RP9WNJ&lt;C"45DAT-#ZM&gt;G.M98.T!!!14'^D;WFO)&amp;.3/$-Q)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!.1!5!"U.I97ZO:7Q!-%"Q!"Y!!"954'^D;WFO)&amp;.3/$-Q,GRW9WRB=X-!!!^-&lt;W.L;7YA5V)Y-T!A;7Y!31$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y$1A!!!!!$1M!!!!!!!!!!!)!!!!+!!)!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%RP9WNJ&lt;C"45DAT-#ZM&gt;G.M98.T!!!14'^D;WFO)&amp;.3/$-Q)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!.1!5!"U.I97ZO:7Q!-%"Q!"Y!!"954'^D;WFO)&amp;.3/$-Q,GRW9WRB=X-!!!^-&lt;W.L;7YA5V)Y-T!A;7Y!31$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y$1A!!!!!$1M!!!!!!!!!!!)!!!!3!!)!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130964</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="_Read.vi" Type="VI" URL="../_Read.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%9!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+2'&amp;U93"797RV:1!!-E"Q!"Y!!"954'^D;WFO)&amp;.3/$-Q,GRW9WRB=X-!!""-&lt;W.L;7YA5V)Y-T!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%RP9WNJ&lt;C"45DAT-#ZM&gt;G.M98.T!!!04'^D;WFO)&amp;.3/$-Q)'FO!$Q!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!U)!!!*!)U,!!!!!!!!!!!+!!!!!!#1!!!!!!%!#1!!!!!</Property>
