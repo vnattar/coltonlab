@@ -28,24 +28,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
-		<Item Name="Check for Dir.vi" Type="VI" URL="../Generic File IO/Check for Dir.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#P!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%!B"W6Y;8.U=T]!%%!S`````Q&gt;Q982I4V65!":!5!!$!!!!!1!##'6S=G^S)'FO!!!11$,`````"H"B&gt;'B*4A!!"!!!!#1!]!!'!!-!"!!&amp;!!9!"Q!)!Q!!5!U$#1!."!I!#!!!!!!!!!%!#1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143250</Property>
-		</Item>
-		<Item Name="Check for File.vi" Type="VI" URL="../Generic File IO/Check for File.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#P!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%!B"W6Y;8.U=T]!%%!S`````Q&gt;Q982I4V65!":!5!!$!!!!!1!##'6S=G^S)'FO!!!11$,`````"H"B&gt;'B*4A!!"!!!!#1!]!!'!!-!"!!&amp;!!9!"Q!)!Q!!5!U$#1!."!I!#!!!!!!!!!%!#1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143250</Property>
-		</Item>
 		<Item Name="Create File (full).vi" Type="VI" URL="../Generic File IO/Create File (full).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$B!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!)1RB9X2J&lt;WZU97NF&lt;D]!!""!-P````](='&amp;U;%^66!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%E!B$':J&lt;'6Q982I)#B5+1!!%E!S`````QBQ982I&lt;G&amp;N:1!!0!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y$1A!!!E!#1!!!!!!!!!!!!I!!!!)!!A!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
