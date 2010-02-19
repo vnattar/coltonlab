@@ -219,13 +219,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Sweep Step.vi" Type="VI" URL="../SubVI/Sweep Step.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$9!!!!#A!31$$`````#(*B&gt;'6E;8.Q!!!.1!I!"X*B&gt;'60661!#U!+!!6G;76M:!!31$$`````#':J:7RE;8.Q!!!/1#%*=X&gt;F:8"J&lt;G=`!!1!!!!P1"9!!QN5=G&amp;J&lt;C"4='6F:!V.98BJ&lt;86N)&amp;.Q:76E"EVB&lt;H6B&lt;!!!"(*B&lt;8!!!!J!)16B&lt;8"T0Q!.1!I!"H*B&gt;'6*4A!!0!$Q!!Q!!!!"!!)!!Q!%!!5!"1!&amp;!!9!"Q!)!!5$!!"Y#1!.#AE!#1!*!!!!!!!!!!A!#!!+!!!!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#U!!!!#A!31$$`````#(*B&gt;'6E;8.Q!!!.1!I!"X*B&gt;'60661!#U!+!!6G;76M:!!31$$`````#':J:7RE;8.Q!!!/1#%*=X&gt;F:8"J&lt;G=`!!1!!!!,1!9!"(*B&lt;8!!!!J!)16B&lt;8"T0Q!.1!I!"H*B&gt;'6*4A!!0!$Q!!Q!!!!"!!)!!Q!%!!5!"1!&amp;!!9!"Q!)!!5$!!"Y#1!.#AE!#1!*!!!!!!!!!!A!#!!+!!!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Train Magnet.vi" Type="VI" URL="../SubVI/Train Magnet.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Y!!!!"A!%!!!!$E!B#(.P&gt;7ZE4V65!!!-1#%(97VQ=W^V&gt;!!-1#%'=W^V&lt;G1`!!!+1#%&amp;97VQ=T]!0!$Q!!Q!!!!"!!)!!!!!!!!!!!!!!!!!!Q!%!!!$!!"Y!!!*!!E!!!!!!!!!!!!!!!!!#A!+!!!!!!!!!1!&amp;!!!!!!</Property>
@@ -255,7 +255,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Log Temp.vi" Type="VI" URL="../SubVI/Log Temp.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[!!!!$A!.1!I!"H:B&lt;(:F*1!!$5!+!!&gt;I:7&amp;U:8)F!!N!#A!%&gt;'6N=!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!!1!!!!/1$$`````"'ZB&lt;75!!!B!)1.P&lt;D]!%%!Q`````Q:B9G*S:89!!"2!5!!$!!A!#1!+"W6M:7VF&lt;H1!&amp;E"!!!(`````!!M)&lt;7&amp;H98*S98E!!$Q!]!!-!!!!!1!#!!9!"Q!(!!=!"Q!(!!=!"Q!-!Q!!?!E!#1!*!!E!!!!!!!!!!!!!!!!!!!!)!!!!!!%!$1!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[!!!!$A!.1!I!"H:B&lt;(:F*1!!$5!+!!&gt;I:7&amp;U:8)F!!N!#A!%&gt;'6N=!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!!1!!!!/1$$`````"'ZB&lt;75!!!B!)1.P&lt;D]!%%!Q`````Q:B9G*S:89!!"2!5!!$!!A!#1!+"W6M:7VF&lt;H1!&amp;E"!!!(`````!!M)&lt;7&amp;H98*S98E!!$Q!]!!-!!!!!1!#!!9!"Q!(!!=!"Q!(!!=!"Q!-!Q!!?!E!#1!*!!EA!!!!!!!!!!!!!!!!!!!))!!!!!%!$1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
