@@ -538,7 +538,6 @@
 			<Item Name="B Field Cont Scan.vi" Type="VI" URL="../Scans/Magnetic Field/Continuous/B Field Cont Scan.vi"/>
 			<Item Name="B Field Scan rf ramp.vi" Type="VI" URL="../Scans/Magnetic Field/RF Ramp/B Field Scan rf ramp.vi"/>
 			<Item Name="Scan.vi" Type="VI" URL="../Scans/rf Scan/Scan.vi"/>
-			<Item Name="Check for File.vi" Type="VI" URL="../File IO/Generic File IO/Check for File.vi"/>
 			<Item Name="MSdata.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/MCMatrix/MSdata.ctl"/>
 			<Item Name="ComplexMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/ComplexMatrix/ComplexMatrix.ctl"/>
 			<Item Name="RealMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/RealMatrix/RealMatrix.ctl"/>
@@ -924,10 +923,11 @@
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Driver/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_actXServerName" Type="Str">Driver</Property>
-				<Property Name="Exe_actXServerNameGUID" Type="Str">{83E40049-6D84-4E6A-8D57-B99A6A7C5E7F}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CF35D86D-DAD9-42F7-AE0A-FACABF51AB41}</Property>
+				<Property Name="Destination[2].destName" Type="Str">Other stuff</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Driver/Other stuff</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F4F1E64E-0ED7-4F97-82BE-EA4149CA8152}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LabVIEW/Main/Driver.vi</Property>

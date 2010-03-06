@@ -300,7 +300,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="Write Hold.vi" Type="VI" URL="../Write/Write Hold.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!Y!!!!!A!%!!!!,!$Q!!A!!!!!!!!!!!!!!!!!!!!!!Q!!9!!!!!!!!!!!!!!!!!!!!!!!!!!"!!%!!!!!</Property>
@@ -411,7 +411,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 		<Item Name="Read LM Read Rate.vi" Type="VI" URL="../Read/Read LM Read Rate.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"#!!!!!Q!%!!!!#E!B"7:B=X1`!#Q!]!!)!!!!!!!!!!%!!!!!!!!!!!-!!'!!!!!!!!!*!!!!!!!!!!!!!!!!!1!#!!!!!!</Property>
