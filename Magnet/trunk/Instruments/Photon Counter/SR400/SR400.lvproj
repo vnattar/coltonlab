@@ -5,8 +5,8 @@
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="CCSymbols" Type="Str">OS,Win;CPU,x86;</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SR400.lvlib" Type="Library" URL="/&lt;instrlib&gt;/SR400/SR400.lvlib"/>
-		<Item Name="Untitled 2.vi" Type="VI" URL="../../../../../../Documents and Settings/dallascs.COLTONLAB/My Documents/Dallas/Untitled 2.vi"/>
+		<Item Name="SR400.lvlib" Type="Library" URL="../SR400.lvlib"/>
+		<Item Name="Untitled 2.vi" Type="VI" URL="/Documents and Settings/dallascs.COLTONLAB/My Documents/Dallas/Untitled 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
