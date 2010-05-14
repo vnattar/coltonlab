@@ -6,7 +6,6 @@
 		<Property Name="CCSymbols" Type="Str">OS,Win;CPU,x86;</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SR400.lvlib" Type="Library" URL="../SR400.lvlib"/>
-		<Item Name="Untitled 2.vi" Type="VI" URL="/Documents and Settings/dallascs.COLTONLAB/My Documents/Dallas/Untitled 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -14,6 +13,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
+			<Item Name="GPIB Numbers.vi" Type="VI" URL="../../../../Global/GPIB Numbers.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

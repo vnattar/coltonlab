@@ -69,6 +69,7 @@
 			<Item Name="Start button.vi" Type="VI" URL="../Public/Query/Start button.vi"/>
 			<Item Name="Stop button.vi" Type="VI" URL="../Public/Query/Stop button.vi"/>
 			<Item Name="Query Counts.vi" Type="VI" URL="../Public/Query/Query Counts.vi"/>
+			<Item Name="Query Status Byte.vi" Type="VI" URL="../Public/Query/Query Status Byte.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
