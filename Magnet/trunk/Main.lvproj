@@ -491,19 +491,6 @@
 				<Item Name="Get Matrix Dimensions.vi" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/Methods/Matrix Operations.llb/Get Matrix Dimensions.vi"/>
 				<Item Name="NI_CD_LinSys State-Space.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/NI_CD_LinSys State-Space.lvlib"/>
 			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="OAOpenCommunication.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAOpenCommunication.vi"/>
-				<Item Name="OACloseCommunication.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OACloseCommunication.vi"/>
-				<Item Name="OASaveProject.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OASaveProject.vi"/>
-				<Item Name="OAExecute.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAExecute.vi"/>
-				<Item Name="OAPutWorksheet.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAPutWorksheet.vi"/>
-				<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAPutStringWorksheet.vi"/>
-				<Item Name="OAGetStringWorksheet.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAGetStringWorksheet.vi"/>
-				<Item Name="OABeginSession.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OABeginSession.vi"/>
-				<Item Name="OAEndSession.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAEndSession.vi"/>
-				<Item Name="OALoadProject.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OALoadProject.vi"/>
-				<Item Name="OAExit.vi" Type="VI" URL="/&lt;userlib&gt;/Origin Automation Server.llb/OAExit.vi"/>
-			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -515,12 +502,6 @@
 			<Item Name="PIDEntry.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/PIDTABLE.LLB/PIDEntry.ctl"/>
 			<Item Name="PIDTableControl.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/PIDTABLE.LLB/PIDTableControl.ctl"/>
 			<Item Name="FG Trigger.vi" Type="VI" URL="../Instruments/Function Generator/Quick Fn Sweep - Cont LD.vi/FG Trigger.vi"/>
-			<Item Name="scan type.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/scan type.ctl"/>
-			<Item Name="laser delay.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/laser delay.ctl"/>
-			<Item Name="laser pulsewidth.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/laser pulsewidth.ctl"/>
-			<Item Name="spin echo mode.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/spin echo mode.ctl"/>
-			<Item Name="data source.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/data source.ctl"/>
-			<Item Name="scan state.ctl" Type="VI" URL="../Scans/Rabi Spin-Echo/Type Defs.llb/scan state.ctl"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -528,8 +509,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PC Take Data No Poll.vi" Type="VI" URL="../Instruments/Photon Counter/PC Take Data No Poll.vi"/>
-			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAOpenCommunication.vi"/>
-			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OACloseCommunication.vi"/>
 			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OASaveProject.vi"/>
 			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAExecute.vi"/>
 			<Item Name="OAPutWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutWorksheet.vi"/>
@@ -903,6 +882,31 @@
 			<Item Name="Write DBL.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Plug In/BaseType/write/Write DBL.vi"/>
 			<Item Name="UID Generator.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/WorkSpace/UID Generator.vi"/>
 			<Item Name="MC_Version.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Parser/MC_Version.vi"/>
+			<Item Name="GPIB Find all instruments2.vi" Type="VI" URL="../Instruments/Utilities/GPIB Find all instruments2.vi"/>
+			<Item Name="Clear timeout error.vi" Type="VI" URL="../Michael&apos;s practice/Interfaces/Clear timeout error.vi"/>
+			<Item Name="Send &amp; receive VISA.vi" Type="VI" URL="../Instruments/Utilities/Send &amp; receive VISA.vi"/>
+			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAOpenCommunication.vi"/>
+			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OASaveProject.vi"/>
+			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAExecute.vi"/>
+			<Item Name="OAPutWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAPutWorksheet.vi"/>
+			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAPutStringWorksheet.vi"/>
+			<Item Name="OAGetStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAGetStringWorksheet.vi"/>
+			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAExecute.vi"/>
+			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAPutStringWorksheet.vi"/>
+			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OASaveProject.vi"/>
+			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAOpenCommunication.vi"/>
+			<Item Name="OABeginSession.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OABeginSession.vi"/>
+			<Item Name="OAEndSession.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAEndSession.vi"/>
+			<Item Name="OALoadProject.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OALoadProject.vi"/>
+			<Item Name="OAExit.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAExit.vi"/>
+			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAOpenCommunication.vi"/>
+			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OACloseCommunication.vi"/>
+			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OACloseCommunication.vi"/>
+			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OACloseCommunication.vi"/>
+			<Item Name="Send &amp; receive VISA.vi" Type="VI" URL="../Instruments/Interfaces/Send &amp; receive VISA.vi"/>
+			<Item Name="Find and identify GPIB instruments.vi" Type="VI" URL="../Instruments/Interfaces/Find and identify GPIB instruments.vi"/>
+			<Item Name="Calculate ETA.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Calculate ETA.vi"/>
+			<Item Name="Send &amp; receive VISA.vi" Type="VI" URL="../Michael&apos;s practice/Interfaces/Send &amp; receive VISA.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
