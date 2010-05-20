@@ -882,9 +882,6 @@
 			<Item Name="Write DBL.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Plug In/BaseType/write/Write DBL.vi"/>
 			<Item Name="UID Generator.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/WorkSpace/UID Generator.vi"/>
 			<Item Name="MC_Version.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Parser/MC_Version.vi"/>
-			<Item Name="GPIB Find all instruments2.vi" Type="VI" URL="../Instruments/Utilities/GPIB Find all instruments2.vi"/>
-			<Item Name="Clear timeout error.vi" Type="VI" URL="../Michael&apos;s practice/Interfaces/Clear timeout error.vi"/>
-			<Item Name="Send &amp; receive VISA.vi" Type="VI" URL="../Instruments/Utilities/Send &amp; receive VISA.vi"/>
 			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAOpenCommunication.vi"/>
 			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OASaveProject.vi"/>
 			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAExecute.vi"/>
@@ -903,10 +900,8 @@
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OACloseCommunication.vi"/>
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OACloseCommunication.vi"/>
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OACloseCommunication.vi"/>
-			<Item Name="Send &amp; receive VISA.vi" Type="VI" URL="../Instruments/Interfaces/Send &amp; receive VISA.vi"/>
 			<Item Name="Find and identify GPIB instruments.vi" Type="VI" URL="../Instruments/Interfaces/Find and identify GPIB instruments.vi"/>
-			<Item Name="Calculate ETA.vi" Type="VI" URL="../Michael&apos;s practice/Lock-in/Calculate ETA.vi"/>
-			<Item Name="Send &amp; receive VISA.vi" Type="VI" URL="../Michael&apos;s practice/Interfaces/Send &amp; receive VISA.vi"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
