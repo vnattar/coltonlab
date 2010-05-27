@@ -902,6 +902,9 @@
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OACloseCommunication.vi"/>
 			<Item Name="Find and identify GPIB instruments.vi" Type="VI" URL="../Instruments/Interfaces/Find and identify GPIB instruments.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+			<Item Name="Just PEM.lvclass" Type="LVClass" URL="../Scans/Readers/Just PEM/Just PEM.lvclass"/>
+			<Item Name="Reader.vi" Type="VI" URL="../Scans/Readers/Reader.vi"/>
+			<Item Name="LCD-PEM.vi" Type="VI" URL="../Scans/Readers/LCD-PEM/LCD-PEM.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">

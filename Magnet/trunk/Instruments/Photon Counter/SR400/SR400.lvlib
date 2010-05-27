@@ -82,5 +82,14 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
+		<Item Name="_VISA Write.vi" Type="VI" URL="../Private/_VISA Write.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="_VISA Read.vi" Type="VI" URL="../Private/_VISA Read.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="_Send Command.vi" Type="VI" URL="../Private/_Send Command.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 </Library>
