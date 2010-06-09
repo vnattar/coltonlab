@@ -490,6 +490,11 @@
 				<Item Name="NI_LinSys_LinSys State-Space Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/NI_LinSys_LinSys State-Space Shared.lvlib"/>
 				<Item Name="Get Matrix Dimensions.vi" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/Methods/Matrix Operations.llb/Get Matrix Dimensions.vi"/>
 				<Item Name="NI_CD_LinSys State-Space.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/NI_CD_LinSys State-Space.lvlib"/>
+				<Item Name="DAQmx Control Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Control Task.vi"/>
+				<Item Name="Convert 1DWfm to DDT.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/Convert 1DWfm to DDT.vi"/>
+				<Item Name="sub Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/daqmx/miscellaneous.llb/sub Waveform Array To Dynamic.vi"/>
+				<Item Name="ex_Math.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/TimeDomainMathBlock.llb/ex_Math.vi"/>
+				<Item Name="math.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/math.ctl"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -905,6 +910,14 @@
 			<Item Name="Just PEM.lvclass" Type="LVClass" URL="../Scans/Readers/Just PEM/Just PEM.lvclass"/>
 			<Item Name="Reader.vi" Type="VI" URL="../Scans/Readers/Reader.vi"/>
 			<Item Name="LCD-PEM.vi" Type="VI" URL="../Scans/Readers/LCD-PEM/LCD-PEM.vi"/>
+			<Item Name="Save Cent Freq.vi" Type="VI" URL="../Main/Settings/Save Cent Freq.vi"/>
+			<Item Name="Get Strings.vi" Type="VI" URL="../Main/Settings/Get Strings.vi"/>
+			<Item Name="Settings Find Multi.vi" Type="VI" URL="../Main/Settings/Settings Find Multi.vi"/>
+			<Item Name="Save Times.vi" Type="VI" URL="../Main/Settings/Save Times.vi"/>
+			<Item Name="Save PC Gates.vi" Type="VI" URL="../Main/Settings/Save PC Gates.vi"/>
+			<Item Name="Scan Ready.vi" Type="VI" URL="../Scans/Scan Driver/Scan Ready.vi"/>
+			<Item Name="Read Instr Settings.vi" Type="VI" URL="../Main/Current Instr/Read Instr Settings.vi"/>
+			<Item Name="Colton wavelength.lvclass" Type="LVClass" URL="../Scans/Colton wavelength.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
