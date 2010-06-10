@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LabVIEW" Type="Folder" URL="..">
+		<Item Name="LabVIEW steve" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -917,7 +917,7 @@
 			<Item Name="Save PC Gates.vi" Type="VI" URL="../Main/Settings/Save PC Gates.vi"/>
 			<Item Name="Scan Ready.vi" Type="VI" URL="../Scans/Scan Driver/Scan Ready.vi"/>
 			<Item Name="Read Instr Settings.vi" Type="VI" URL="../Main/Current Instr/Read Instr Settings.vi"/>
-			<Item Name="Colton wavelength.lvclass" Type="LVClass" URL="../Scans/Colton wavelength.lvclass"/>
+			<Item Name="Label Data.ctl" Type="VI" URL="../Scans/Set Up Data/Label Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
