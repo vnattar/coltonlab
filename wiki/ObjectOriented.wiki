@@ -51,3 +51,7 @@ Create an Animal Farm.  Create an abstract (pure virtual) `Animal` superclass, a
   # *Overriding*.  Give the `Animal` class a `playSound()` method that takes no parameters.  All the other farm animal classes should override this method to play the appropriate sound for each animal.  Make a playSound.vi file in the Cow folder that plays a cow sound, make a playSound.vi for the pig that plays an oink, etc.  To override a method, check the LabVIEW manual.  You can find sound clips on the internet, and use LabVIEW's built-in sound playback functionality.
   # *Polymorphism / Late (dynamic) binding*.  Put all the farm animals into an array.  Loop over the array and call the playSound() method for each animal.  Demonstrate that LabVIEW automatically chooses the correct overriding method for each animal.  You should get a cacaphony of animal noises!
   # *Extra credit*.  Extend the `Cow` class with a `MadCow` subclass variant.  A `MadCow` should behave exactly like a regular `Cow`, but its `playSound()` method should play [http://www.berro.com/images3/mad_cow_berro_dot_com.wav this] sound instead.
+
+== Solution ==
+
+You can download and try out an example solution to this exercise at : [http://code.google.com/p/coltonlab/source/browse/#svn/Tutorial/trunk/Animal%20Farm http://coltonlab.googlecode.com/svn/Tutorial/trunk/Animal Farm/]
