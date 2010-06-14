@@ -13,6 +13,7 @@
 		<Item Name="LabVIEW john" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="coolfunction.vi" Type="VI" URL="../../temp/coolfunction.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -309,7 +310,6 @@
 				<Item Name="DWDT Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U16 to Digital.vi"/>
 				<Item Name="DTbl Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U16 to Digital.vi"/>
 				<Item Name="DWDT Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U8 to Digital.vi"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -517,7 +517,6 @@
 			<Item Name="OAGetStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAGetStringWorksheet.vi"/>
 			<Item Name="B Field Cont Scan.vi" Type="VI" URL="../Scans/Magnetic Field/Continuous/B Field Cont Scan.vi"/>
 			<Item Name="B Field Scan rf ramp.vi" Type="VI" URL="../Scans/Magnetic Field/RF Ramp/B Field Scan rf ramp.vi"/>
-			<Item Name="Scan.vi" Type="VI" URL="../Scans/rf Scan/Scan.vi"/>
 			<Item Name="MSdata.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/MCMatrix/MSdata.ctl"/>
 			<Item Name="ComplexMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/ComplexMatrix/ComplexMatrix.ctl"/>
 			<Item Name="RealMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/RealMatrix/RealMatrix.ctl"/>
@@ -901,7 +900,6 @@
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OACloseCommunication.vi"/>
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OACloseCommunication.vi"/>
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OACloseCommunication.vi"/>
-			<Item Name="Find and identify GPIB instruments.vi" Type="VI" URL="../Instruments/Interfaces/Find and identify GPIB instruments.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			<Item Name="Just PEM.lvclass" Type="LVClass" URL="../Scans/Readers/Just PEM/Just PEM.lvclass"/>
 			<Item Name="Reader.vi" Type="VI" URL="../Scans/Readers/Reader.vi"/>
@@ -913,7 +911,6 @@
 			<Item Name="Save PC Gates.vi" Type="VI" URL="../Main/Settings/Save PC Gates.vi"/>
 			<Item Name="Scan Ready.vi" Type="VI" URL="../Scans/Scan Driver/Scan Ready.vi"/>
 			<Item Name="Read Instr Settings.vi" Type="VI" URL="../Main/Current Instr/Read Instr Settings.vi"/>
-			<Item Name="Label Data.ctl" Type="VI" URL="../Scans/Set Up Data/Label Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
