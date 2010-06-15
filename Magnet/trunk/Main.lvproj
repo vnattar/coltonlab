@@ -13,7 +13,6 @@
 		<Item Name="LabVIEW john" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="coolfunction.vi" Type="VI" URL="../../temp/coolfunction.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -509,14 +508,11 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PC Take Data No Poll.vi" Type="VI" URL="../Instruments/Photon Counter/PC Take Data No Poll.vi"/>
 			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OASaveProject.vi"/>
 			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAExecute.vi"/>
 			<Item Name="OAPutWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutWorksheet.vi"/>
 			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutStringWorksheet.vi"/>
 			<Item Name="OAGetStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAGetStringWorksheet.vi"/>
-			<Item Name="B Field Cont Scan.vi" Type="VI" URL="../Scans/Magnetic Field/Continuous/B Field Cont Scan.vi"/>
-			<Item Name="B Field Scan rf ramp.vi" Type="VI" URL="../Scans/Magnetic Field/RF Ramp/B Field Scan rf ramp.vi"/>
 			<Item Name="MSdata.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/MCMatrix/MSdata.ctl"/>
 			<Item Name="ComplexMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/ComplexMatrix/ComplexMatrix.ctl"/>
 			<Item Name="RealMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/RealMatrix/RealMatrix.ctl"/>
@@ -901,15 +897,10 @@
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OACloseCommunication.vi"/>
 			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OACloseCommunication.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-			<Item Name="Just PEM.lvclass" Type="LVClass" URL="../Scans/Readers/Just PEM/Just PEM.lvclass"/>
-			<Item Name="Reader.vi" Type="VI" URL="../Scans/Readers/Reader.vi"/>
-			<Item Name="LCD-PEM.vi" Type="VI" URL="../Scans/Readers/LCD-PEM/LCD-PEM.vi"/>
-			<Item Name="Save Cent Freq.vi" Type="VI" URL="../Main/Settings/Save Cent Freq.vi"/>
 			<Item Name="Get Strings.vi" Type="VI" URL="../Main/Settings/Get Strings.vi"/>
 			<Item Name="Settings Find Multi.vi" Type="VI" URL="../Main/Settings/Settings Find Multi.vi"/>
 			<Item Name="Save Times.vi" Type="VI" URL="../Main/Settings/Save Times.vi"/>
 			<Item Name="Save PC Gates.vi" Type="VI" URL="../Main/Settings/Save PC Gates.vi"/>
-			<Item Name="Scan Ready.vi" Type="VI" URL="../Scans/Scan Driver/Scan Ready.vi"/>
 			<Item Name="Read Instr Settings.vi" Type="VI" URL="../Main/Current Instr/Read Instr Settings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
