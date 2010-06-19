@@ -491,6 +491,10 @@
 				<Item Name="ex_Math.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/TimeDomainMathBlock.llb/ex_Math.vi"/>
 				<Item Name="math.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/math.ctl"/>
 			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="MC2/4  SendCommand.VI" Type="VI" URL="/&lt;instrlib&gt;/npmc2mc4/mc2mc4.llb/MC2/4  SendCommand.VI"/>
+				<Item Name="MC2/4  GetResponse.VI" Type="VI" URL="/&lt;instrlib&gt;/npmc2mc4/mc2mc4.llb/MC2/4  GetResponse.VI"/>
+			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
