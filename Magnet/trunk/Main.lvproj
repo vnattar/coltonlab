@@ -491,10 +491,6 @@
 				<Item Name="ex_Math.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/TimeDomainMathBlock.llb/ex_Math.vi"/>
 				<Item Name="math.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/math.ctl"/>
 			</Item>
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="MC2/4  SendCommand.VI" Type="VI" URL="/&lt;instrlib&gt;/npmc2mc4/mc2mc4.llb/MC2/4  SendCommand.VI"/>
-				<Item Name="MC2/4  GetResponse.VI" Type="VI" URL="/&lt;instrlib&gt;/npmc2mc4/mc2mc4.llb/MC2/4  GetResponse.VI"/>
-			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -512,7 +508,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OASaveProject.vi"/>
 			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAExecute.vi"/>
 			<Item Name="OAPutWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutWorksheet.vi"/>
 			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutStringWorksheet.vi"/>
@@ -883,14 +878,12 @@
 			<Item Name="UID Generator.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/WorkSpace/UID Generator.vi"/>
 			<Item Name="MC_Version.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Parser/MC_Version.vi"/>
 			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAOpenCommunication.vi"/>
-			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OASaveProject.vi"/>
 			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAExecute.vi"/>
 			<Item Name="OAPutWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAPutWorksheet.vi"/>
 			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAPutStringWorksheet.vi"/>
 			<Item Name="OAGetStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAGetStringWorksheet.vi"/>
 			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAExecute.vi"/>
 			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAPutStringWorksheet.vi"/>
-			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OASaveProject.vi"/>
 			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAOpenCommunication.vi"/>
 			<Item Name="OABeginSession.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OABeginSession.vi"/>
 			<Item Name="OAEndSession.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAEndSession.vi"/>
@@ -906,6 +899,9 @@
 			<Item Name="Save Times.vi" Type="VI" URL="../Main/Settings/Save Times.vi"/>
 			<Item Name="Save PC Gates.vi" Type="VI" URL="../Main/Settings/Save PC Gates.vi"/>
 			<Item Name="Read Instr Settings.vi" Type="VI" URL="../Main/Current Instr/Read Instr Settings.vi"/>
+			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OASaveProject.vi"/>
+			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OASaveProject.vi"/>
+			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OASaveProject.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
