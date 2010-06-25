@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LabVIEW john" Type="Folder" URL="..">
+		<Item Name="LabVIEW steve" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -902,6 +902,9 @@
 			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OASaveProject.vi"/>
 			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OASaveProject.vi"/>
 			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OASaveProject.vi"/>
+			<Item Name="Conditions.vi" Type="VI" URL="../Global/Conditions.vi"/>
+			<Item Name="Lockin Global.vi" Type="VI" URL="../Global/Lockin Global.vi"/>
+			<Item Name="Last Log.vi" Type="VI" URL="../Global/Last Log.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
