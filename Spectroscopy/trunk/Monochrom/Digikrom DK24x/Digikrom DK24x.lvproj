@@ -7,12 +7,9 @@
 		<Property Name="CCSymbols" Type="Str">OS,Win;CPU,x86;</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Digikrom DK24x.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Digikrom DK24x/Digikrom DK24x.lvlib"/>
-		<Item Name="Manual Control.vi" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Manual Control.vi"/>
-		<Item Name="Black Spect efficiency curves.vi" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Black Spect efficiency curves.vi"/>
-		<Item Name="Spectroscopy Control.vi" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Spectroscopy Control.vi"/>
-		<Item Name="Spectroscopy post-process data.vi" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Spectroscopy post-process data.vi"/>
-		<Item Name="Monochrom theoretical dispersion.vi" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Monochrom theoretical dispersion.vi"/>
-		<Item Name="Ge detectivity.vi" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Ge detectivity.vi"/>
+		<Item Name="Manual Control.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Manual Control.vi"/>
+		<Item Name="Spectroscopy Scan.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Spectroscopy Scan.vi"/>
+		<Item Name="Spectroscopy take data.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Spectroscopy take data.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -59,6 +56,7 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -66,13 +64,9 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 			</Item>
-			<Item Name="Spectroscopy take data.vi" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Spectroscopy take data.vi"/>
-			<Item Name="Takeaux1.avg" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Monosubs/Takeaux1.avg"/>
-			<Item Name="WRTREADsnapstring.VI" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Monosubs/WRTREADsnapstring.VI"/>
-			<Item Name="WRTREAD.VI" Type="VI" URL="../../../../../../Spectroscopy/STAGES/Old Sub-VI&apos;s for Stgprog/WRTREAD.VI"/>
-			<Item Name="SENSCONV.VI" Type="VI" URL="../../../../../../Spectroscopy/STAGES/Old Sub-VI&apos;s for Stgprog/SENSCONV.VI"/>
-			<Item Name="NEWSENS.VI" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Monosubs/NEWSENS.VI"/>
-			<Item Name="Wrtlckn.vi" Type="VI" URL="../../../../../../Spectroscopy/Monochrom/Monosubs/Wrtlckn.vi"/>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Takeaux1.avg" Type="Document" URL="/&lt;instrlib&gt;/Digikrom DK24x/Monosubs/Takeaux1.avg"/>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
