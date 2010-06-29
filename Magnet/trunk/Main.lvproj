@@ -491,6 +491,62 @@
 				<Item Name="ex_Math.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/TimeDomainMathBlock.llb/ex_Math.vi"/>
 				<Item Name="math.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/math.ctl"/>
 			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Digikrom DK24x.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Digikrom DK24x/Digikrom DK24x.lvlib"/>
+				<Item Name="Flush.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Flush.vi"/>
+				<Item Name="Echo.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Echo.vi"/>
+				<Item Name="Write.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Write.vi"/>
+				<Item Name="Command.ctl" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Command.ctl"/>
+				<Item Name="Send Command.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Send Command.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Read.vi"/>
+				<Item Name="Check Error.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Check Error.vi"/>
+				<Item Name="NovRAM Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/NovRAM Read.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Close.vi"/>
+				<Item Name="Model Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Model Query.vi"/>
+				<Item Name="Debug Log.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Debug Log.vi"/>
+				<Item Name="Unlock.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Unlock.vi"/>
+				<Item Name="Filter State.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Filter State.vi"/>
+				<Item Name="Serial Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Serial Query.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Initialize.vi"/>
+				<Item Name="Scan (To).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (To).vi"/>
+				<Item Name="Scan (Up).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (Up).vi"/>
+				<Item Name="Scan (Down).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (Down).vi"/>
+				<Item Name="Scan (Slew Up).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (Slew Up).vi"/>
+				<Item Name="Scan (Slew Down).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (Slew Down).vi"/>
+				<Item Name="Scan Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Scan Abort.vi"/>
+				<Item Name="Adjust Slit (1).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit (1).vi"/>
+				<Item Name="Adjust Slit (2).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit (2).vi"/>
+				<Item Name="Adjust Slit (3).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit (3).vi"/>
+				<Item Name="Reset Wait.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Reset Wait.vi"/>
+				<Item Name="Calibrate Slit (1).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Slit (1).vi"/>
+				<Item Name="Calibrate Slit (2).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Slit (2).vi"/>
+				<Item Name="Calibrate Slit (3).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Slit (3).vi"/>
+				<Item Name="Goto Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Goto Wavelength.vi"/>
+				<Item Name="Step Up.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Step Up.vi"/>
+				<Item Name="Step Down.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Step Down.vi"/>
+				<Item Name="Reset Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Reset Grating.vi"/>
+				<Item Name="Query Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Grating.vi"/>
+				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Self-Test.vi"/>
+				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Revision Query.vi"/>
+				<Item Name="Set Scan Speed.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Set Scan Speed.vi"/>
+				<Item Name="Set Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Set Filter.vi"/>
+				<Item Name="Reset Slit.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Reset Slit.vi"/>
+				<Item Name="Set Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Set Grating.vi"/>
+				<Item Name="Adjust Slit.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit.vi"/>
+				<Item Name="Scan.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan.vi"/>
+				<Item Name="Query Scan Speed.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Scan Speed.vi"/>
+				<Item Name="Query Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Wavelength.vi"/>
+				<Item Name="Query Slits.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Slits.vi"/>
+				<Item Name="Example - Manual Control.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Example - Manual Control.vi"/>
+				<Item Name="NovRAM Write.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/NovRAM Write.vi"/>
+				<Item Name="Calibrate Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Grating.vi"/>
+				<Item Name="NovRAM Dump.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/NovRAM Dump.vi"/>
+				<Item Name="Calibrate Slit.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Slit.vi"/>
+				<Item Name="Calibrate Zero.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Zero.vi"/>
+				<Item Name="Query Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Filter.vi"/>
+				<Item Name="Set CSR Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Set CSR Mode.vi"/>
+				<Item Name="Clear.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Clear.vi"/>
+			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -905,6 +961,16 @@
 			<Item Name="Conditions.vi" Type="VI" URL="../Global/Conditions.vi"/>
 			<Item Name="Lockin Global.vi" Type="VI" URL="../Global/Lockin Global.vi"/>
 			<Item Name="Last Log.vi" Type="VI" URL="../Global/Last Log.vi"/>
+			<Item Name="Curr to Setting.vi" Type="VI" URL="../Main/Curr to Setting.vi"/>
+			<Item Name="WRTREAD.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/WRTREAD.VI"/>
+			<Item Name="SENSCONV.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/SENSCONV.VI"/>
+			<Item Name="Build Total Data from Array Varying.vi" Type="VI" URL="../Scans/Scan Driver/Build Total Data from Array Varying.vi"/>
+			<Item Name="visarc" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/visarc"/>
+			<Item Name="Set Scan Speed.vi" Type="VI" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Digikrom DK24x/Public/Configure/Set Scan Speed.vi"/>
+			<Item Name="Goto Wavelength.vi" Type="VI" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Digikrom DK24x/Public/Action-Status/Goto Wavelength.vi"/>
+			<Item Name="Takeaux1.avg" Type="Document" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Monosubs/Takeaux1.avg"/>
+			<Item Name="Query Wavelength.vi" Type="VI" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Digikrom DK24x/Public/Action-Status/Query/Query Wavelength.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Digikrom DK24x/Public/Initialize.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
