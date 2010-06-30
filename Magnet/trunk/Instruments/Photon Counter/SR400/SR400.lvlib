@@ -75,6 +75,7 @@
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
 			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
+			<Item Name="Prepare Service Request.vi" Type="VI" URL="../Public/Utility/Prepare Service Request.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
 		</Item>
 		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
