@@ -43,7 +43,7 @@
 			<Item Name="Measure.vi" Type="VI" URL="../Public/Query/Measure.vi"/>
 			<Item Name="Query count display mode.vi" Type="VI" URL="../Public/Query/Query count display mode.vi"/>
 			<Item Name="Query Counter presets.vi" Type="VI" URL="../Public/Query/Query Counter presets.vi"/>
-			<Item Name="Query Counting inputs.vi" Type="VI" URL="../Public/Query/Query Counting inputs.vi"/>
+			<Item Name="Query inputs.vi" Type="VI" URL="../Public/Query/Query inputs.vi"/>
 			<Item Name="Query Counting Mode.vi" Type="VI" URL="../Public/Query/Query Counting Mode.vi"/>
 			<Item Name="Query DA output scale.vi" Type="VI" URL="../Public/Query/Query DA output scale.vi"/>
 			<Item Name="Query DA output source.vi" Type="VI" URL="../Public/Query/Query DA output source.vi"/>
@@ -93,4 +93,5 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
+	<Item Name="Clear Status Byte.vi" Type="VI" URL="../Public/Utility/Clear Status Byte.vi"/>
 </Library>
