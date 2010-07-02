@@ -82,4 +82,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
 	</Item>
+	<Item Name="Send &amp; receive VISA.vi" Type="VI" URL="../Send &amp; receive VISA.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Z!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%!Q`````QNS:7&amp;E)'*V:G:F=A!21!=!#G*Z&gt;'6T)(*F971!!$J!=!!/"5FO=X2S!!!)9)!"!!!!!1!%!!!!!1!!!!!!!":736.")(*F=W^V=G.F)'ZB&lt;75A&lt;X6U!!!%!!!!$E!B#8*F971`)#BG+1!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"N!"Q!59HFU:8-A&gt;']A=G6B:#!I-4!Q-#E!!":!-0````]-&gt;X*J&gt;'5A9H6G:G6S!!!W1(!!$A6*&lt;H.U=A!!#'#!!1!!!!%!"!!!!!%!!!!!!!!36EF413"S:8.P&gt;8*D:3"O97VF!!!]!0!!$!!$!!1!"1!'!!=!"Q!(!!A!#1!+!!M!$!-!!(A.#!E!!1!.#Q!!!!!!!!A!#A!+!"!!%!!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+	</Item>
 </LVClass>

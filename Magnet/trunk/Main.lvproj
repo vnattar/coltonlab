@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LabVIEW steve" Type="Folder" URL="..">
+		<Item Name="LabVIEW john" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -54,7 +54,6 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
@@ -310,14 +309,9 @@
 				<Item Name="DTbl Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U16 to Digital.vi"/>
 				<Item Name="DWDT Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U8 to Digital.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="VISA GPIB Control REN Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA GPIB Control REN Mode.ctl"/>
-				<Item Name="Sound Output Set Volume (Array).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Set Volume (Array).vi"/>
-				<Item Name="Sound Output Clear.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Clear.vi"/>
-				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
@@ -409,28 +403,6 @@
 				<Item Name="DTbl Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U16.vi"/>
 				<Item Name="DWDT Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U8.vi"/>
 				<Item Name="DTbl Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U8.vi"/>
-				<Item Name="DTbl Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Boolean Array to Digital.vi"/>
-				<Item Name="Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Boolean Array to Digital.vi"/>
-				<Item Name="DWDT Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Boolean Array to Digital.vi"/>
-				<Item Name="Digital Pattern Generator (Single Value).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Single Value).vi"/>
-				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
-				<Item Name="DTbl Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Append Digital Samples.vi"/>
-				<Item Name="Digital Pattern Generator.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Pattern Generator.vi"/>
-				<Item Name="Digital Pattern Generator (Ramp).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Ramp).vi"/>
-				<Item Name="Digital Pattern Generator (Marching Values).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Marching Values).vi"/>
-				<Item Name="Digital Pattern Generator (Random).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Random).vi"/>
-				<Item Name="Digital Pattern Generator (Toggle).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Toggle).vi"/>
-				<Item Name="Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Append Digital Samples.vi"/>
-				<Item Name="DWDT Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Append Digital Samples.vi"/>
-				<Item Name="DTbl Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Boolean Array.vi"/>
-				<Item Name="DTbl Replace Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Replace Subset.vi"/>
-				<Item Name="Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Uncompress Digital.vi"/>
-				<Item Name="Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Boolean Array.vi"/>
-				<Item Name="DWDT Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Boolean Array.vi"/>
-				<Item Name="Replace Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Replace Subset.vi"/>
-				<Item Name="DWDT Replace Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Replace Subset.vi"/>
-				<Item Name="Check for multiple of dt.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for multiple of dt.vi"/>
-				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
@@ -490,9 +462,13 @@
 				<Item Name="sub Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/daqmx/miscellaneous.llb/sub Waveform Array To Dynamic.vi"/>
 				<Item Name="ex_Math.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/TimeDomainMathBlock.llb/ex_Math.vi"/>
 				<Item Name="math.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/math.ctl"/>
+				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="Get Instrument State.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Get Instrument State.vi"/>
+				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
+				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Digikrom DK24x.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Digikrom DK24x/Digikrom DK24x.lvlib"/>
 				<Item Name="Flush.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Flush.vi"/>
 				<Item Name="Echo.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Echo.vi"/>
 				<Item Name="Write.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Write.vi"/>
@@ -506,46 +482,17 @@
 				<Item Name="Debug Log.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Debug Log.vi"/>
 				<Item Name="Unlock.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Unlock.vi"/>
 				<Item Name="Filter State.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Filter State.vi"/>
-				<Item Name="Serial Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Serial Query.vi"/>
 				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Initialize.vi"/>
-				<Item Name="Scan (To).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (To).vi"/>
-				<Item Name="Scan (Up).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (Up).vi"/>
-				<Item Name="Scan (Down).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (Down).vi"/>
-				<Item Name="Scan (Slew Up).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (Slew Up).vi"/>
-				<Item Name="Scan (Slew Down).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan (Slew Down).vi"/>
-				<Item Name="Scan Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Scan Abort.vi"/>
 				<Item Name="Adjust Slit (1).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit (1).vi"/>
 				<Item Name="Adjust Slit (2).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit (2).vi"/>
-				<Item Name="Adjust Slit (3).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit (3).vi"/>
-				<Item Name="Reset Wait.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Reset Wait.vi"/>
-				<Item Name="Calibrate Slit (1).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Slit (1).vi"/>
-				<Item Name="Calibrate Slit (2).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Slit (2).vi"/>
-				<Item Name="Calibrate Slit (3).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Slit (3).vi"/>
 				<Item Name="Goto Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Goto Wavelength.vi"/>
-				<Item Name="Step Up.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Step Up.vi"/>
-				<Item Name="Step Down.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Step Down.vi"/>
-				<Item Name="Reset Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Reset Grating.vi"/>
 				<Item Name="Query Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Grating.vi"/>
-				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Self-Test.vi"/>
-				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Revision Query.vi"/>
-				<Item Name="Set Scan Speed.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Set Scan Speed.vi"/>
 				<Item Name="Set Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Set Filter.vi"/>
-				<Item Name="Reset Slit.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Reset Slit.vi"/>
 				<Item Name="Set Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Set Grating.vi"/>
-				<Item Name="Adjust Slit.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit.vi"/>
-				<Item Name="Scan.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Scan.vi"/>
-				<Item Name="Query Scan Speed.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Scan Speed.vi"/>
 				<Item Name="Query Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Wavelength.vi"/>
 				<Item Name="Query Slits.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Slits.vi"/>
-				<Item Name="Example - Manual Control.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Example - Manual Control.vi"/>
-				<Item Name="NovRAM Write.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/NovRAM Write.vi"/>
-				<Item Name="Calibrate Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Grating.vi"/>
-				<Item Name="NovRAM Dump.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/NovRAM Dump.vi"/>
-				<Item Name="Calibrate Slit.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Slit.vi"/>
-				<Item Name="Calibrate Zero.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/Calibrate Zero.vi"/>
 				<Item Name="Query Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Filter.vi"/>
-				<Item Name="Set CSR Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Set CSR Mode.vi"/>
-				<Item Name="Clear.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Clear.vi"/>
+				<Item Name="Digikrom DK24x.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Digikrom DK24x/Digikrom DK24x.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -554,20 +501,12 @@
 			<Item Name="lvsound.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/lvsound2.dll"/>
 			<Item Name="wlmData.dll" Type="Document" URL="../../WINDOWS/system32/wlmData.dll"/>
-			<Item Name="MotorDetails.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/SMC4SUBS.LLB/MotorDetails.ctl"/>
-			<Item Name="PIDEntry.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/PIDTABLE.LLB/PIDEntry.ctl"/>
-			<Item Name="PIDTableControl.ctl" Type="VI" URL="../Instruments/Magnet/Oxford/PIDTABLE.LLB/PIDTableControl.ctl"/>
-			<Item Name="FG Trigger.vi" Type="VI" URL="../Instruments/Function Generator/Quick Fn Sweep - Cont LD.vi/FG Trigger.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAExecute.vi"/>
-			<Item Name="OAPutWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutWorksheet.vi"/>
-			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAPutStringWorksheet.vi"/>
-			<Item Name="OAGetStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAGetStringWorksheet.vi"/>
 			<Item Name="MSdata.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/MCMatrix/MSdata.ctl"/>
 			<Item Name="ComplexMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/ComplexMatrix/ComplexMatrix.ctl"/>
 			<Item Name="RealMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/RealMatrix/RealMatrix.ctl"/>
@@ -933,44 +872,11 @@
 			<Item Name="Write DBL.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Plug In/BaseType/write/Write DBL.vi"/>
 			<Item Name="UID Generator.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/WorkSpace/UID Generator.vi"/>
 			<Item Name="MC_Version.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Parser/MC_Version.vi"/>
-			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAOpenCommunication.vi"/>
-			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAExecute.vi"/>
-			<Item Name="OAPutWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAPutWorksheet.vi"/>
-			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAPutStringWorksheet.vi"/>
-			<Item Name="OAGetStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OAGetStringWorksheet.vi"/>
-			<Item Name="OAExecute.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAExecute.vi"/>
-			<Item Name="OAPutStringWorksheet.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAPutStringWorksheet.vi"/>
-			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAOpenCommunication.vi"/>
-			<Item Name="OABeginSession.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OABeginSession.vi"/>
-			<Item Name="OAEndSession.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAEndSession.vi"/>
-			<Item Name="OALoadProject.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OALoadProject.vi"/>
-			<Item Name="OAExit.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OAExit.vi"/>
-			<Item Name="OAOpenCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OAOpenCommunication.vi"/>
-			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OACloseCommunication.vi"/>
-			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OACloseCommunication.vi"/>
-			<Item Name="OACloseCommunication.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OACloseCommunication.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-			<Item Name="Get Strings.vi" Type="VI" URL="../Main/Settings/Get Strings.vi"/>
-			<Item Name="Settings Find Multi.vi" Type="VI" URL="../Main/Settings/Settings Find Multi.vi"/>
-			<Item Name="Save Times.vi" Type="VI" URL="../Main/Settings/Save Times.vi"/>
-			<Item Name="Save PC Gates.vi" Type="VI" URL="../Main/Settings/Save PC Gates.vi"/>
-			<Item Name="Read Instr Settings.vi" Type="VI" URL="../Main/Current Instr/Read Instr Settings.vi"/>
-			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin.vi/OASaveProject.vi"/>
-			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Save Origin Header.vi/OASaveProject.vi"/>
-			<Item Name="OASaveProject.vi" Type="VI" URL="../File IO/Origin Save/Origin Save.vi/OASaveProject.vi"/>
-			<Item Name="Conditions.vi" Type="VI" URL="../Global/Conditions.vi"/>
-			<Item Name="Lockin Global.vi" Type="VI" URL="../Global/Lockin Global.vi"/>
-			<Item Name="Last Log.vi" Type="VI" URL="../Global/Last Log.vi"/>
-			<Item Name="Curr to Setting.vi" Type="VI" URL="../Main/Curr to Setting.vi"/>
-			<Item Name="WRTREAD.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/WRTREAD.VI"/>
-			<Item Name="SENSCONV.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/SENSCONV.VI"/>
-			<Item Name="Build Total Data from Array Varying.vi" Type="VI" URL="../Scans/Scan Driver/Build Total Data from Array Varying.vi"/>
 			<Item Name="visarc" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/visarc"/>
-			<Item Name="Set Scan Speed.vi" Type="VI" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Digikrom DK24x/Public/Configure/Set Scan Speed.vi"/>
-			<Item Name="Goto Wavelength.vi" Type="VI" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Digikrom DK24x/Public/Action-Status/Goto Wavelength.vi"/>
-			<Item Name="Takeaux1.avg" Type="Document" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Monosubs/Takeaux1.avg"/>
-			<Item Name="Query Wavelength.vi" Type="VI" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Digikrom DK24x/Public/Action-Status/Query/Query Wavelength.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../Instruments/Spectrometer Digikröm/Digikrom DK24x/Digikrom DK24x/Public/Initialize.vi"/>
+			<Item Name="Get Label Data.vi" Type="VI" URL="../Main/Set Up Data/Get Label Data.vi"/>
+			<Item Name="Dwell Time Delay.vi" Type="VI" URL="../Main/Scanner/Dwell Time Delay.vi"/>
+			<Item Name="Scanner.lvclass" Type="LVClass" URL="../Main/Scanner/Scanner.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
