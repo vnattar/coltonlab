@@ -10,7 +10,8 @@
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 			<Item Name="Configure.vi" Type="VI" URL="../Public/Configure/Configure.vi"/>
-			<Item Name="count display mode.vi" Type="VI" URL="../Public/Configure/count display mode.vi"/>
+			<Item Name="Set display mode.vi" Type="VI" URL="../Public/Configure/Set display mode.vi"/>
+			<Item Name="Set both gates.vi" Type="VI" URL="../Public/Configure/Set both gates.vi"/>
 			<Item Name="Counter Presets.vi" Type="VI" URL="../Public/Configure/Counter Presets.vi"/>
 			<Item Name="Counting Inputs.vi" Type="VI" URL="../Public/Configure/Counting Inputs.vi"/>
 			<Item Name="Counting mode.vi" Type="VI" URL="../Public/Configure/Counting mode.vi"/>
@@ -27,6 +28,7 @@
 			<Item Name="Set discriminator slope.vi" Type="VI" URL="../Public/Configure/Set discriminator slope.vi"/>
 			<Item Name="Set discriminator.vi" Type="VI" URL="../Public/Configure/Set discriminator.vi"/>
 			<Item Name="Set Gate Delay.vi" Type="VI" URL="../Public/Configure/Set Gate Delay.vi"/>
+			<Item Name="Set T-time.vi" Type="VI" URL="../Public/Configure/Set T-time.vi"/>
 			<Item Name="Set gate mode.vi" Type="VI" URL="../Public/Configure/Set gate mode.vi"/>
 			<Item Name="Set Gate Width.vi" Type="VI" URL="../Public/Configure/Set Gate Width.vi"/>
 			<Item Name="Set PORT levels.vi" Type="VI" URL="../Public/Configure/Set PORT levels.vi"/>
@@ -41,6 +43,7 @@
 			<Item Name="Cursor position.vi" Type="VI" URL="../Public/Query/Cursor position.vi"/>
 			<Item Name="Gate delay Position.vi" Type="VI" URL="../Public/Query/Gate delay Position.vi"/>
 			<Item Name="Measure.vi" Type="VI" URL="../Public/Query/Measure.vi"/>
+			<Item Name="Read both gates.vi" Type="VI" URL="../Public/Query/Read both gates.vi"/>
 			<Item Name="Query count display mode.vi" Type="VI" URL="../Public/Query/Query count display mode.vi"/>
 			<Item Name="Query Counter presets.vi" Type="VI" URL="../Public/Query/Query Counter presets.vi"/>
 			<Item Name="Query inputs.vi" Type="VI" URL="../Public/Query/Query inputs.vi"/>

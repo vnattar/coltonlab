@@ -874,9 +874,11 @@
 			<Item Name="MC_Version.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Parser/MC_Version.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			<Item Name="visarc" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/visarc"/>
+			<Item Name="count display mode.vi" Type="VI" URL="../Instruments/Photon Counter/SR400/Public/Configure/count display mode.vi"/>
+			<Item Name="T Time to Cycles.vi" Type="VI" URL="../Instruments/Photon Counter/T Time to Cycles.vi"/>
 			<Item Name="Get Label Data.vi" Type="VI" URL="../Main/Set Up Data/Get Label Data.vi"/>
-			<Item Name="Dwell Time Delay.vi" Type="VI" URL="../Main/Scanner/Dwell Time Delay.vi"/>
 			<Item Name="Scanner.lvclass" Type="LVClass" URL="../Main/Scanner/Scanner.lvclass"/>
+			<Item Name="Dwell Time Delay.vi" Type="VI" URL="../Main/Scanner/Dwell Time Delay.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
