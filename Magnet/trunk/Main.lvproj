@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LabVIEW john" Type="Folder" URL="..">
+		<Item Name="LabVIEW steve" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -876,9 +876,8 @@
 			<Item Name="visarc" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/visarc"/>
 			<Item Name="count display mode.vi" Type="VI" URL="../Instruments/Photon Counter/SR400/Public/Configure/count display mode.vi"/>
 			<Item Name="T Time to Cycles.vi" Type="VI" URL="../Instruments/Photon Counter/T Time to Cycles.vi"/>
-			<Item Name="Get Label Data.vi" Type="VI" URL="../Main/Set Up Data/Get Label Data.vi"/>
-			<Item Name="Scanner.lvclass" Type="LVClass" URL="../Main/Scanner/Scanner.lvclass"/>
-			<Item Name="Dwell Time Delay.vi" Type="VI" URL="../Main/Scanner/Dwell Time Delay.vi"/>
+			<Item Name="WRTREAD.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/WRTREAD.VI"/>
+			<Item Name="SENSCONV.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/SENSCONV.VI"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
