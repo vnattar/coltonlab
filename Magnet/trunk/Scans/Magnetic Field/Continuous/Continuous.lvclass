@@ -18,6 +18,15 @@
 	<Item Name="Continuous.ctl" Type="Class Private Data" URL="Continuous.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Continuous.vi" Type="VI" URL="../Continuous.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!5%E.P&lt;H2J&lt;H6P&gt;8-O&lt;(:D&lt;'&amp;T=Q!!&amp;E.P&lt;H2J&lt;H6P&gt;8-O&lt;(:D&lt;'&amp;T=S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*E"Q!"Y!!"-25W.B&lt;GZB9GRF,GRW9WRB=X-!#6.D97ZO97*M:1!U1(!!(A!!&amp;"*$&lt;WZU;7ZV&lt;X6T,GRW9WRB=X-!!"6$&lt;WZU;7ZV&lt;X6T,GRW9WRB=X-A;7Y!31$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y$1A!!!!!$1M!!!!!!!!!!!A!!!!3!!)!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 	<Item Name="Has Next.vi" Type="VI" URL="../Has Next.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&lt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:":W&amp;J&lt;D]!!$:!=!!?!!!5%E.P&lt;H2J&lt;H6P&gt;8-O&lt;(:D&lt;'&amp;T=Q!!&amp;E.P&lt;H2J&lt;H6P&gt;8-O&lt;(:D&lt;'&amp;T=S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.%"Q!"Y!!"131W^O&gt;'FO&gt;7^V=SZM&gt;G.M98.T!!!61W^O&gt;'FO&gt;7^V=SZM&gt;G.M98.T)'FO!$Q!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!U)!!!*))U,!!!!!!!!!!!+!!!!!!#3!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
