@@ -19,7 +19,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Pulse Gen Scan.vi" Type="VI" URL="../Pulse Gen Scan.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!9&amp;F"V&lt;(.F)%&gt;F&lt;C"49W&amp;O,GRW9WRB=X-!!"*1&gt;7RT:3"(:7YA5W.B&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*E"Q!"Y!!"-25W.B&lt;GZB9GRF,GRW9WRB=X-!#6.D97ZO97*M:1!U1(!!(A!!'":1&gt;7RT:3"(:7YA5W.B&lt;CZM&gt;G.M98.T!!!25(6M=W5A2W6O)&amp;.D97YA;7Y!31$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y$1A!!!!!$1M!!!!!!!!!!!A!!!!3!!)!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!9&amp;F"V&lt;(.F)%&gt;F&lt;C"49W&amp;O,GRW9WRB=X-!!"*1&gt;7RT:3"(:7YA5W.B&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!"E85(6M=W5A2W6O:8*B&gt;'^S,GRW9WRB=X-!&amp;V"V&lt;(.F)%&gt;F&lt;G6S982P=CZM&gt;G.M98.T!$2!=!!?!!!9&amp;F"V&lt;(.F)%&gt;F&lt;C"49W&amp;O,GRW9WRB=X-!!"&amp;1&gt;7RT:3"(:7YA5W.B&lt;C"J&lt;A"*!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A.#!!!!!!.#Q!!!!!!!!!!#!!!!")!!A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
