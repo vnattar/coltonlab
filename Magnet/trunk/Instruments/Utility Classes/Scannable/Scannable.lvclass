@@ -24,12 +24,12 @@ This subinterface class defines only one method - Get Scanner.vi.  This is by de
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Get Scanner.vi" Type="VI" URL="../Get Scanner.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%D!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!05W.B&lt;GZF=CZM&gt;G.M98.T!#J!=!!?!!!4%6.D97ZO97*M:3ZM&gt;G.M98.T!!V49W&amp;O&lt;G&amp;C&lt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!+E"Q!"Y!!"-25W.B&lt;GZB9GRF,GRW9WRB=X-!$&amp;.D97ZO97*M:3"J&lt;A!!0!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y$1A!!!E!D1M!!!!!!!!!!!A!!!!!!*!!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$^!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!42'6G986M&gt;#"49W&amp;O&lt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#J!=!!?!!!4%6.D97ZO97*M:3ZM&gt;G.M98.T!!R49W&amp;O&lt;G&amp;C&lt;'5A;7Y!!$Q!]!!-!!-!"!!&amp;!!1!"!!%!!1!"!!'!!1!"!!(!A!!?!U)!!!*!!!!!!!!!!!!!!!)!!!!!!#1!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 	</Item>
 </LVClass>

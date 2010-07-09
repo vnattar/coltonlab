@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LabVIEW john" Type="Folder" URL="..">
+		<Item Name="LabVIEW steve" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -875,6 +875,9 @@
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			<Item Name="visarc" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/visarc"/>
 			<Item Name="count display mode.vi" Type="VI" URL="../Instruments/Photon Counter/SR400/Public/Configure/count display mode.vi"/>
+			<Item Name="WRTREAD.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/WRTREAD.VI"/>
+			<Item Name="SENSCONV.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/SENSCONV.VI"/>
+			<Item Name="Time Estimate.vi" Type="VI" URL="../Main/Scan Driver/Time Estimate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
