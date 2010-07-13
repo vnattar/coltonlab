@@ -15,7 +15,9 @@
 			<Item Name="Move Slit Relative.vi" Type="VI" URL="../Public/Action-Status/Move Slit Relative.vi"/>
 			<Item Name="Move to Wavelength (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Move to Wavelength (TRIAX).vi"/>
 			<Item Name="Move Turret (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Move Turret (TRIAX).vi"/>
+			<Item Name="Move Turret.vi" Type="VI" URL="../Public/Action-Status/Move Turret.vi"/>
 			<Item Name="Query Motor Position (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Query Motor Position (TRIAX).vi"/>
+			<Item Name="Query Motor Position.vi" Type="VI" URL="../Public/Action-Status/Query Motor Position.vi"/>
 			<Item Name="Query Slit Position.vi" Type="VI" URL="../Public/Action-Status/Query Slit Position.vi"/>
 			<Item Name="Query Turret Position (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Query Turret Position (TRIAX).vi"/>
 		</Item>
