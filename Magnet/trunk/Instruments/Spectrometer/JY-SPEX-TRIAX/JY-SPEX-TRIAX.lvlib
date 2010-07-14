@@ -12,13 +12,11 @@
 			<Item Name="Check Turret Busy (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Check Turret Busy (TRIAX).vi"/>
 			<Item Name="Move Mirror.vi" Type="VI" URL="../Public/Action-Status/Move Mirror.vi"/>
 			<Item Name="Move Motor Relative.vi" Type="VI" URL="../Public/Action-Status/Move Motor Relative.vi"/>
-			<Item Name="Move Slit Relative.vi" Type="VI" URL="../Public/Action-Status/Move Slit Relative.vi"/>
 			<Item Name="Move Slit.vi" Type="VI" URL="../Public/Action-Status/Move Slit.vi"/>
 			<Item Name="Move to Wavelength (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Move to Wavelength (TRIAX).vi"/>
 			<Item Name="Move Turret (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Move Turret (TRIAX).vi"/>
 			<Item Name="Move Turret.vi" Type="VI" URL="../Public/Action-Status/Move Turret.vi"/>
 			<Item Name="Query Motor Position (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Query Motor Position (TRIAX).vi"/>
-			<Item Name="Query Motor Position.vi" Type="VI" URL="../Public/Action-Status/Query Motor Position.vi"/>
 			<Item Name="Query Slit Position.vi" Type="VI" URL="../Public/Action-Status/Query Slit Position.vi"/>
 			<Item Name="Query Turret Position (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Query Turret Position (TRIAX).vi"/>
 		</Item>
@@ -45,10 +43,17 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
 		<Item Name="Initialize Grating.vi" Type="VI" URL="../Private/Initialize Grating.vi"/>
+		<Item Name="Motor Wait.vi" Type="VI" URL="../Private/Motor Wait.vi"/>
+		<Item Name="Move Slit Relative Inner.vi" Type="VI" URL="../Private/Move Slit Relative Inner.vi"/>
+		<Item Name="Move Slit Relative.vi" Type="VI" URL="../Private/Move Slit Relative.vi"/>
+		<Item Name="Move to Wavelength Inner (TRIAX).vi" Type="VI" URL="../Private/Move to Wavelength Inner (TRIAX).vi"/>
 		<Item Name="Send Command.vi" Type="VI" URL="../Private/Send Command.vi"/>
 		<Item Name="Send Query.vi" Type="VI" URL="../Private/Send Query.vi"/>
 		<Item Name="Start Main Program.vi" Type="VI" URL="../Private/Start Main Program.vi"/>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
+	</Item>
+	<Item Name="Spectrometer Config.vi" Type="VI" URL="../Spectrometer Config.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </Library>
