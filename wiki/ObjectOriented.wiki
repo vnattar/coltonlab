@@ -9,7 +9,7 @@ For general Object-Oriented theory, Google is full of great introductory tutoria
 
 = Conventions =
 
-As of version 8.6, LabVIEW does not yet come with built-in object constructors and destructors, and there is not yet consensus as to the conventions.  I have made up my own conventions in the interim:
+As of version 8.6, LabVIEW does not come with built-in object constructors and destructors.  National Instruments [http://zone.ni.com/devzone/cda/tut/p/id/3574#toc1 does not recommend] constructors and destructors for objects.  However, we disagree, so here is our implementation.  Since there is no "official" consensus for constructors and destructors, we have made up our own conventions.
 
 ==Open issues==
 
@@ -23,12 +23,10 @@ Constructors do not fit logically into the "Labview philosophy" of dataflow prog
   # Constructors are always in the static context.
   # Always name constructors after the class.  The constructor for `Cow.lvclass` is named `Cow.vi`.
   # To overload constructors, create a [http://zone.ni.com/reference/en-XX/help/371361B-01/lvhowto/using_polymorphic_vis/ polymorphic VI] named `Cow.vi` with instances named like `Cow (Legs).vi` and `Cow (Milk).vi`.
-  # Put the text "new()" on the icon so it is obvious that this is the constructor method.
-  # Change the Object input to a constant.  Constructors must never have class inputs unless they are a copy constructor.
-  # Do not allocate heap memory inside constructors.  Let the caller do this beforehand, just as the `new` operator in C++.
-  # Never override a superclass constructor.  The child class's constructor should have a different name anyway!
-  # When a subclass instance is created, call the superclass constructor *first*, before the subclass constructor's specifics.  In an inheritance chain, constructors are executed from top to bottom.
-  # Cast the constructed superclass object into a "More Specific Class" (perhaps using the Class constant that remains from the Object input you removed earlier.)
+  # Put the text "new()" on the icon so it is obvious that this is the constructor method. (This is a signal to remind the programmer to delete() the object later.)
+  # Change the .lvclass input terminal to be "optional".  This allows the constructor to function as a copy constructor if another object is wired to it.
+  # Never override a superclass constructor.  Constructors are always static, and the child class's constructor should have a different name anyway!
+  # When a subclass instance is created, call the superclass constructor *first*, before the subclass constructor's specific code.  In an inheritance chain, constructors are executed from top to bottom.
   # Pure virtual (abstract) superclass constructors should be Protected access and called from their children.
 
 ==Destructors==
@@ -36,6 +34,7 @@ Constructors do not fit logically into the "Labview philosophy" of dataflow prog
   # Always name the destructor `Delete.vi`, no matter what.
   # Put "delete()" on the icon.
   # If the destructor needs to release a resource, such as a VISA session or Queue, release this resource inside the destructor.  If it is useful to return the resource to the caller, add "Finalized" to the output terminal's name, e.g. `Finalized VISA session`.
+  # Unlike constructors (which are static), you must override the superclass destructor via dynamic dispatch, but call the superclass destructor inside your subclass destructor so both can run.
   # When a subclass instance is destroyed, call the superclass destructor *after* the subclass destructor.  In an inheritance chain, destructors are executed from bottom to top.
 
 = Practice =
