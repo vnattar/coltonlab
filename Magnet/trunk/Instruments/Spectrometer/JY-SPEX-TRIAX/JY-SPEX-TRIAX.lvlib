@@ -13,6 +13,7 @@
 			<Item Name="Move Mirror.vi" Type="VI" URL="../Public/Action-Status/Move Mirror.vi"/>
 			<Item Name="Move Motor Relative.vi" Type="VI" URL="../Public/Action-Status/Move Motor Relative.vi"/>
 			<Item Name="Move Slit Relative.vi" Type="VI" URL="../Public/Action-Status/Move Slit Relative.vi"/>
+			<Item Name="Move Slit.vi" Type="VI" URL="../Public/Action-Status/Move Slit.vi"/>
 			<Item Name="Move to Wavelength (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Move to Wavelength (TRIAX).vi"/>
 			<Item Name="Move Turret (TRIAX).vi" Type="VI" URL="../Public/Action-Status/Move Turret (TRIAX).vi"/>
 			<Item Name="Move Turret.vi" Type="VI" URL="../Public/Action-Status/Move Turret.vi"/>
