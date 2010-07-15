@@ -16,17 +16,36 @@
 			<Item Name="Enable Synchronization Trigger Receiving.vi" Type="VI" URL="../Public/Action-Status/Enable Synchronization Trigger Receiving.vi"/>
 			<Item Name="Initiate Synchronization Trigger.vi" Type="VI" URL="../Public/Action-Status/Initiate Synchronization Trigger.vi"/>
 			<Item Name="Initiate.vi" Type="VI" URL="../Public/Action-Status/Initiate.vi"/>
+			<Item Name="Query Amp Sweep Start.vi" Type="VI" URL="../Public/Action-Status/Query Amp Sweep Start.vi"/>
+			<Item Name="Query Amp Sweep Stop.vi" Type="VI" URL="../Public/Action-Status/Query Amp Sweep Stop.vi"/>
+			<Item Name="Query Amplitude Mode.vi" Type="VI" URL="../Public/Action-Status/Query Amplitude Mode.vi"/>
+			<Item Name="Query Amplitude.vi" Type="VI" URL="../Public/Action-Status/Query Amplitude.vi"/>
+			<Item Name="Query Freq Sweep Start.vi" Type="VI" URL="../Public/Action-Status/Query Freq Sweep Start.vi"/>
+			<Item Name="Query Freq Sweep Stop.vi" Type="VI" URL="../Public/Action-Status/Query Freq Sweep Stop.vi"/>
 			<Item Name="Query Frequency Mode.vi" Type="VI" URL="../Public/Action-Status/Query Frequency Mode.vi"/>
+			<Item Name="Query Frequency.vi" Type="VI" URL="../Public/Action-Status/Query Frequency.vi"/>
+			<Item Name="Query Output.vi" Type="VI" URL="../Public/Action-Status/Query Output.vi"/>
+			<Item Name="Query Sweep Dwell.vi" Type="VI" URL="../Public/Action-Status/Query Sweep Dwell.vi"/>
+			<Item Name="Query Sweep Points.vi" Type="VI" URL="../Public/Action-Status/Query Sweep Points.vi"/>
 			<Item Name="Reset Digital Signal Interface Module.vi" Type="VI" URL="../Public/Action-Status/Reset Digital Signal Interface Module.vi"/>
 			<Item Name="Reset IQ DAC.vi" Type="VI" URL="../Public/Action-Status/Reset IQ DAC.vi"/>
 			<Item Name="Reset Reference Oscillator.vi" Type="VI" URL="../Public/Action-Status/Reset Reference Oscillator.vi"/>
-			<Item Name="Set Frequency.vi" Type="VI" URL="../Public/Action-Status/Set Frequency.vi"/>
 			<Item Name="Save Recall Sweep List.vi" Type="VI" URL="../Public/Action-Status/Save Recall Sweep List.vi"/>
 			<Item Name="Select Waveform.vi" Type="VI" URL="../Public/Action-Status/Select Waveform.vi"/>
 			<Item Name="Send Software Trigger.vi" Type="VI" URL="../Public/Action-Status/Send Software Trigger.vi"/>
+			<Item Name="Set Amp Sweep Start.vi" Type="VI" URL="../Public/Action-Status/Set Amp Sweep Start.vi"/>
+			<Item Name="Set Amp Sweep Stop.vi" Type="VI" URL="../Public/Action-Status/Set Amp Sweep Stop.vi"/>
+			<Item Name="Set Amplitude Mode.vi" Type="VI" URL="../Public/Action-Status/Set Amplitude Mode.vi"/>
+			<Item Name="Set Amplitude.vi" Type="VI" URL="../Public/Action-Status/Set Amplitude.vi"/>
+			<Item Name="Set Freq Sweep Start.vi" Type="VI" URL="../Public/Action-Status/Set Freq Sweep Start.vi"/>
+			<Item Name="Set Freq Sweep Stop.vi" Type="VI" URL="../Public/Action-Status/Set Freq Sweep Stop.vi"/>
 			<Item Name="Set Frequency Mode.vi" Type="VI" URL="../Public/Action-Status/Set Frequency Mode.vi"/>
 			<Item Name="Set Frequency Reference.vi" Type="VI" URL="../Public/Action-Status/Set Frequency Reference.vi"/>
+			<Item Name="Set Frequency.vi" Type="VI" URL="../Public/Action-Status/Set Frequency.vi"/>
+			<Item Name="Set Output.vi" Type="VI" URL="../Public/Action-Status/Set Output.vi"/>
 			<Item Name="Set Phase Reference.vi" Type="VI" URL="../Public/Action-Status/Set Phase Reference.vi"/>
+			<Item Name="Set Sweep Dwell.vi" Type="VI" URL="../Public/Action-Status/Set Sweep Dwell.vi"/>
+			<Item Name="Set Sweep Points.vi" Type="VI" URL="../Public/Action-Status/Set Sweep Points.vi"/>
 			<Item Name="Single Sweep.vi" Type="VI" URL="../Public/Action-Status/Single Sweep.vi"/>
 			<Item Name="Wait for Operation Complete.vi" Type="VI" URL="../Public/Action-Status/Wait for Operation Complete.vi"/>
 		</Item>
@@ -154,23 +173,4 @@
 		<Item Name="Series Recognition.vi" Type="VI" URL="../Private/Series Recognition.vi"/>
 	</Item>
 	<Item Name="Agilent PSG MXG Series Readme.html" Type="Document" URL="../Agilent PSG MXG Series Readme.html"/>
-	<Item Name="Query Frequency.vi" Type="VI" URL="../Public/Action-Status/Query Frequency.vi"/>
-	<Item Name="Query Amplitude Mode.vi" Type="VI" URL="../Public/Action-Status/Query Amplitude Mode.vi"/>
-	<Item Name="Set Amplitude Mode.vi" Type="VI" URL="../Public/Action-Status/Set Amplitude Mode.vi"/>
-	<Item Name="Query Amplitude.vi" Type="VI" URL="../Public/Action-Status/Query Amplitude.vi"/>
-	<Item Name="Set Amplitude.vi" Type="VI" URL="../Public/Action-Status/Set Amplitude.vi"/>
-	<Item Name="Query Sweep Points.vi" Type="VI" URL="../Public/Action-Status/Query Sweep Points.vi"/>
-	<Item Name="Set Sweep Points.vi" Type="VI" URL="../Public/Action-Status/Set Sweep Points.vi"/>
-	<Item Name="Set Sweep Dwell.vi" Type="VI" URL="../Public/Action-Status/Set Sweep Dwell.vi"/>
-	<Item Name="Query Sweep Dwell.vi" Type="VI" URL="../Public/Action-Status/Query Sweep Dwell.vi"/>
-	<Item Name="Query Freq Sweep Start.vi" Type="VI" URL="../Public/Action-Status/Query Freq Sweep Start.vi"/>
-	<Item Name="Set Freq Sweep Start.vi" Type="VI" URL="../Public/Action-Status/Set Freq Sweep Start.vi"/>
-	<Item Name="Query Freq Sweep Stop.vi" Type="VI" URL="../Public/Action-Status/Query Freq Sweep Stop.vi"/>
-	<Item Name="Set Freq Sweep Stop.vi" Type="VI" URL="../Public/Action-Status/Set Freq Sweep Stop.vi"/>
-	<Item Name="Query Amp Sweep Start.vi" Type="VI" URL="../Public/Action-Status/Query Amp Sweep Start.vi"/>
-	<Item Name="Set Amp Sweep Start.vi" Type="VI" URL="../Public/Action-Status/Set Amp Sweep Start.vi"/>
-	<Item Name="Set Amp Sweep Stop.vi" Type="VI" URL="../Public/Action-Status/Set Amp Sweep Stop.vi"/>
-	<Item Name="Query Amp Sweep Stop.vi" Type="VI" URL="../Public/Action-Status/Query Amp Sweep Stop.vi"/>
-	<Item Name="Query Output.vi" Type="VI" URL="../Public/Action-Status/Query Output.vi"/>
-	<Item Name="Set Output.vi" Type="VI" URL="../Public/Action-Status/Set Output.vi"/>
 </Library>
