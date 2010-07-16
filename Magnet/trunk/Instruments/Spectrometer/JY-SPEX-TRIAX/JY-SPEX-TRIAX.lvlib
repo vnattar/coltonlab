@@ -56,4 +56,9 @@
 	<Item Name="Spectrometer Config.vi" Type="VI" URL="../Spectrometer Config.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Mirror Position.ctl" Type="VI" URL="../controls.llb/Mirror Position.ctl"/>
+	<Item Name="Monochromator System Number.ctl" Type="VI" URL="../controls.llb/Monochromator System Number.ctl"/>
+	<Item Name="Slits.ctl" Type="VI" URL="../controls.llb/Slits.ctl"/>
+	<Item Name="Turret Position (TRIAX).ctl" Type="VI" URL="../controls.llb/Turret Position (TRIAX).ctl"/>
+	<Item Name="Turret Position.ctl" Type="VI" URL="../controls.llb/Turret Position.ctl"/>
 </Library>
