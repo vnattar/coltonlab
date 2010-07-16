@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LabVIEW steve" Type="Folder" URL="..">
+		<Item Name="LabVIEW john" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -62,7 +62,7 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Open/Create/Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open/Create/Replace File.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/platform/system.llb/Beep.vi"/>
 				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/daqmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
@@ -468,32 +468,6 @@
 				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
 			</Item>
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Flush.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Flush.vi"/>
-				<Item Name="Echo.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Echo.vi"/>
-				<Item Name="Write.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Write.vi"/>
-				<Item Name="Command.ctl" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Command.ctl"/>
-				<Item Name="Send Command.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Send Command.vi"/>
-				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Read.vi"/>
-				<Item Name="Check Error.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Check Error.vi"/>
-				<Item Name="NovRAM Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Calibration/NovRAM Read.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Close.vi"/>
-				<Item Name="Model Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Utility/Model Query.vi"/>
-				<Item Name="Debug Log.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Debug Log.vi"/>
-				<Item Name="Unlock.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Unlock.vi"/>
-				<Item Name="Filter State.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Private/Filter State.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Initialize.vi"/>
-				<Item Name="Adjust Slit (1).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit (1).vi"/>
-				<Item Name="Adjust Slit (2).vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Adjust Slit (2).vi"/>
-				<Item Name="Goto Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Goto Wavelength.vi"/>
-				<Item Name="Query Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Grating.vi"/>
-				<Item Name="Set Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Set Filter.vi"/>
-				<Item Name="Set Grating.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Configure/Set Grating.vi"/>
-				<Item Name="Query Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Wavelength.vi"/>
-				<Item Name="Query Slits.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Slits.vi"/>
-				<Item Name="Query Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Digikrom DK24x/Public/Action-Status/Query/Query Filter.vi"/>
-				<Item Name="Digikrom DK24x.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Digikrom DK24x/Digikrom DK24x.lvlib"/>
-			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -874,10 +848,6 @@
 			<Item Name="MC_Version.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Parser/MC_Version.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			<Item Name="visarc" Type="Document" URL="../../Program Files/National Instruments/LabVIEW 8.6/resource/visarc"/>
-			<Item Name="count display mode.vi" Type="VI" URL="../Instruments/Photon Counter/SR400/Public/Configure/count display mode.vi"/>
-			<Item Name="WRTREAD.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/WRTREAD.VI"/>
-			<Item Name="SENSCONV.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/SENSCONV.VI"/>
-			<Item Name="Time Estimate.vi" Type="VI" URL="../Main/Scan Driver/Time Estimate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
