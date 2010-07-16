@@ -101,15 +101,6 @@
 		</Item>
 	</Item>
 	<Item Name="Origin Save" Type="Folder"/>
-	<Item Name="Check for Last Run Data.vi" Type="VI" URL="../Check for Last Run Data.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$.!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!B#7RP972G;7RF0Q!%!!!!%%!S`````Q&gt;Q982I4V65!":!5!!$!!!!!1!##'6S=G^S)'FO!!!51$,`````#H.U=GFO:X"B&gt;'A!!$Q!]!!-!!-!"!!&amp;!!9!"1!&amp;!!5!"1!(!!5!"1!)!Q!!?!U)#1!!!!U,!!!!!!!!!!!+!!!!!!!+!!!!!!%!#1!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-	</Item>
 	<Item Name="Check for Log Folder.vi" Type="VI" URL="../Check for Log Folder.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!=!!!!!A!%!!!!%!$Q!!%!!!-!!!!!!!!!!!%!!1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -136,6 +127,15 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="Load Last Scan.vi" Type="VI" URL="../Load Last Scan.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$(!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!6%V.D97YA2(*J&gt;G6S,GRW9WRB=X-!$5RB=X1A5H6O)&amp;.D97Y!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!$Q!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!%!Q!!?!U)!!!!!!E!!!!!!!!!!!!+!!!!!!!!!!!!!!%!"Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 	<Item Name="Master Save.vi" Type="VI" URL="../Master Save.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%@!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$U:J&lt;'5A35]O&lt;(:D&lt;'&amp;T=Q!,2GFM:3"*4S"P&gt;81!$5!(!!9D=W.B&lt;H-!!"6!"Q!/1X6S=G6O&gt;#"49W&amp;O)#-!!!5!#A!!'E"!!!,``````````Q!)#7&amp;S=G&amp;Z:'&amp;U91!G1(!!(A!!%1^';7RF)%F0,GRW9WRB=X-!#E:J&lt;'5A35]A;7Y!!%E!]!!-!!-!"!!%!!5!"!!%!!1!"A!(!!1!#1!+!Q!!?!E!!!!!!!U,!!!!!!!!#A!+!!!!#A!1!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
