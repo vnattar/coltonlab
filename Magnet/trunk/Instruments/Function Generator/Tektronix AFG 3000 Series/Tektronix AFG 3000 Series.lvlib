@@ -65,6 +65,8 @@
 			<Item Name="Configure Waveform Modifier.vi" Type="VI" URL="../Public/Configure/Configure Waveform Modifier.vi"/>
 			<Item Name="Configure.mnu" Type="Document" URL="../Public/Configure/Configure.mnu"/>
 			<Item Name="Create Arbitrary Waveform.vi" Type="VI" URL="../Public/Configure/Create Arbitrary Waveform.vi"/>
+			<Item Name="Query Ramp Symmetry.vi" Type="VI" URL="../Public/Configure/Query Ramp Symmetry.vi"/>
+			<Item Name="Query Pulse Waveform.vi" Type="VI" URL="../Public/Configure/Query Pulse Waveform.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
