@@ -23,6 +23,7 @@
 			<Item Name="Advanced" Type="Folder">
 				<Item Name="Query Frequency Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Query Frequency Mode.vi"/>
 				<Item Name="Query Frequency.vi" Type="VI" URL="../Public/Configure/Advanced/Query Frequency.vi"/>
+				<Item Name="Query Modulation Mode.vi" Type="VI" URL="../Public/Configure/Query Modulation Mode.vi"/>
 				<Item Name="Query Phase.vi" Type="VI" URL="../Public/Configure/Advanced/Query Phase.vi"/>
 				<Item Name="Query Sweep Frequency.vi" Type="VI" URL="../Public/Configure/Advanced/Query Sweep Frequency.vi"/>
 				<Item Name="Query Sweep Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Query Sweep Mode.vi"/>
@@ -35,6 +36,7 @@
 				<Item Name="Reset Edit Memory.vi" Type="VI" URL="../Public/Configure/Advanced/Reset Edit Memory.vi"/>
 				<Item Name="Set Frequency Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Set Frequency Mode.vi"/>
 				<Item Name="Set Frequency.vi" Type="VI" URL="../Public/Configure/Advanced/Set Frequency.vi"/>
+				<Item Name="Set Modulation Mode.vi" Type="VI" URL="../Public/Configure/Set Modulation Mode.vi"/>
 				<Item Name="Set Phase.vi" Type="VI" URL="../Public/Configure/Advanced/Set Phase.vi"/>
 				<Item Name="Set Sweep Frequency.vi" Type="VI" URL="../Public/Configure/Advanced/Set Sweep Frequency.vi"/>
 				<Item Name="Set Sweep Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Set Sweep Mode.vi"/>
@@ -65,6 +67,7 @@
 			<Item Name="Configure Waveform Modifier.vi" Type="VI" URL="../Public/Configure/Configure Waveform Modifier.vi"/>
 			<Item Name="Configure.mnu" Type="Document" URL="../Public/Configure/Configure.mnu"/>
 			<Item Name="Create Arbitrary Waveform.vi" Type="VI" URL="../Public/Configure/Create Arbitrary Waveform.vi"/>
+			<Item Name="Query Burst.vi" Type="VI" URL="../Public/Configure/Query Burst.vi"/>
 			<Item Name="Query Ramp Symmetry.vi" Type="VI" URL="../Public/Configure/Query Ramp Symmetry.vi"/>
 			<Item Name="Query Pulse Waveform.vi" Type="VI" URL="../Public/Configure/Query Pulse Waveform.vi"/>
 		</Item>
