@@ -8,10 +8,9 @@
 	<Item Name="Public" Type="Folder">
 		<Item Name="Action-Status" Type="Folder"/>
 		<Item Name="Configure" Type="Folder">
+			<Item Name="Clear.vi" Type="VI" URL="../Public/Configure/Clear.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 			<Item Name="Configure.vi" Type="VI" URL="../Public/Configure/Configure.vi"/>
-			<Item Name="Set display mode.vi" Type="VI" URL="../Public/Configure/Set display mode.vi"/>
-			<Item Name="Set both gates.vi" Type="VI" URL="../Public/Configure/Set both gates.vi"/>
 			<Item Name="Counter Presets.vi" Type="VI" URL="../Public/Configure/Counter Presets.vi"/>
 			<Item Name="Counting Inputs.vi" Type="VI" URL="../Public/Configure/Counting Inputs.vi"/>
 			<Item Name="Counting mode.vi" Type="VI" URL="../Public/Configure/Counting mode.vi"/>
@@ -22,22 +21,24 @@
 			<Item Name="Number of Periods.vi" Type="VI" URL="../Public/Configure/Number of Periods.vi"/>
 			<Item Name="Reset Counters.vi" Type="VI" URL="../Public/Query/Reset Counters.vi"/>
 			<Item Name="Scan end Mode.vi" Type="VI" URL="../Public/Configure/Scan end Mode.vi"/>
+			<Item Name="Set all gate delays and widths.vi" Type="VI" URL="../Public/Configure/Set all gate delays and widths.vi"/>
+			<Item Name="Set both gates.vi" Type="VI" URL="../Public/Configure/Set both gates.vi"/>
 			<Item Name="Set Counter Input.vi" Type="VI" URL="../Public/Configure/Set Counter Input.vi"/>
+			<Item Name="Set Counting Mode.vi" Type="VI" URL="../Public/Configure/Set Counting Mode.vi"/>
 			<Item Name="Set discriminator level.vi" Type="VI" URL="../Public/Configure/Set discriminator level.vi"/>
 			<Item Name="Set discriminator scan step size.vi" Type="VI" URL="../Public/Configure/Set discriminator scan step size.vi"/>
 			<Item Name="Set discriminator slope.vi" Type="VI" URL="../Public/Configure/Set discriminator slope.vi"/>
 			<Item Name="Set discriminator.vi" Type="VI" URL="../Public/Configure/Set discriminator.vi"/>
+			<Item Name="Set display mode.vi" Type="VI" URL="../Public/Configure/Set display mode.vi"/>
 			<Item Name="Set Gate Delay.vi" Type="VI" URL="../Public/Configure/Set Gate Delay.vi"/>
-			<Item Name="Set T-time.vi" Type="VI" URL="../Public/Configure/Set T-time.vi"/>
 			<Item Name="Set gate mode.vi" Type="VI" URL="../Public/Configure/Set gate mode.vi"/>
 			<Item Name="Set Gate Width.vi" Type="VI" URL="../Public/Configure/Set Gate Width.vi"/>
 			<Item Name="Set PORT levels.vi" Type="VI" URL="../Public/Configure/Set PORT levels.vi"/>
 			<Item Name="Set PORT output modes.vi" Type="VI" URL="../Public/Configure/Set PORT output modes.vi"/>
 			<Item Name="Set PORT step.vi" Type="VI" URL="../Public/Configure/Set PORT step.vi"/>
+			<Item Name="Set T-time.vi" Type="VI" URL="../Public/Configure/Set T-time.vi"/>
 			<Item Name="Set Trigger Level.vi" Type="VI" URL="../Public/Configure/Set Trigger Level.vi"/>
 			<Item Name="Set Trigger Slope.vi" Type="VI" URL="../Public/Configure/Set Trigger Slope.vi"/>
-			<Item Name="Clear.vi" Type="VI" URL="../Public/Configure/Clear.vi"/>
-			<Item Name="Set Counting Mode.vi" Type="VI" URL="../Public/Configure/Set Counting Mode.vi"/>
 		</Item>
 		<Item Name="Query" Type="Folder">
 			<Item Name="Cursor position.vi" Type="VI" URL="../Public/Query/Cursor position.vi"/>
