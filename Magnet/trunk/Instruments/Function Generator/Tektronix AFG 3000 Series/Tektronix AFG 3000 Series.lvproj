@@ -93,6 +93,10 @@
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 8.6/resource/lvanlys.dll"/>
+			<Item Name="number to Boolean.vi" Type="VI" URL="../../../../Math Operations/number to Boolean.vi"/>
+			<Item Name="Configure Pulse Waveform.vi" Type="VI" URL="../Public/Configure/Configure Pulse Waveform.vi"/>
+			<Item Name="Configure Ramp Symmetry.vi" Type="VI" URL="../Public/Configure/Configure Ramp Symmetry.vi"/>
+			<Item Name="Configure Burst.vi" Type="VI" URL="../Public/Configure/Configure Burst.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
