@@ -44,7 +44,7 @@ This interface class is not necessarily independent of Scannable.lvclass - it mi
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Read Data.vi" Type="VI" URL="../Read Data.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%D!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!'E"!!!(`````!!5..#"%982B)&amp;"P;7ZU=Q!K1(!!(A!!%B"3:7&amp;E97*M:3ZM&gt;G.M98.T!!!-5G6B:'&amp;C&lt;'5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#B!=!!?!!!3%&amp;*F972B9GRF,GRW9WRB=X-!!!N3:7&amp;E97*M:3"J&lt;A"*!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1-!!(A.#!!!#1!.#Q!!!!!!!!!!#A!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*W!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!Q`````Q2/97VF!!!;1%!!!@````]!"!V$;'&amp;O&lt;G6M)%ZB&lt;76T!$U!]=BPB`U!!!!#%&amp;*F972B9GRF,GRW9WRB=X-/2'&amp;U93"1&lt;WFO&gt;#ZD&gt;'Q!*5!+!!J%982B)&amp;"P;7ZU!!"&amp;!0()&lt;YBI!!!!!B"3:7&amp;E97*M:3ZM&gt;G.M98.T$U2B&gt;'%A5'^J&lt;H2T,G.U&lt;!!N1%!!!@````]!"AN%982B)&amp;"P;7ZU=Q!K1(!!(A!!%B"3:7&amp;E97*M:3ZM&gt;G.M98.T!!!-5G6B:'&amp;C&lt;'5A&lt;X6U!!!/1$$`````"&amp;6O;81!!"J!1!!"`````Q!*$5.I97ZO:7QA67ZJ&gt;(-!3!$RS'_)(A!!!!)15G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=R"%982B)%.I97ZO:7QO9X2M!#Z!5!!$!!9!"!!*$%2B&gt;'%A1WBB&lt;GZF&lt;!!!31$RS'_+U!!!!!)15G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=R&amp;%982B)%.I97ZO:7RT,G.U&lt;!!P1%!!!@````]!#QV%982B)%.I97ZO:7RT!!1!!!!01!-!#3.$;'&amp;O&lt;G6M=Q!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#B!=!!?!!!3%&amp;*F972B9GRF,GRW9WRB=X-!!!N3:7&amp;E97*M:3"J&lt;A"*!0!!$!!$!!5!"Q!)!!I!$!!.!!Y!$Q!.!!U!%!-!!(A.#!E!#1!.#QE!#1!!!!E!#A!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!2!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -53,13 +53,13 @@ This interface class is not necessarily independent of Scannable.lvclass - it mi
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="_Read.vi" Type="VI" URL="../_Read.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%7!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!'E"!!!(`````!!5..#"%982B)&amp;"P;7ZU=Q!K1(!!(A!!%B"3:7&amp;E97*M:3ZM&gt;G.M98.T!!!-5G6B:'&amp;C&lt;'5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#B!=!!?!!!3%&amp;*F972B9GRF,GRW9WRB=X-!!!N3:7&amp;E97*M:3"J&lt;A!]!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1)!!(A.#!!!#1#.#Q!!!!!!!!!!#!!!!!!!EA!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Z!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$U!]=BPB`U!!!!#%&amp;*F972B9GRF,GRW9WRB=X-/2'&amp;U93"1&lt;WFO&gt;#ZD&gt;'Q!*5!+!!J%982B)&amp;"P;7ZU!!"&amp;!0()&lt;YBI!!!!!B"3:7&amp;E97*M:3ZM&gt;G.M98.T$U2B&gt;'%A5'^J&lt;H2T,G.U&lt;!!N1%!!!@````]!"1N%982B)&amp;"P;7ZU=Q!K1(!!(A!!%B"3:7&amp;E97*M:3ZM&gt;G.M98.T!!!-5G6B:'&amp;C&lt;'5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#B!=!!?!!!3%&amp;*F972B9GRF,GRW9WRB=X-!!!N3:7&amp;E97*M:3"J&lt;A!]!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1)!!(A.#!!!#1#.#Q!!!!!!!!!!#!!!!!!!E!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 	<Item Name="Read Channel Info.vi" Type="VI" URL="../Read Channel Info.vi">
@@ -70,5 +70,41 @@ This interface class is not necessarily independent of Scannable.lvclass - it mi
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
+	<Item Name="Data Channels.ctl" Type="VI" URL="../Data Channels.ctl">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+	</Item>
+	<Item Name="Data Channel.ctl" Type="VI" URL="../Data Channel.ctl">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+	</Item>
+	<Item Name="Data Point.ctl" Type="VI" URL="../Data Point.ctl">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+	</Item>
+	<Item Name="Data Points.ctl" Type="VI" URL="../Data Points.ctl">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 	</Item>
 </LVClass>
