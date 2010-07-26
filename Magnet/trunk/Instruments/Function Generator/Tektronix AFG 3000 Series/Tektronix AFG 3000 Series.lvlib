@@ -54,7 +54,7 @@
 				<Item Name="Write Line Data.vi" Type="VI" URL="../Public/Configure/Advanced/Write Line Data.vi"/>
 			</Item>
 			<Item Name="Configure Arbitrary Waveform.vi" Type="VI" URL="../Public/Configure/Configure Arbitrary Waveform.vi"/>
-			<Item Name="Configure Burst.vi" Type="VI" URL="../Public/Configure/Advanced/Configure Burst.vi"/>
+			<Item Name="Configure Burst.vi" Type="VI" URL="../Public/Configure/Configure Burst.vi"/>
 			<Item Name="Configure Frequency Sweep.vi" Type="VI" URL="../Public/Configure/Configure Frequency Sweep.vi"/>
 			<Item Name="Configure Modulation (Amplitude).vi" Type="VI" URL="../Public/Configure/Configure Modulation (Amplitude).vi"/>
 			<Item Name="Configure Modulation (Frequency Shift Keying).vi" Type="VI" URL="../Public/Configure/Configure Modulation (Frequency Shift Keying).vi"/>
@@ -63,17 +63,17 @@
 			<Item Name="Configure Modulation (Pulse Width).vi" Type="VI" URL="../Public/Configure/Configure Modulation (Pulse Width).vi"/>
 			<Item Name="Configure Modulation.vi" Type="VI" URL="../Public/Configure/Configure Modulation.vi"/>
 			<Item Name="Configure Output Impedance.vi" Type="VI" URL="../Public/Configure/Configure Output Impedance.vi"/>
-			<Item Name="Configure Pulse Waveform.vi" Type="VI" URL="../Public/Configure/Advanced/Configure Pulse Waveform.vi"/>
-			<Item Name="Configure Ramp Symmetry.vi" Type="VI" URL="../Public/Configure/Advanced/Configure Ramp Symmetry.vi"/>
+			<Item Name="Configure Pulse Waveform.vi" Type="VI" URL="../Public/Configure/Configure Pulse Waveform.vi"/>
+			<Item Name="Configure Ramp Symmetry.vi" Type="VI" URL="../Public/Configure/Configure Ramp Symmetry.vi"/>
 			<Item Name="Configure Standard Waveform.vi" Type="VI" URL="../Public/Configure/Configure Standard Waveform.vi"/>
 			<Item Name="Configure Sweep Mode.vi" Type="VI" URL="../Public/Configure/Configure Sweep Mode.vi"/>
 			<Item Name="Configure Trigger.vi" Type="VI" URL="../Public/Configure/Configure Trigger.vi"/>
 			<Item Name="Configure Waveform Modifier.vi" Type="VI" URL="../Public/Configure/Configure Waveform Modifier.vi"/>
 			<Item Name="Configure.mnu" Type="Document" URL="../Public/Configure/Configure.mnu"/>
 			<Item Name="Create Arbitrary Waveform.vi" Type="VI" URL="../Public/Configure/Create Arbitrary Waveform.vi"/>
-			<Item Name="Query Burst.vi" Type="VI" URL="../Public/Configure/Advanced/Query Burst.vi"/>
-			<Item Name="Query Ramp Symmetry.vi" Type="VI" URL="../Public/Configure/Advanced/Query Ramp Symmetry.vi"/>
-			<Item Name="Query Pulse Waveform.vi" Type="VI" URL="../Public/Configure/Advanced/Query Pulse Waveform.vi"/>
+			<Item Name="Query Burst.vi" Type="VI" URL="../Public/Configure/Query Burst.vi"/>
+			<Item Name="Query Ramp Symmetry.vi" Type="VI" URL="../Public/Configure/Query Ramp Symmetry.vi"/>
+			<Item Name="Query Pulse Waveform.vi" Type="VI" URL="../Public/Configure/Query Pulse Waveform.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
@@ -95,4 +95,6 @@
 		<Item Name="Send Command.vi" Type="VI" URL="../Private/Send Command.vi"/>
 	</Item>
 	<Item Name="Tektronix AFG 3000 Series Readme.html" Type="Document" URL="../Tektronix AFG 3000 Series Readme.html"/>
+	<Item Name="Query Output.vi" Type="VI" URL="../Public/Action-Status/Query Output.vi"/>
+	<Item Name="Query Run Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Query Run Mode.vi"/>
 </Library>
