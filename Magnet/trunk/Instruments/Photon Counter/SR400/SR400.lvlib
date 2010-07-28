@@ -10,7 +10,6 @@
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Clear.vi" Type="VI" URL="../Public/Configure/Clear.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
-			<Item Name="Configure.vi" Type="VI" URL="../Public/Configure/Configure.vi"/>
 			<Item Name="Counter Presets.vi" Type="VI" URL="../Public/Configure/Counter Presets.vi"/>
 			<Item Name="Counting Inputs.vi" Type="VI" URL="../Public/Configure/Counting Inputs.vi"/>
 			<Item Name="Counting mode.vi" Type="VI" URL="../Public/Configure/Counting mode.vi"/>
@@ -84,6 +83,17 @@
 		</Item>
 		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="Trigger/Discriminator Slope.ctl" Type="VI" URL="../Public/Typedefs.llb/Trigger/Discriminator Slope.ctl"/>
+		<Item Name="Counter.ctl" Type="VI" URL="../../../../../Documents and Settings/mguerron/Local Settings/Temp/Typedefs.llb/Counter.ctl"/>
+		<Item Name="Counter Mode.ctl" Type="VI" URL="../../../../../Documents and Settings/mguerron/Local Settings/Temp/Typedefs.llb/Counter Mode.ctl"/>
+		<Item Name="Gate.ctl" Type="VI" URL="../../../../../Documents and Settings/mguerron/Local Settings/Temp/Typedefs.llb/Gate.ctl"/>
+		<Item Name="Display Mode.ctl" Type="VI" URL="../../../../../Documents and Settings/mguerron/Local Settings/Temp/Typedefs.llb/Display Mode.ctl"/>
+		<Item Name="Counter Preset.ctl" Type="VI" URL="../Public/Typedefs.llb/Counter Preset.ctl"/>
+		<Item Name="Counting Input.ctl" Type="VI" URL="../Public/Typedefs.llb/Counting Input.ctl"/>
+		<Item Name="Output Scale.ctl" Type="VI" URL="../Public/Typedefs.llb/Output Scale.ctl"/>
+		<Item Name="Output Source.ctl" Type="VI" URL="../Public/Typedefs.llb/Output Source.ctl"/>
+		<Item Name="Discriminator Output.ctl" Type="VI" URL="../Public/Typedefs.llb/Discriminator Output.ctl"/>
+		<Item Name="Gate Mode.ctl" Type="VI" URL="../Public/Typedefs.llb/Gate Mode.ctl"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
