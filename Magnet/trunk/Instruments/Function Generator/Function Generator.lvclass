@@ -54,4 +54,22 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082655248</Property>
 	</Item>
+	<Item Name="Read Frequencies and Voltages.vi" Type="VI" URL="../Read Frequencies and Voltages.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)R!!!!%1"%1(!!(A!!("J'&gt;7ZD&gt;'FP&lt;C"(:7ZF=G&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!(5:V&lt;G.U;7^O)%&gt;F&lt;G6S982P=CZM&gt;G.M98.T)'FO!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!)1J0&gt;82Q&gt;81A&lt;WY`!!!A1%!!!@````]!"B.B=H*B?3"P:C"P&gt;82Q&gt;82T)'^O!"F!'A!"!!,``Q!.1WAR)%:S:8&amp;V:7ZD?1!@1"I!"!!#``U!!Q!#!!1!!1!&amp;``]!"U.I-C"-&lt;X=!2E"Q!"Y!!"Q;2H6O9X2J&lt;WYA2W6O:8*B&gt;'^S,GRW9WRB=X-!!"Z'&gt;7ZD&gt;'FP&lt;C"(:7ZF=G&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=S"P&gt;81!!#&amp;!'A!%!!,``1!$!!)!"!!"!!8``Q!)1WAR)%BJ:WA!!"^!'A!%!!,``1!$!!)!"!!"!!8``Q!(1WAR)%RP&gt;Q!:1"I!!1!#``]!$5.I-C"'=G6R&gt;76O9XE!)5!;!!1!!P`^!!-!!A!%!!%!"@``!!B$;$)A3'FH;!!!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!&amp;Q!]!!5!!!!!1!"!!%!!1!&amp;!!%!!1!"!!%!!1!(!!A!#1!+!!M!$!!.!!Y!$Q)!!2#1!!!!!!!!!!!!#!!!!!!!!!!!!!!!#1!*!!E!D1!*!!E!#1!*!!U&amp;!!!!!1!1!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Set member data - outputs on.vi" Type="VI" URL="../Set member data - outputs on.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!='E:V&lt;G.U;7^O)%&gt;F&lt;G6S982P=CZM&gt;G.M98.T!!!?2H6O9X2J&lt;WYA2W6O:8*B&gt;'^S,GRW9WRB=X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!)1N0&gt;82Q&gt;82T)'^O0Q!C1%!!!@````]!"R2"=H*B?3"P:C"P&gt;82Q&gt;82T)'^O0Q!!2%"Q!"Y!!"Q;2H6O9X2J&lt;WYA2W6O:8*B&gt;'^S,GRW9WRB=X-!!"V'&gt;7ZD&gt;'FP&lt;C"(:7ZF=G&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=S"J&lt;A!]!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!A!#1)!!(A.#!!!!!#.#Q!!!!!!!!!!#!!!!"!!EA!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 </LVClass>

@@ -18,6 +18,7 @@
 			<Item Name="Action-Status.mnu" Type="Document" URL="../Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="Clear Arbitrary Waveform.vi" Type="VI" URL="../Public/Action-Status/Clear Arbitrary Waveform.vi"/>
 			<Item Name="Enable Output.vi" Type="VI" URL="../Public/Action-Status/Enable Output.vi"/>
+			<Item Name="Query Output.vi" Type="VI" URL="../Public/Action-Status/Query Output.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Advanced" Type="Folder">
@@ -27,6 +28,7 @@
 				<Item Name="Query Frequency.vi" Type="VI" URL="../Public/Configure/Advanced/Query Frequency.vi"/>
 				<Item Name="Query Modulation Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Query Modulation Mode.vi"/>
 				<Item Name="Query Phase.vi" Type="VI" URL="../Public/Configure/Advanced/Query Phase.vi"/>
+				<Item Name="Query Run Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Query Run Mode.vi"/>
 				<Item Name="Query Sweep Frequency.vi" Type="VI" URL="../Public/Configure/Advanced/Query Sweep Frequency.vi"/>
 				<Item Name="Query Sweep Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Query Sweep Mode.vi"/>
 				<Item Name="Query Sweep Spacing.vi" Type="VI" URL="../Public/Configure/Advanced/Query Sweep Spacing.vi"/>
@@ -95,6 +97,4 @@
 		<Item Name="Send Command.vi" Type="VI" URL="../Private/Send Command.vi"/>
 	</Item>
 	<Item Name="Tektronix AFG 3000 Series Readme.html" Type="Document" URL="../Tektronix AFG 3000 Series Readme.html"/>
-	<Item Name="Query Output.vi" Type="VI" URL="../Public/Action-Status/Query Output.vi"/>
-	<Item Name="Query Run Mode.vi" Type="VI" URL="../Public/Configure/Advanced/Query Run Mode.vi"/>
 </Library>
