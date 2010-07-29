@@ -108,4 +108,5 @@
 		</Item>
 	</Item>
 	<Item Name="Clear Status Byte.vi" Type="VI" URL="../Public/Utility/Clear Status Byte.vi"/>
+	<Item Name="PORT Output.ctl" Type="VI" URL="../Public/Typedefs.llb/PORT Output.ctl"/>
 </Library>
