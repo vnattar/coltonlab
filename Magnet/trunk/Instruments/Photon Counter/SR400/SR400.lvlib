@@ -12,11 +12,10 @@
 			<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 			<Item Name="Counter Presets.vi" Type="VI" URL="../Public/Configure/Counter Presets.vi"/>
 			<Item Name="Counting Inputs.vi" Type="VI" URL="../Public/Configure/Counting Inputs.vi"/>
-			<Item Name="Counting mode.vi" Type="VI" URL="../Public/Configure/Counting mode.vi"/>
 			<Item Name="DA output scale.vi" Type="VI" URL="../Public/Configure/DA output scale.vi"/>
 			<Item Name="DA Output Source.vi" Type="VI" URL="../Public/Configure/DA Output Source.vi"/>
 			<Item Name="Dwell Time.vi" Type="VI" URL="../Public/Configure/Dwell Time.vi"/>
-			<Item Name="Gate delay set step.vi" Type="VI" URL="../Public/Configure/Gate delay set step.vi"/>
+			<Item Name="Front Panel Key Press.vi" Type="VI" URL="../Public/Configure/Front Panel Key Press.vi"/>
 			<Item Name="Number of Periods.vi" Type="VI" URL="../Public/Configure/Number of Periods.vi"/>
 			<Item Name="Reset Counters.vi" Type="VI" URL="../Public/Query/Reset Counters.vi"/>
 			<Item Name="Scan end Mode.vi" Type="VI" URL="../Public/Configure/Scan end Mode.vi"/>
@@ -29,6 +28,7 @@
 			<Item Name="Set discriminator slope.vi" Type="VI" URL="../Public/Configure/Set discriminator slope.vi"/>
 			<Item Name="Set discriminator.vi" Type="VI" URL="../Public/Configure/Set discriminator.vi"/>
 			<Item Name="Set display mode.vi" Type="VI" URL="../Public/Configure/Set display mode.vi"/>
+			<Item Name="Set gate delay step.vi" Type="VI" URL="../Public/Configure/Set gate delay step.vi"/>
 			<Item Name="Set Gate Delay.vi" Type="VI" URL="../Public/Configure/Set Gate Delay.vi"/>
 			<Item Name="Set gate mode.vi" Type="VI" URL="../Public/Configure/Set gate mode.vi"/>
 			<Item Name="Set Gate Width.vi" Type="VI" URL="../Public/Configure/Set Gate Width.vi"/>
@@ -38,16 +38,16 @@
 			<Item Name="Set T-time.vi" Type="VI" URL="../Public/Configure/Set T-time.vi"/>
 			<Item Name="Set Trigger Level.vi" Type="VI" URL="../Public/Configure/Set Trigger Level.vi"/>
 			<Item Name="Set Trigger Slope.vi" Type="VI" URL="../Public/Configure/Set Trigger Slope.vi"/>
+			<Item Name="Start button.vi" Type="VI" URL="../Public/Configure/Start button.vi"/>
+			<Item Name="Stop button.vi" Type="VI" URL="../Public/Configure/Stop button.vi"/>
 		</Item>
 		<Item Name="Query" Type="Folder">
 			<Item Name="Cursor position.vi" Type="VI" URL="../Public/Query/Cursor position.vi"/>
 			<Item Name="Gate delay Position.vi" Type="VI" URL="../Public/Query/Gate delay Position.vi"/>
-			<Item Name="Measure.vi" Type="VI" URL="../Public/Query/Measure.vi"/>
-			<Item Name="Read both gates.vi" Type="VI" URL="../Public/Query/Read both gates.vi"/>
 			<Item Name="Query count display mode.vi" Type="VI" URL="../Public/Query/Query count display mode.vi"/>
 			<Item Name="Query Counter presets.vi" Type="VI" URL="../Public/Query/Query Counter presets.vi"/>
-			<Item Name="Query inputs.vi" Type="VI" URL="../Public/Query/Query inputs.vi"/>
 			<Item Name="Query Counting Mode.vi" Type="VI" URL="../Public/Query/Query Counting Mode.vi"/>
+			<Item Name="Query Counts.vi" Type="VI" URL="../Public/Query/Query Counts.vi"/>
 			<Item Name="Query DA output scale.vi" Type="VI" URL="../Public/Query/Query DA output scale.vi"/>
 			<Item Name="Query DA output source.vi" Type="VI" URL="../Public/Query/Query DA output source.vi"/>
 			<Item Name="Query Discr scan step size.vi" Type="VI" URL="../Public/Query/Query Discr scan step size.vi"/>
@@ -60,19 +60,18 @@
 			<Item Name="Query Gate delay.vi" Type="VI" URL="../Public/Query/Query Gate delay.vi"/>
 			<Item Name="Query Gate mode.vi" Type="VI" URL="../Public/Query/Query Gate mode.vi"/>
 			<Item Name="Query Gate Width.vi" Type="VI" URL="../Public/Query/Query Gate Width.vi"/>
+			<Item Name="Query inputs.vi" Type="VI" URL="../Public/Query/Query inputs.vi"/>
 			<Item Name="Query Number of Periods.vi" Type="VI" URL="../Public/Query/Query Number of Periods.vi"/>
 			<Item Name="Query Port level.vi" Type="VI" URL="../Public/Query/Query Port level.vi"/>
 			<Item Name="Query PORT levels (scan).vi" Type="VI" URL="../Public/Query/Query PORT levels (scan).vi"/>
 			<Item Name="Query PORT output modes.vi" Type="VI" URL="../Public/Query/Query PORT output modes.vi"/>
 			<Item Name="Query PORT steps.vi" Type="VI" URL="../Public/Query/Query PORT steps.vi"/>
 			<Item Name="Query Scan end Mode.vi" Type="VI" URL="../Public/Query/Query Scan end Mode.vi"/>
+			<Item Name="Query Scan position.vi" Type="VI" URL="../Public/Query/Query Scan position.vi"/>
+			<Item Name="Query Status Byte.vi" Type="VI" URL="../Public/Query/Query Status Byte.vi"/>
 			<Item Name="Query Trigger Level.vi" Type="VI" URL="../Public/Query/Query Trigger Level.vi"/>
 			<Item Name="Query Trigger Slope.vi" Type="VI" URL="../Public/Query/Query Trigger Slope.vi"/>
-			<Item Name="Scan position.vi" Type="VI" URL="../Public/Query/Scan position.vi"/>
-			<Item Name="Start button.vi" Type="VI" URL="../Public/Query/Start button.vi"/>
-			<Item Name="Stop button.vi" Type="VI" URL="../Public/Query/Stop button.vi"/>
-			<Item Name="Query Counts.vi" Type="VI" URL="../Public/Query/Query Counts.vi"/>
-			<Item Name="Query Status Byte.vi" Type="VI" URL="../Public/Query/Query Status Byte.vi"/>
+			<Item Name="Read both gates.vi" Type="VI" URL="../Public/Query/Read both gates.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
@@ -93,6 +92,7 @@
 		<Item Name="Gate Mode.ctl" Type="VI" URL="../Public/Typedefs.llb/Gate Mode.ctl"/>
 		<Item Name="Output Scale.ctl" Type="VI" URL="../Public/Typedefs.llb/Output Scale.ctl"/>
 		<Item Name="Output Source.ctl" Type="VI" URL="../Public/Typedefs.llb/Output Source.ctl"/>
+		<Item Name="PORT Output.ctl" Type="VI" URL="../Public/Typedefs.llb/PORT Output.ctl"/>
 		<Item Name="Trigger/Discriminator Slope.ctl" Type="VI" URL="../Public/Typedefs.llb/Trigger/Discriminator Slope.ctl"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
@@ -108,5 +108,4 @@
 		</Item>
 	</Item>
 	<Item Name="Clear Status Byte.vi" Type="VI" URL="../Public/Utility/Clear Status Byte.vi"/>
-	<Item Name="PORT Output.ctl" Type="VI" URL="../Public/Typedefs.llb/PORT Output.ctl"/>
 </Library>
