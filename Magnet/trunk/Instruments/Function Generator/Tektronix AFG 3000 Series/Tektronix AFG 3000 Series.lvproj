@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="8608001">
+<Project Type="Project" LVVersion="9008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Project.Description" Type="Str">This project is used by developers to edit API and example files for LabVIEW Plug and Play instrument drivers.</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -23,6 +23,7 @@
 		<Item Name="Sweep Spacing.ctl" Type="VI" URL="../controls.llb/Sweep Spacing.ctl"/>
 		<Item Name="Voltage.ctl" Type="VI" URL="../controls.llb/Voltage.ctl"/>
 		<Item Name="Volt Unit.ctl" Type="VI" URL="../controls.llb/Volt Unit.ctl"/>
+		<Item Name="Meadowlark Serial IO Example.VI" Type="VI" URL="../../../LCD/Meadowlark/Meadowlark Serial IO Example.VI"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
@@ -79,7 +80,7 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/_visa.llb/VISA Lock Async.vi"/>
+				<Item Name="VISA Lock Async.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Lock Async.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
@@ -91,12 +92,15 @@
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 8.6/resource/lvanlys.dll"/>
 			<Item Name="number to Boolean.vi" Type="VI" URL="../../../../Math Operations/number to Boolean.vi"/>
-			<Item Name="Configure Pulse Waveform.vi" Type="VI" URL="../Public/Configure/Configure Pulse Waveform.vi"/>
-			<Item Name="Configure Ramp Symmetry.vi" Type="VI" URL="../Public/Configure/Configure Ramp Symmetry.vi"/>
-			<Item Name="Configure Burst.vi" Type="VI" URL="../Public/Configure/Configure Burst.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
+			<Item Name="Meadowlark Serial Com.VI" Type="VI" URL="../../../LCD/Meadowlark/Meadowlark Serial.llb/Meadowlark Serial Com.VI"/>
+			<Item Name="Meadowlark Serial Read Voltage.VI" Type="VI" URL="../../../LCD/Meadowlark/Meadowlark Serial.llb/Meadowlark Serial Read Voltage.VI"/>
+			<Item Name="Meadowlark Serial Set Voltage.VI" Type="VI" URL="../../../LCD/Meadowlark/Meadowlark Serial.llb/Meadowlark Serial Set Voltage.VI"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
