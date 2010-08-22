@@ -31,17 +31,19 @@ Condensed Matter Seminar</a> (<a href="http://stokes.byu.edu/">Harold Stokes</a>
 </ul>
 <h2>Undergraduates</h2>
 <ul>
-	<li>Steve Brown</li>
 	<li>Kenneth Clark</li>
-	<li>Michael Johnson</li>
-	<li>Aaron Jones</li>
 	<li>Dallas Smith</li>
 	<li>Scott Thalman</li>
 </ul>
 <h2>Alumni</h2>
 <ul>
-	<li>Daniel Jenson, M.S., 2008</li>
-	<li>Benjamin Heaton, B.S., 2009</li>
+	<li>Daniel N. Jenson, B.S., 2008</li>
+	<li>Benjamin M. Heaton, B.S., 2009</li>
+	<li>Michael J. Johnson</li>
+	<li>Aaron M. Jones, B.S., 2010</li>
+	<li>Stephen H. Brown, B.S., 2010</li>
+	<li>Matthew Guerron, summer 2010 REU student</li>
+	<li>Courtney Klosterman, summer 2010 REU student</li>
 </ul>
 
 </body>

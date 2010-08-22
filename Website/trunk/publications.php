@@ -43,6 +43,8 @@
 <h1>Recent Presentations</h1>
 <h2>Presented by Dr. Colton or students (in Powerpoint format)</h2>
 <ul class="icons ppt">
+<li><a href="presentations/Colton APS 2010 talk.pps">Optically-Detected Electron Spin Resonance of Self-Assembled InAs Quantum Dots</a> talk given by Dr. 
+Colton at the 2010 APS March Meeting in Portland, OR, 15 Mar 2010.</li>
 <li><a href="presentations/UVU%20talk%20-%20Mar%202009%20-%20for%20website.ppt">
 &quot;Quantum Computing and Electron Spins in Semiconductors,&quot;</a> talk given by Dr. 
 Colton at Utah Valley University, 25 Mar 2009.</li>
@@ -120,6 +122,25 @@ Teo, E.R. Weber, P. Perlin, I. Grzegory and K. Uchida, Physica B 273-274, <b>
 analysis of temperature dependent photoluminescence lineshapes in InGaN,&quot;</a> 
 K.L. Teo, J.S. Colton, P.Y. Yu, E.R. Weber, M.F. Li, W. Liu, K. Uchida, H.Tokunaga, 
 N. Akutsu and K. Matsumoto, Appl. Phys. Lett.<b> 73</b>, 1697 (1998).</li>
+</ul>
+
+
+<h1>Student Theses</h1>
+<h2>From the Colton Research Group</h2>
+
+<ul class="icons article">
+<li><a href="http://www.physics.byu.edu/Thesis/view.aspx?id=178">&quot;A System For 
+Simultaneously Driving Three Discrete Nuclear Resonances In GaAs: Theory And Experiment
+,&quot;</a> Daniel N. Jenson, B.S., 2008.</li>
+<li><a href="http://www.physics.byu.edu/Thesis/view.aspx?id=199">&quot;Nuclear-Electron
+ Coupling In GaAs Spin States And Control Of The Effects,&quot;</a> Benjamin M. Heaton,
+  B.S., 2009.</li>
+<li><a href="http://www.physics.byu.edu/Thesis/view.aspx?id=208">&quot;Photoluminescence
+ Of Indium Gallium Arsenide Quantum Dots And Dot Chains,&quot;</a> Aaron M. Jones,
+ B.S., 2010.</li>
+<li><a href="http://www.physics.byu.edu/Thesis/view.aspx?id=225">&quot;An 
+Object-Oriented Framework for Experimental Control in the Colton Spin Dynamics 
+Laboratory,&quot;</a> Stephen H. Brown, B.S., 2010.</li>
 </ul>
 </body>
 

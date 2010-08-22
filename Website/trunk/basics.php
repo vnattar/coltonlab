@@ -72,8 +72,8 @@ few electron volts lower in energy than the conduction band.</dd>
 <dt>Conduction Band</dt>
 <dd>A band of energies in which thermally or otherwise excited
 electrons freely accelerate in the presence of an applied voltage.
-In semiconductors the conduction band is at a higher energy level
-than the valence band, separated by an energy gap.</dd>
+The conduction band is the lowest energy band which is normally
+completely empty at low temperatures.</dd>
 <dt>Energy Gap</dt>
 <dd>
 <div class="figure"><a href="background/figure-11.png" id="figure-11"><img alt="Figure 1.1" src=
