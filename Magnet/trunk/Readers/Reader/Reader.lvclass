@@ -42,7 +42,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 	<Item Name="Read Dwell Time.vi" Type="VI" URL="../Read Dwell Time.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%I!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!Q`````QF$&lt;'&amp;T=WZB&lt;75!&amp;U!;!!%!!A!"!!J%&gt;W6M&lt;#"5;7VF!!!O1(!!(A!!%!Z3:7&amp;E:8)O&lt;(:D&lt;'&amp;T=Q!!%F*F972F=CZM&gt;G.M98.T)'^V&gt;!!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!,%"Q!"Y!!"!/5G6B:'6S,GRW9WRB=X-!!"&amp;3:7&amp;E:8)O&lt;(:D&lt;'&amp;T=S"J&lt;A!]!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!=!#1-!!(A.#!E!#1#.#Q!!!!!!!!!!#!!!!!!!E!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%W!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!)%!Q`````R&gt;.&lt;X.U)&amp;.Q:7.J:GFD)%.M98.T&lt;G&amp;N:1!81"I!!1!#!!%!#E2X:7RM)&amp;2J&lt;75!!#Z!=!!?!!!1$F*F972F=CZM&gt;G.M98.T!!!35G6B:'6S,GRW9WRB=X-A&lt;X6U!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!M1(!!(A!!%!Z3:7&amp;E:8)O&lt;(:D&lt;'&amp;T=Q!!%6*F972F=CZM&gt;G.M98.T)'FO!$Q!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!)!!=!"Q!*!Q!!?!U)#1!*!)U,!!!!!!!!!!!)!!!!!!#1!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
