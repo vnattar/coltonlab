@@ -155,6 +155,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
+	<Item Name="Read Channel Info.vi" Type="VI" URL="../Read Channel Info.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;]!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'E!Q`````R"S:8.V&lt;(2J&lt;G=A=X2S;7ZH!!!;1%!!!@````]!"!V$;'&amp;O&lt;G6M)&amp;6O;82T!!A!-0````]!'E"!!!(`````!!9.1WBB&lt;GZF&lt;#"/97VF=Q![1(!!(A!!&amp;B2-&lt;W.L;7YA5V)Y-T!O&lt;(:D&lt;'&amp;T=Q!!'%RP9WNJ&lt;C"45DAT-#ZM&gt;G.M98.T)'^V&gt;!!!"!!!!!^!!Q!*)U.I97ZO:7RT!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"954'^D;WFO)&amp;.3/$-Q,GRW9WRB=X-!!"&gt;-&lt;W.L;7YA5V)Y-T!O&lt;(:D&lt;'&amp;T=S"J&lt;A!]!0!!$!!$!!5!"Q!)!!E!#A!*!!E!#Q!*!!E!$!)!!(A.#!E!#1#.#Q!!#1!!!!!!#!!!!!!!E!!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+	</Item>
 	<Item Name="Match value to time constant.vi" Type="VI" URL="../Match value to time constant.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"O!!!!"!!%!!!!'5!;!!%!!A!"!!VU;7VF)'.P&lt;H.U97ZU!!V!!1!(;7ZU:7&gt;F=A!]!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A-!!(A!!!!!!!!*!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!-!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
