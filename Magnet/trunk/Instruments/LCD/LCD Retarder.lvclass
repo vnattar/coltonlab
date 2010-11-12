@@ -113,4 +113,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Alternate Retardance.vi" Type="VI" URL="../Alternate Retardance.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$A!Q1(!!(A!!&amp;B2-1U1A5G6U98*E:8)O&lt;(:D&lt;'&amp;T=Q!!$UR$2#"3:82B=G2F=C"J&lt;A!%!!!!-E"Q!"Y!!"954%.%)&amp;*F&gt;'&amp;S:'6S,GRW9WRB=X-!!""-1U1A5G6U98*E:8)A&lt;X6U!!!41!I!$&amp;*F&gt;'&amp;S:'&amp;O9W5A-1!!%U!+!!R3:82B=G2B&lt;G.F)$)!!"^!'A!"!!-!!1!31X6S=G6O&gt;#"3:82B=G2B&lt;G.F!!!01!I!#5:S:8&amp;V:7ZD?1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!(!!A!#2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!V!!Q!'1XFD&lt;'6T!!!71&amp;!!!Q!(!!A!#1FF=H*P=C"P&gt;81!81$Q!"!!!!!"!!%!!1!#!!-!!1!%!!5!"A!"!!I!#Q!"!!%!$!-!!1A+!!!!!!!!!!U!#A!!!!I!#1!+!!!!#A!+!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
+	</Item>
 </LVClass>
