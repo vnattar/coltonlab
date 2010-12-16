@@ -113,4 +113,22 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Set Voltage.vi" Type="VI" URL="../Set Voltage.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!ABF=H*P=E^66!!!"!!!!"N!'A!"!!-!!1!/5G6U98*E97ZD:3"P&gt;81!!#B!=!!?!!!7&amp;%R$2#"3:82B=G2F=CZM&gt;G.M98.T!!!(4%.%)'^V&gt;!!51&amp;!!!Q!!!!%!!A&gt;F=H*P=EF/!"^!"Q!9&lt;7FM&lt;'FT:7.P&lt;G2T)(2P)(&gt;B;81A+$!J!!!21!I!#F:P&lt;(2B:W5A;7Y!!#B!=!!?!!!7&amp;%R$2#"3:82B=G2F=CZM&gt;G.M98.T!!!'4%.%)'FO!!!]!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!)!!E!#A-!!(A.#!!!#1!*!!!!!!!!!!!!#A!+!!I!#A!!!!!"!!M!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+	</Item>
+	<Item Name="Sweep Voltage.vi" Type="VI" URL="../Sweep Voltage.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!=!!!!!A!%!!!!%!$Q!!%!!!-!!!!!!!!!!!%!!1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+	</Item>
 </LVClass>
