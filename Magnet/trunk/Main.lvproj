@@ -13,10 +13,6 @@
 		<Item Name="LabVIEW steve" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Steve Chart XY.vi" Type="VI" URL="../../Documents and Settings/steve/Desktop/Steve Chart XY.vi"/>
-		<Item Name="Steve XY Chart Buffer.vi" Type="VI" URL="../../Documents and Settings/steve/Desktop/Steve XY Chart Buffer.vi"/>
-		<Item Name="Untitled 3 (SubVI).vi" Type="VI" URL="../../Documents and Settings/steve/Desktop/Untitled 3 (SubVI).vi"/>
-		<Item Name="XY Chart Buffer.vi" Type="VI" URL="../../Program Files/National Instruments/LabVIEW 2009/examples/general/graphs/charts.llb/XY Chart Buffer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -437,6 +433,7 @@
 			</Item>
 			<Item Name="WRTREAD.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/WRTREAD.VI"/>
 			<Item Name="SENSCONV.VI" Type="VI" URL="../Instruments/STAGES/Old Sub-VI&apos;s for Stgprog/SENSCONV.VI"/>
+			<Item Name="Level Meter Setup.vi" Type="VI" URL="../Instruments/Magnet/Level Meter/Level Meter Setup.vi"/>
 			<Item Name="NIMS_Get Row Vector - Matrix.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeSupport/NIMS_Get Row Vector - Matrix.vi"/>
 			<Item Name="error.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/error.ctl"/>
 			<Item Name="Translate Error.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/Translate Error.vi"/>
@@ -586,7 +583,6 @@
 			<Item Name="NIMS_num_to_str(GRowV,I32)_52FF5984ECAE430BAA47FE5E9FC630B0_000.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_num_to_str(GRowV,I32)_52FF5984ECAE430BAA47FE5E9FC630B0.lvgen/NIMS_num_to_str(GRowV,I32)_52FF5984ECAE430BAA47FE5E9FC630B0_000.vi"/>
 			<Item Name="NIMS_CH_String CV to Character 2D_A8457589C506491A87E921C75CEE07B3_000.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_CH_String CV to Character 2D_A8457589C506491A87E921C75CEE07B3.lvgen/NIMS_CH_String CV to Character 2D_A8457589C506491A87E921C75CEE07B3_000.vi"/>
 			<Item Name="NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_000.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B.lvgen/NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_000.vi"/>
-			<Item Name="Level Meter Setup.vi" Type="VI" URL="../Instruments/Magnet/Level Meter/Level Meter Setup.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Driver" Type="EXE">
