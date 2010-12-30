@@ -61,13 +61,13 @@ Note that a given Scannable may have one or more Scanners.  Examples include a p
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="Read Labels.vi" Type="VI" URL="../Read Labels.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'9!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%4G&amp;N:1!!01$RS'_(`1!!!!)15G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QZ%982B)&amp;"P;7ZU,G.U&lt;!!61!I!#E2B&gt;'%A5'^J&lt;H1!!!Z!-0````]%67ZJ&gt;!!!4A$RS'`,+!!!!!)15G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=R"%982B)%.I97ZO:7QO9X2M!#2!5!!$!!5!"A!(%U&amp;Y;8-A4'&amp;C:7QA97ZE)&amp;6O;81!*E"Q!"Y!!"%05W.B&lt;GZF=CZM&gt;G.M98.T!!N49W&amp;O&lt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#:!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!+5W.B&lt;GZF=C"J&lt;A!!0!$Q!!Q!!Q!%!!A!#1!%!!1!"!!%!!I!"!!%!!M$!!"Y$1A!!!E!D1M!!!!!!!!!!!A!!!!!!*!!!!!!!1!-!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(V!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%4G&amp;N:1!!,A$RS5%PF!!!!!)15G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB5;7VF,G.U&lt;!!-1&amp;1!"A&amp;U!#I!]=F#E=5!!!!#%&amp;*F972B9GRF,GRW9WRB=X-&amp;7#ZD&gt;'Q!#U!+!!&amp;Y!%)!]=F#E==!!!!#%&amp;*F972B9GRF,GRW9WRB=X-/2'&amp;U93"1&lt;WFO&gt;#ZD&gt;'Q!'E"1!!)!"A!(#E2B&gt;'%A5'^J&lt;H1!!!Z!-0````]%67ZJ&gt;!!!4A$RS5+2SA!!!!)15G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=R"%982B)%.I97ZO:7QO9X2M!#2!5!!$!!5!#!!*%U&amp;Y;8-A4'&amp;C:7QA97ZE)&amp;6O;81!*E"Q!"Y!!"%05W.B&lt;GZF=CZM&gt;G.M98.T!!N49W&amp;O&lt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#:!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!+5W.B&lt;GZF=C"J&lt;A!!0!$Q!!Q!!Q!%!!I!#Q!%!!1!"!!%!!Q!"!!%!!U$!!"Y$1A!!!E!D1M!!!!!!!!!!!A!!!!!!*!!!!!!!1!/!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082655248</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
 	<Item Name="Create ArrayVarying.vi" Type="VI" URL="../Create ArrayVarying.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%:!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!^!"Q!))S"1&lt;WFO&gt;(-!!#Z!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!45W.B&lt;GZF=CZM&gt;G.M98.T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#J!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!05W.B&lt;GZF=CZM&gt;G.M98.T!%E!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!U)!!!*!!U,!!!!!!!!!!!+!!!!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>

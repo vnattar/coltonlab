@@ -115,13 +115,4 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Read Channel Info.vi" Type="VI" URL="../Read Channel Info.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'=!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'E!Q`````R"S:8.V&lt;(2J&lt;G=A=X2S;7ZH!!!;1%!!!@````]!"!V$;'&amp;O&lt;G6M)&amp;6O;82T!!A!-0````]!'E"!!!(`````!!9.1WBB&lt;GZF&lt;#"/97VF=Q"+1(!!(A!!(BR1;'^U&lt;WYA1W^V&lt;H2F=C"45D1Q-#ZM&gt;G.M98.T!!!A5'BP&gt;'^O)%.P&gt;7ZU:8)A5V)U-$!O&lt;(:D&lt;'&amp;T=S"P&gt;81!!!1!!!!01!-!#3.$;'&amp;O&lt;G6M=Q!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%B!=!!?!!!?(&amp;"I&lt;X2P&lt;C"$&lt;X6O&gt;'6S)&amp;.3.$!Q,GRW9WRB=X-!!"^1;'^U&lt;WYA1W^V&lt;H2F=C"45D1Q-#ZM&gt;G.M98.T)'FO!$Q!]!!-!!-!"1!(!!A!#1!+!!E!#1!,!!E!#1!-!A!!?!U)#1!*!)U,!!!*!!!!!!!)!!!!!!#1!!!!!!%!$1!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
-	</Item>
 </LVClass>
