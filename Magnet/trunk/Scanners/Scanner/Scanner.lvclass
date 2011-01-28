@@ -201,13 +201,13 @@ Note that a given Scannable may have one or more Scanners.  Examples include a p
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Validate Range.vi" Type="VI" URL="../Validate Range.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$R!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!,5W.B&lt;GZF=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!G1(!!(A!!%1^49W&amp;O&lt;G6S,GRW9WRB=X-!#F.D97ZO:8)A;7Y!!$Q!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!U)!!!!!)U,!!!!!!!!!!!)!!!!!!#1!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'P!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!F!#A!#?'E!!!F!#A!#?'9!!!F!#A!#:(A!!"*!)1V3:82V=GYA&gt;']O,CY`!!^!#A!*5G6U&gt;8*O)(2P!%9!]=C;S.U!!!!#$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=QF397ZH:3ZD&gt;'Q!*%"1!!5!"1!'!!=!#!!*$V:B&lt;'FE982F:#"397ZH:1!G1(!!(A!!%1^49W&amp;O&lt;G6S,GRW9WRB=X-!#V.D97ZO:8)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0!$RS*L)X1!!!!)05W.B&lt;GZF=CZM&gt;G.M98.T#6*B&lt;G&gt;F,G.U&lt;!!;1&amp;!!"1!&amp;!!9!"Q!)!!E&amp;5G&amp;O:W5!*E"Q!"Y!!"%05W.B&lt;GZF=CZM&gt;G.M98.T!!J49W&amp;O&lt;G6S)'FO!!!]!0!!$!!$!!1!#A!,!!1!"!!%!!1!$!!%!!U!$A)!!(A.#!!!#1#.#Q!!!!!!!!!!#!!!!!I!E!!!!!!"!!]!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 	</Item>
 	<Item Name="Write Range UI.vi" Type="VI" URL="../Write Range UI.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%,!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!,5W.B&lt;GZF=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!;1#%55W6U)&amp;6*)(2P)'FO=(6U0S!I2CE!!#:!=!!?!!!2$V.D97ZO:8)O&lt;(:D&lt;'&amp;T=Q!+5W.B&lt;GZF=C"J&lt;A!!0!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y$1A!!!!!D1M!!!!!!!!!!!I!!!!+!*)!!!!!!1!*!!!!!!</Property>
