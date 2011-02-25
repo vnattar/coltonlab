@@ -11,6 +11,10 @@
 	<Item Name="LPC set control mode.vi" Type="VI" URL="../LPC set control mode.vi"/>
 	<Item Name="LPC set power.vi" Type="VI" URL="../LPC set power.vi"/>
 	<Item Name="LPC set remote.vi" Type="VI" URL="../LPC set remote.vi"/>
+	<Item Name="Find LPC.vi" Type="VI" URL="../Find LPC.vi"/>
+	<Item Name="Configure LPC.vi" Type="VI" URL="../Configure LPC.vi"/>
+	<Item Name="Read from LPC.vi" Type="VI" URL="../Read from LPC.vi"/>
+	<Item Name="LPC basic command line.vi" Type="VI" URL="../LPC basic command line.vi"/>
 	<Item Name="LPC set speak rate.vi" Type="VI" URL="../LPC set speak rate.vi"/>
 	<Item Name="LPC set transmission.vi" Type="VI" URL="../LPC set transmission.vi"/>
 	<Item Name="LPC set wavelength.vi" Type="VI" URL="../LPC set wavelength.vi"/>
