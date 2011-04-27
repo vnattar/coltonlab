@@ -48,4 +48,5 @@
 	<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 	<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
+	<Item Name="Configure Power Meter.vi" Type="VI" URL="../../Configure Power Meter.vi"/>
 </Library>
