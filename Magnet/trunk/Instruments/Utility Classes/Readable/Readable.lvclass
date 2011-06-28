@@ -208,4 +208,13 @@ This interface class is not necessarily independent of Scannable.lvclass - it mi
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
+	<Item Name="Change Channel Name.vi" Type="VI" URL="../Change Channel Name.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#!!%!!!!+E"Q!"Y!!")15G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!$(*F972B9GRF)'^V&gt;!!!'E!Q`````R"S:8.V&lt;(2J&lt;G=A=X2S;7ZH!!"*!0(*14AW!!!!!B"3:7&amp;E97*M:3ZM&gt;G.M98.T%5.I97ZO:7QA67ZJ&gt;(-O9X2M!"Z!1!!"`````Q!#$5.I97ZO:7QA67ZJ&gt;(-!#!!Q`````Q"*!0(*14AE!!!!!B"3:7&amp;E97*M:3ZM&gt;G.M98.T%5.I97ZO:7QA4G&amp;N:8-O9X2M!"Z!1!!"`````Q!%$5.I97ZO:7QA4G&amp;N:8-!+%"Q!"Y!!")15G6B:'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!#X*F972B9GRF)'FO!%E!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!-!"1!'!A!!?!!!!!!!!!U,!!!!!!!!!!!!!!A!#!!+!!!.!!!!$!!!!!!!!!!!!!!"!!=!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 </LVClass>
