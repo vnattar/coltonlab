@@ -246,4 +246,13 @@ Note that a given Scannable may have one or more Scanners.  Examples include a p
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
+	<Item Name="Reset Steps.vi" Type="VI" URL="../Reset Steps.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"`!!!!!Q!%!!!!+E"Q!"Y!!"%05W.B&lt;GZF=CZM&gt;G.M98.T!!^49W&amp;O&lt;G6S,GRW9WRB=X-!31$Q!!Q!!!!"!!!!!!!!!!!!!!!!!!!!!!!"!!!#!!"Y!!!.#A!!!!!!!!!!!!!!!!!!!!!+!!!!!!U!#Q!!!!!!!!!!!!!!!!%!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 </LVClass>
