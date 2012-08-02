@@ -10,23 +10,22 @@ Modern computer systems (not XP) allow multiple users to use the same computer, 
 Details are at http://alonbilu.wordpress.com/2008/05/17/enabling-multiple-concurrent-remote-sessions-on-windows-xp-sp3-patched-file-included/
 
   # If you are off-campus, first use RDC to logon to remote.byu.edu.  This will get you inside the firewall.
-  # Use the physics remote server to logon to `coltonlab.physics.byu.edu` via RDC.
+  # Use the physics remote server to logon to `u130esc-01.physics.byu.edu` via RDC.
 
 ==SSH Tunnel==
 If the `remote.byu.edu` server is down, and you have a Linux account somewhere on campus (e.g. BYU CS department, Engineering CAEDM labs), you can use SSH to get through the BYU firewall.
 
 For example, this command:
- `ssh -fNXL 3389:coltonlab.physics.byu.edu:3389 username@ssh.et.byu.edu && rdesktop localhost:3389 ; killall ssh`
-requests the computer `ssh.et.byu.edu` to connect to `coltonlab.physics.byu.edu` on port 3389, and forwards all traffic to your `localhost` port 3389.  This sets up a VPN tunnel so you can access department machines through the firewall.
+ `ssh -fNXL 3389:u130esc-01.physics.byu.edu:3389 username@ssh.et.byu.edu && rdesktop localhost:3389 ; killall ssh`
+requests the computer `ssh.et.byu.edu` to connect to `u130esc-01.physics.byu.edu` on port 3389, and forwards all traffic to your `localhost` port 3389.  This sets up a VPN tunnel so you can access department machines through the firewall.
 
 ==Windows SMB File Sharing==
 To access files from any physics department computer:
-  # type `\\coltonlab.physics.byu.edu\c$` in the Windows Explorer address bar.
+  # type `\\u130esc-01.physics.byu.edu\c$` in the Windows Explorer address bar.
 
 ==RDC Caveats==
   # You only get one session per user. (Console session or remote session.)
-  # There is a maximum of three simultaneous sessions overall.  Only Bill Gates knows why.
-  # On the coltonlab computer, everyone actually has two independent accounts: your local administrator account and your normal physics network account.  This is kind of silly, but...
-  # Use both accounts if you need to log in twice for some reason.
+  # There is a maximum of three simultaneous sessions overall.
   # Logging in remotely will not kick off the console user. The exception: if you logged in with the same account, you'd kick yourself off.  (I don't know why you'd do that, but anyway...)
   # Do not continue if the logon warns you are about to kick someone off! When in doubt, call the lab at 801-422-5286.  If someone answers, don't kick them off the computer!
+  # Other computers in the lab also support multiple Remote Sessions. To access them, simply replace the `01` with the number you want. `02` is the computer by the Home-built Ti:sapph. `03` is the computer by the Varian Magnet.
